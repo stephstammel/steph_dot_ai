@@ -27,7 +27,7 @@ paginate = 10
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.png"
+		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "Steph de Silva, Ph.D."
 		# The icons will be shown if you enter your username
@@ -44,7 +44,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Bio"
-		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy <a href="https://www.rex-analytics.com">Rex Analytics</a>."
+		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy Rex Analytics."
 
 
 	[params.portfolio]
@@ -99,13 +99,13 @@ paginate = 10
 		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "39.7889055,-120.5443524"
-		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
-		]
-		phone = "000-000-0000"
+		#gmaps_address = "39.7889055,-120.5443524"
+		#address = [
+	#		"1234 Somewhere Rd.",
+	#		"Nashville, TN 00000",
+	#		"United States"
+	#	]
+		phone = "+61 414 943 245"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -143,6 +143,16 @@ paginate = 10
 [[menu.main]]
 	name = "CV"
 	url  = "cv/"
+	weight = 0
+	
+[[menu.main]]
+	name = "Speaking Engagements"
+	url  = "speaking/"
+	weight = 0
+	
+[[menu.main]]
+	name = "Publications"
+	url  = "publications/"
 	weight = 0
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

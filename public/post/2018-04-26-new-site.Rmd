@@ -1,0 +1,12 @@
+---
+title: New site
+author: Steph de Silva
+date: '2018-04-26'
+slug: new-site
+categories: [General]
+tags: [random]
+---
+
+There's some big changes going on in my professional life, so it was time for a change. This is my new blog - my previous work is hosted over at [Rex Analytics](http://rex-analytics.com/rex-blogs/). Welcome!
+
+

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New site</title>
+      <link>/post/new-site/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/new-site/</guid>
+      <description>There’s some big changes going on in my professional life, so it was time for a change. This is my new blog - my previous work is hosted over at Rex Analytics. Welcome!</description>
+    </item>
     
     <item>
       <title>Migrate from Jekyll</title>
