@@ -1,0 +1,69 @@
+---
+title: Publications
+author: Steph de Silva
+date: '2018-04-26'
+slug: publications
+categories:
+  - General
+tags: [publications]
+---
+
+#2017
+
+[Digital Productivity: Key Issues from the Literature](https://www.communications.gov.au/files/digitalproductivity-keyissuesfromtheliteraturepdf), joint work with Paul Paterson and Tony Wiskich, February 2017.
+
+#2016
+
+[An Introduction to Unlisted Investments](https://theconstantinvestor.com/unlisted-gems/), The Constant Investor, September 23.
+
+[Bonds and Bond Funds: A Long Running Bull Market](https://theconstantinvestor.com/income-generating-investments/), The Constant Investor September 23.
+
+[Introducing Peer to Peer and Marketplace Lending](https://theconstantinvestor.com/introducing-peer-peer-marketplace-lending/), The Constant Investor, October 1.
+
+[Investing in Unlisted Infrastructure](https://theconstantinvestor.com/investing-unlisted-infrastructure/), The Constant Investor, October 21.
+
+[Introduction to REITs](https://theconstantinvestor.com/investing-in-reits/), The Constant Investor, October 28.
+
+[What is Venture Capital?](https://theconstantinvestor.com/what-is-venture-captial/), The Constant Investor, December 9.
+
+Regional Telecommunications Database, coauthored with K. Haigh. Internal report, Department of Communications, December 16.
+
+[Small/Microcaps and VC: What are the differences?](https://theconstantinvestor.com/smallmicro-caps-vc-differences/), The Constant Investor, December 22.
+
+[Unlisted Gems: The Wrap Up (An Interview with Victor Yeung)](https://theconstantinvestor.com/unlisted-gems-wrap/), The Constant Investor, December 22.
+
+[Interest Rates Rising: Unlisted Gems](https://theconstantinvestor.com/interest-rates-rising-unlisted-gems/), The Constant Investor, December 22.
+
+#2015
+
+Tongan Early Grade Reading Assessment: Baseline Survey Report, World Bank Report.
+
+“Evaluation of two types of glucose sensor for use with a real-time continuous glucose monitor in dogs and cats,” coauthored with W. Agnew, Australian Veterinary Practitioner 45(4) December 2015, p. 146-152.
+
+Evaluating the Enhanced Bushfire Management Program: A Study by Rex Analytics, internal report commissioned by the National Parks and Wildlife Service.
+
+#2014
+
+Western Highlands Province Early Grade Reading Assessment (EGRA) Survey, 2013 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
+
+Laos Early Grade Reading Assessment, 2012 Baseline Report, World Bank Report, coauthored with M. Machuca-Sierra.
+
+East New Britain (ENB) Early Grade Reading Assessment (EGRA) Survey, 2012 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
+
+National Capital District (NCD) Early Grade Reading Assessment (EGRA) Survey, 2012 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
+
+Madang Early Grade Reading Assessment (EGRA) Survey, 2011 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
+
+#2009
+
+“Panel Unit Root Tests in the presence of Cross-sectional Dependence: Finite Sample performance and an Application”, with A.R. Tremayne and K.Hadri, The Econometrics Journal, 12, 340-366.
+
+#2008
+
+On the Specificity and Performance of Panel Unit Root Tests, Ph.D. thesis. Supervisor: A. R. Tremayne.
+
+#2007
+
+A Panel Stationarity Test for Series with breaks in Either Level or Trend, a working paper presented at the Econometrics Society of Australasia Meeting, July 2007.
+
+A Panel Unit Root Test for a Fractionally Integrated Alternative, a presentation to the Statistical Society of Australia J.B. Douglas Postgraduate Award (joint winner).

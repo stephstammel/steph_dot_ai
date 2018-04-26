@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Things That Matter on Steph de Silva</title>
+    <link>/tags/things-that-matter/</link>
+    <description>Recent content in Things That Matter on Steph de Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/things-that-matter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pro Bono Work</title>
+      <link>/probono/pro-bono-work/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/probono/pro-bono-work/</guid>
+      <description>I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
+I may not always be able to say yes, but if you’re a not for profit or research group who need a hand, please don’t hesitate to ask.</description>
+    </item>
+    
+  </channel>
+</rss>

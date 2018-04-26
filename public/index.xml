@@ -22,6 +22,30 @@ In consulting, the data science workflow is also critical, but it’s wrapped up
     </item>
     
     <item>
+      <title>CV</title>
+      <link>/cv/cv/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/cv/</guid>
+      <description>Summary An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications and finance.
+A keen statistical programmer, I will be a keynote speaker at the useR! conference in Brisbane in July 2018.
+ Education Master of Computer Science (Current)
+I’m currently exploring forecasting in high dimensional data sets and exploring whether agent-based (AI) approaches can provide a robust method of managing massive numbers of time series with a view to submitting a masters’ thesis on the topic.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/post/cv/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/cv/</guid>
+      <description>Summary An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications and finance.
+A keen statistical programmer, I will be a keynote speaker at the useR! conference in Brisbane in July 2018.
+ Education Master of Computer Science (Current)
+I’m currently exploring forecasting in high dimensional data sets and exploring whether agent-based (AI) approaches can provide a robust method of managing massive numbers of time series with a view to submitting a masters’ thesis on the topic.</description>
+    </item>
+    
+    <item>
       <title>New site</title>
       <link>/post/new-site/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
@@ -38,6 +62,47 @@ In consulting, the data science workflow is also critical, but it’s wrapped up
       <guid>/post/packetiser/</guid>
       <description>If you’re a rural data scientist, then sooner or later you’ve had to move a big file to the cloud or back. That’s a world of pain right there.
 If you know anything about how information is transmitted via the internet, you know that files are broken into packets, sent, then reassembled on the other side. If packets go missing, the computer requests resends until the file is fully assembled, or until the system times out.</description>
+    </item>
+    
+    <item>
+      <title>Pro Bono Work</title>
+      <link>/probono/pro-bono-work/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/probono/pro-bono-work/</guid>
+      <description>I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
+I may not always be able to say yes, but if you’re a not for profit or research group who need a hand, please don’t hesitate to ask.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/publications/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/publications/</guid>
+      <description>2017 Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
+ 2016 An Introduction to Unlisted Investments, The Constant Investor, September 23.
+Bonds and Bond Funds: A Long Running Bull Market, The Constant Investor September 23.
+Introducing Peer to Peer and Marketplace Lending, The Constant Investor, October 1.
+Investing in Unlisted Infrastructure, The Constant Investor, October 21.
+Introduction to REITs, The Constant Investor, October 28.</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Engagements</title>
+      <link>/speaking/upcoming-engagements/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/speaking/upcoming-engagements/</guid>
+      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+Creating data driven value and insights
+Thursday 17 May.
+Emerging Leaders Conference: Sydney, CPA Australia
+Creating data driven value and insights
+Wednesday 23 May.
+ June  July useR!2018: Brisbane, useR! Committee
+Beyond syntax, towards culture: the potentiality of deep open source communities
+  </description>
     </item>
     
     <item>

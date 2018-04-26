@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Steph de Silva</title>
+    <link>/tags/publications/</link>
+    <description>Recent content in Publications on Steph de Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/publications/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/publications/</guid>
+      <description>2017 Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
+ 2016 An Introduction to Unlisted Investments, The Constant Investor, September 23.
+Bonds and Bond Funds: A Long Running Bull Market, The Constant Investor September 23.
+Introducing Peer to Peer and Marketplace Lending, The Constant Investor, October 1.
+Investing in Unlisted Infrastructure, The Constant Investor, October 21.
+Introduction to REITs, The Constant Investor, October 28.</description>
+    </item>
+    
+  </channel>
+</rss>

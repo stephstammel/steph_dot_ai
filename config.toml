@@ -154,5 +154,10 @@ paginate = 10
 	name = "Publications"
 	url  = "publications/"
 	weight = 0
+	
+[[menu.main]]
+	name = "Pro Bono"
+	url  = "probono/"
+	weight = 0
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

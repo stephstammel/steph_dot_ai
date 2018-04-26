@@ -1,0 +1,17 @@
+---
+title: Pro Bono Work
+author: Steph de Silva
+date: '2018-04-26'
+slug: pro-bono-work
+categories:
+  - pro bono
+  - community
+tags:
+  - things that matter
+---
+
+I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
+
+I may not always be able to say yes, but if you're a not for profit or research group who need a hand, please don't hesitate to ask. 
+
+If I can't help, I may be able to help you find someone who can.
