@@ -44,7 +44,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Bio"
-		content = "Steph de Silva is the data scientist behind Rex Analytics. Steph holds a Ph.D. in Econometrics and is a former lecturer in the field at the University of Sydney she has also taught Economics, Statistics and Finance at Swinburne University’s online campus. Steph has worked in analytic and statistical consulting roles for organisations including the National Parks and Wildlife Service, the Department of Communications and the Arts, industry and academic research groups, among others. She spent four years consulting for the World Bank as part of the organisation’s Pacific education team. She worked on projects for countries such as Laos, Papua New Guinea, Tonga, Myanmar, Cambodia, Timor Leste and Vanuatu. Steph is also a regular writer on business, investment and data science and has published with The Constant Investor. You can find her on twitter here, on LinkedIn here and on Github here. Steph has expertise across both data science and economics domains. She has worked on projects providing advice on machine learning, AI and digital productivity, database design and build, forecasting and modelling, randomised control trials and personal finance."
+		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy <a href="https://www.rex-analytics.com">Rex Analytics</a>."
 
 
 	[params.portfolio]
@@ -54,38 +54,38 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
+			image = "nautilus1.jpg"
+			thumb = "nautilus1.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
+			image = "spiral_log.jpg"
+			thumb = "spiral_log.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
+			image = "raspberry_pi.jpg"
+			thumb = "raspberry_pi.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
+			image = "rock.jpg"
+			thumb = "rock.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
+			image = "spiral_log.jpg"
+			thumb = "spiral_log.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
+			image = "urchin.jpg"
+			thumb = "urchin.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
@@ -118,7 +118,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = "steph@rex-analytics.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -139,3 +139,10 @@ paginate = 10
 	name = "Blog"
 	url  = "post/"
 	weight = 0
+	
+[[menu.main]]
+	name = "CV"
+	url  = "cv/"
+	weight = 0
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
