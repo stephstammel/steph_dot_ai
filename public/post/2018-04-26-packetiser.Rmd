@@ -1,0 +1,20 @@
+---
+title: PacketiseR
+author: Steph de Silva
+date: '2018-04-26'
+slug: packetiser
+categories:
+  - Packages
+  - Software development
+tags: []
+---
+
+If you're a rural data scientist, then sooner or later you've had to move a big file to the cloud or back. That's a world of pain right there.
+
+If you know anything about how information is transmitted via the internet, you know that files are broken into packets, sent, then reassembled on the other side. If packets go missing, the computer requests resends until the file is fully assembled, or until the system times out.
+
+If you're rural, you time out regularly. 
+
+That's what [packetiseR](https://github.com/stephdesilva/packetiseR) is for. It breaks down very large csvs into smaller chunks, so that there are fewer missing packets to find in the same length of time before time out. It then reassembles them on the other side.
+
+Data science: rural style.

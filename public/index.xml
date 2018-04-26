@@ -12,12 +12,32 @@
     
     
     <item>
+      <title>Announcing consultthat</title>
+      <link>/post/announcing-consultthat/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/announcing-consultthat/</guid>
+      <description>Automating a consulting project workflow There’s been a great deal of really useful work around data science workflows in the last couple of years and if you’ve followed Jenny Bryan’s work at all, you’ll know exactly what I mean.
+In consulting, the data science workflow is also critical, but it’s wrapped up with some extra management challenges. In addition to code and data, there’s a series of documents, people and timing to manage.</description>
+    </item>
+    
+    <item>
       <title>New site</title>
       <link>/post/new-site/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/new-site/</guid>
       <description>There’s some big changes going on in my professional life, so it was time for a change. This is my new blog - my previous work is hosted over at Rex Analytics. Welcome!</description>
+    </item>
+    
+    <item>
+      <title>PacketiseR</title>
+      <link>/post/packetiser/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/packetiser/</guid>
+      <description>If you’re a rural data scientist, then sooner or later you’ve had to move a big file to the cloud or back. That’s a world of pain right there.
+If you know anything about how information is transmitted via the internet, you know that files are broken into packets, sent, then reassembled on the other side. If packets go missing, the computer requests resends until the file is fully assembled, or until the system times out.</description>
     </item>
     
     <item>

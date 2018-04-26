@@ -1,0 +1,144 @@
+---
+title: Announcing consultthat
+author: Steph de Silva
+date: '2018-04-26'
+slug: announcing-consultthat
+categories:
+  - R
+  - Software development
+  - Packages
+tags: [Consulting]
+---
+
+
+
+<div id="automating-a-consulting-project-workflow" class="section level1">
+<h1>Automating a consulting project workflow</h1>
+<p>There’s been a great deal of really useful work around data science workflows in the last couple of years and if <a href="https://github.com/jennybc">you’ve followed Jenny Bryan’s work at all</a>, you’ll know exactly what I mean.</p>
+<p>In consulting, the data science workflow is also critical, but it’s wrapped up with some extra management challenges. In addition to code and data, there’s a series of documents, people and timing to manage.</p>
+<p>R provides a great toolkit for dealing with data science workflows, <code>consultthat</code> builds on tools like <code>usethis</code> and <code>rmarkdown</code> to capitalise on that. There’s a bunch of great tools out there for these issues, but if your main workflow is in R, it can be efficient to keep it all together.</p>
+<p>At the moment, <code>consultthat</code> is in testing stages: it’s not stable yet! Feedback, issues, bug catches and suggestions are all welcome.</p>
+<p><code>consultthat</code> is currently available on Github. To install the package, you will need the <code>devtools</code> package.</p>
+<pre class="r"><code># install.packages(&quot;devtools&quot;) # you only need this if you don&#39;t have devtools already
+# library(devtools) 
+# install_github(&quot;stephdesilva/consultthat&quot;) # install the package
+library(consultthat) # use the package</code></pre>
+</div>
+<div id="clients" class="section level1">
+<h1>Clients</h1>
+<p><code>Consultthat</code> organises consulting projects by client. This is useful as you may be working with repeat clients over time.</p>
+<p>Before you start a project, you need to create a client directory for your project to be stored in. Firstly, decide where the client directory should be located, in this case I’ll use <code>~/practice</code> for convenience. You’ll also need a name for your client!</p>
+<pre class="r"><code>clientPath &lt;- &quot;~/practice&quot;
+clientName &lt;- &quot;RStars&quot;
+createClient(clientName, clientPath)</code></pre>
+<p>You can refer to the vignette <code>R as an aide de memoir for consulting</code> to find out how <code>consultthat</code> helps you keep track of people in an organisation from project to project.</p>
+</div>
+<div id="create-a-project" class="section level1">
+<h1>Create a project</h1>
+<p>The whole purpose of data science consulting is projects. Once you have your client directory set up, you can start to add projects to it. To do this, you’ll need the path your consulting projects are set up in, the client name and a project name.</p>
+<pre class="r"><code>projName &lt;- &quot;firstProject&quot;
+createProject(clientPath, clientName, projName)</code></pre>
+<p>This function automatically sets up a regular R package using <code>usethis</code>, but it also adds some other features to help you keep track of everything that goes into a consulting project.</p>
+<p>You may not use every directory the function creates and that’s OK - this is just one approach. Use what works!</p>
+<p>Here’s a rundown of the project directories created and how you can use them if you choose.</p>
+<div id="project-documents" class="section level2">
+<h2>Project documents</h2>
+<p>The <code>/project_documents</code> directory is a useful catchall for all the parts of a data science consulting project that aren’t R scripts, data or outputs. These can be many, varied and hard to keep track of. <code>createProject()</code> adds a number of sub directories automatically to help you with this, if you choose.</p>
+<div id="client-side" class="section level3">
+<h3>Client Side</h3>
+<p>This subdirectory is where you can store all the client documentation that comes with a project. Letters of engagement, client backgrounding, client’s own data documentation (where that exists) and so on.</p>
+</div>
+<div id="company-side" class="section level3">
+<h3>Company Side</h3>
+<p>If you’re not an independent/solo operator, or you’re working with a team, this directory can be used to store all the company/team side documentation for the project. Other people’s initiation notes, reports etc.</p>
+</div>
+<div id="financials" class="section level3">
+<h3>Financials</h3>
+<p>Financials come in two types here:</p>
+<pre><code>* `invoices_payable`, for when you need to pay something. This can be useful for storing invoices for travel that need later reimbursement from the client.
+* `invoices_receivable`, a useful spot for storing invoices you issue to the client.</code></pre>
+</div>
+<div id="meetings" class="section level3">
+<h3>Meetings</h3>
+<p>The meetings seem never-ending, but where do you keep all your notes? Right here! Even if you’re not a copious note taker, it can be useful to write up a quick meeting summary and send it back to the client after each meeting. This is a useful checkpoint to make sure everyone is on the same page.</p>
+<p>(And if it turns out you’re not on the same page a ways down the track, you can point to this report to show the client they implicitly agreed that the track you are on is the right one. Do this carefully, but it’s a good safety net for you.)</p>
+</div>
+<div id="planning" class="section level3">
+<h3>Planning</h3>
+<p>Gantt charts, project plans, timelines: no plan every survives first contact with reality, but it’s useful to have one anyway. Store them here!</p>
+<p>There is also a subdirectory for <code>milestone_summaries</code>. In longer projects, there’s often agreed-upon milestones. Even if you aren’t required to formally report on them, it’s often useful to provide a brief summary to the client, even if it’s just a quick email. See <code>meetings</code> above for why.</p>
+</div>
+<div id="project-initiation" class="section level3">
+<h3>Project Initiation</h3>
+<p>Project initiation comes with alot of documentation - requests for proposals, requests for information, lots of back and forth discussion about data and its format. Store them here!</p>
+</div>
+<div id="time-management" class="section level3">
+<h3>Time Management</h3>
+<p>Time management can be a pain in the posterior distribution, but when you’re charging by the hour, it’s essential. This folder can be used for that in conjunction with the <code>punchOn()</code> and <code>punchOff()</code> functions.</p>
+<p>To punch on for a project and start recording the time you spend on it, use <code>punchOn()</code>. You can designate on a category of work you are completing to further break down your time keeping and you can add notes if you like.</p>
+<p>As you’ve created a new package, you’ll need to call <code>library(consultthat)</code> in order to use the timekeeping and other functions in the new package.</p>
+<pre class="r"><code>library(consultthat)
+name &lt;- &quot;Steph&quot;
+category &lt;- &quot;Data analysis&quot;
+notes &lt;- &quot;fun times to be had!&quot;
+
+punchOn(name, category, notes)</code></pre>
+<p>If you try to punch on again without punching off first, the function will let you know.</p>
+<pre class="r"><code>name &lt;- &quot;Steph&quot;
+category &lt;- &quot;more analysis&quot;
+notes &lt;- &quot;this is not as fun&quot;
+
+punchOn(name, category, notes)</code></pre>
+<p>To punch off the project, you can choose another category to end with, if you like, but you can only be punched into one category per project at a time.</p>
+<pre class="r"><code>name &lt;- &quot;Steph&quot;
+category &lt;- &quot;more analysis&quot;
+notes &lt;- &quot;this was not awful&quot;
+
+punchOff(name, category, notes)</code></pre>
+<p>If multiple people are working on the same project, they will each have their own timesheet generated.</p>
+<pre class="r"><code>name &lt;- &quot;Gary&quot;
+category &lt;- &quot;something over complicated&quot;
+notes &lt;- &quot;dubious value&quot;
+
+punchOn(name, category, notes)</code></pre>
+<p>Note that you don’t need to provide either category or notes information for <code>punchOn()</code> or <code>punchOff()</code>.</p>
+<pre class="r"><code>punchOff(&quot;Gary&quot;)</code></pre>
+<p>You can retrieve a person’s timesheet at any time as a data frame with <code>timesheet(name)</code>. This is a tidy data frame: you know what that means!</p>
+</div>
+</div>
+<div id="outputs" class="section level2">
+<h2>Outputs</h2>
+<p>There are a lot of outputs in consulting: documents, presentations, dashboards. Some need to go to the client, some need to be distributed internally: making sure you don’t confuse the two is important!</p>
+<div id="client-facing" class="section level3">
+<h3>Client Facing</h3>
+<p>Subdirectory for analytics objects <em>ready to go to client</em>. Anything in this directory could end up in front of the client, use this carefully!</p>
+</div>
+<div id="internal" class="section level3">
+<h3>Internal</h3>
+<p>Subdirectory for analytics objects <em>ready for internal validation</em>. Anything in this directory could be seen by your colleagues. Keep it nice, people.</p>
+</div>
+</div>
+</div>
+<div id="log-issues" class="section level1">
+<h1>Log issues</h1>
+<p>There are some excellent issue trackers out there, but if a simple system is all you need, then keeping it all in R can have some advantages. You can log issues using <code>addIssue()</code>.</p>
+<p>Issues are identified with an ID- this can be numeric or something easy to type and remember. You can create a category to file it under, or leave it blank, you can also add notes if you wish.</p>
+<pre class="r"><code>issueID &lt;- &quot;bug fix 4000&quot;
+addIssue(issueID, &quot;Steph&quot;)</code></pre>
+<p>You can add multiple issues, with more detail if you wish.</p>
+<pre class="r"><code>issueID2 &lt;- &quot;ID0001&quot;
+addIssue(issueID2, &quot;Gary&quot;, category = &quot;unit tests&quot;, notes = &quot;We need them&quot;)</code></pre>
+<p>You can close an issue at any time:</p>
+<pre class="r"><code>closeIssue(user = &quot;Steph&quot;, ID = &quot;ID0001&quot;, notes = &quot;I added them.&quot;)</code></pre>
+<p>You can retrieve the database of open and closed issues as a dataframe at any time. This is tidy, you know what to do.</p>
+<pre class="r"><code>issues()</code></pre>
+</div>
+<div id="document-your-data" class="section level1">
+<h1>Document your data</h1>
+<p>A complete data analysis is not an optional activity in a data science consulting project, but a quick “is the data what we think it is” documentation can be useful at the early stages. <code>createBasicDocumentation()</code> can be used to run through all the <code>.csv</code> files in the <code>/data</code> directory and create a short document detailing what’s in them using <code>skimr</code>.</p>
+<p>This function is currently of limited use, but is a quick check that you’ve got everything you expected. See <code>?createBasicDocumentation()</code> for details.</p>
+</div>
+<div id="and-youre-off" class="section level1">
+<h1>And you’re off!</h1>
+<p>If you’ve met one data science consultant, you’ve met one data science consultant: not everyone works the same way. Likewise, one data science project is not necessarily like another. <code>consultthat</code> provides some tools which may help structure your project within R, but it’s not the only way to do it. Your mileage varies, but that’s OK because you know how you’re going to viz that data!</p>
+</div>

@@ -1,0 +1,201 @@
+---
+title: Announcing consultthat
+author: Steph de Silva
+date: '2018-04-26'
+slug: announcing-consultthat
+categories:
+  - R
+  - Software development
+  - Packages
+tags: [Consulting]
+---
+
+# Automating a consulting project workflow
+
+There's been a great deal of really useful work around data science workflows in the last couple of years and if [you've followed Jenny Bryan's work at all](https://github.com/jennybc), you'll know exactly what I mean.
+
+In consulting, the data science workflow is also critical, but it's wrapped up with some extra management challenges. In addition to code and data, there's a series of documents, people and timing to manage.
+
+R provides a great toolkit for dealing with data science workflows, `consultthat` builds on tools like `usethis` and `rmarkdown` to capitalise on that. There's a bunch of great tools out there for these issues, but if your main workflow is in R, it can be efficient to keep it all together.
+
+At the moment, `consultthat` is in testing stages: it's not stable yet! Feedback, issues, bug catches and suggestions are all welcome.
+
+`consultthat` is currently available on Github. To install the package, you will need the `devtools` package.
+
+```{r installing, echo = TRUE, eval = FALSE}
+# install.packages("devtools") # you only need this if you don't have devtools already
+# library(devtools) 
+# install_github("stephdesilva/consultthat") # install the package
+library(consultthat) # use the package
+```
+
+# Clients
+
+`Consultthat` organises consulting projects by client. This is useful as you may be working with repeat clients over time.
+
+Before you start a project, you need to create a client directory for your project to be stored in. Firstly, decide where the client directory should be located, in this case I'll use `~/practice` for convenience. You'll also need a name for your client!
+
+```{r createClient, echo = TRUE, eval = FALSE}
+clientPath <- "~/practice"
+clientName <- "RStars"
+createClient(clientName, clientPath)
+```
+
+You can refer to the vignette `R as an aide de memoir for consulting` to find out how `consultthat` helps you keep track of people in an organisation from project to project.
+
+# Create a project 
+
+The whole purpose of data science consulting is projects. Once you have your client directory set up, you can start to add projects to it. To do this, you'll need the path your consulting projects are set up in, the client name and a project name.
+
+```{r createNewProj, echo = TRUE, eval = FALSE}
+projName <- "firstProject"
+createProject(clientPath, clientName, projName)
+```
+
+This function automatically sets up a regular R package using `usethis`, but it also adds some other features to help you keep track of everything that goes into a consulting project.
+
+You may not use every directory the function creates and that's OK - this is just one approach. Use what works!
+
+Here's a rundown of the project directories created and how you can use them if you choose.
+
+## Project documents
+
+The `/project_documents` directory is a useful catchall for all the parts of a data science consulting project that aren't R scripts, data or outputs. These can be many, varied and hard to keep track of. `createProject()` adds a number of sub directories automatically to help you with this, if you choose.
+
+### Client Side
+
+This subdirectory is where you can store all the client documentation that comes with a project. Letters of engagement, client backgrounding, client's own data documentation (where that exists) and so on.
+
+### Company Side
+
+If you're not an independent/solo operator, or you're working with a team, this directory can be used to store all the company/team side documentation for the project. Other people's initiation notes, reports etc.
+
+### Financials
+
+Financials come in two types here: 
+
+    * `invoices_payable`, for when you need to pay something. This can be useful for storing invoices for travel that need later reimbursement from the client.
+    * `invoices_receivable`, a useful spot for storing invoices you issue to the client.
+
+### Meetings
+
+The meetings seem never-ending, but where do you keep all your notes? Right here! Even if you're not a copious note taker, it can be useful to write up a quick meeting summary and send it back to the client after each meeting. This is a useful checkpoint to make sure everyone is on the same page. 
+
+(And if it turns out you're not on the same page a ways down the track, you can point to this report to show the client they implicitly agreed that the track you are on is the right one. Do this carefully, but it's a good safety net for you.)
+
+### Planning
+
+Gantt charts, project plans, timelines: no plan every survives first contact with reality, but it's useful to have one anyway. Store them here!
+
+There is also a subdirectory for `milestone_summaries`. In longer projects, there's often agreed-upon milestones. Even if you aren't required to formally report on them, it's often useful to provide a brief summary to the client, even if it's just a quick email. See `meetings` above for why.
+
+### Project Initiation
+
+Project initiation comes with alot of documentation - requests for proposals, requests for information, lots of back and forth discussion about data and its format. Store them here!
+
+### Time Management
+
+Time management can be a pain in the posterior distribution, but when you're charging by the hour, it's essential. This folder can be used for that in conjunction with the `punchOn()` and `punchOff()` functions.
+
+To punch on for a project and start recording the time you spend on it, use `punchOn()`. You can designate on a category of work you are completing to further break down your time keeping and you can add notes if you like.
+
+As you've created a new package, you'll need to call `library(consultthat)` in order to use the timekeeping and other functions in the new package.
+
+```{r punchOn, echo = TRUE, eval = FALSE}
+library(consultthat)
+name <- "Steph"
+category <- "Data analysis"
+notes <- "fun times to be had!"
+
+punchOn(name, category, notes)
+```
+
+If you try to punch on again without punching off first, the function will let you know.
+
+```{r punchOnAgain, echo = TRUE, eval = FALSE}
+name <- "Steph"
+category <- "more analysis"
+notes <- "this is not as fun"
+
+punchOn(name, category, notes)
+```
+
+To punch off the project, you can choose another category to end with, if you like, but you can only be punched into one category per project at a time.
+
+```{r punchOff, echo = TRUE, eval = FALSE}
+name <- "Steph"
+category <- "more analysis"
+notes <- "this was not awful"
+
+punchOff(name, category, notes)
+```
+
+If multiple people are working on the same project, they will each have their own timesheet generated.
+
+```{r garyOn, echo = TRUE, eval = FALSE}
+name <- "Gary"
+category <- "something over complicated"
+notes <- "dubious value"
+
+punchOn(name, category, notes)
+```
+
+Note that you don't need to provide either category or notes information for `punchOn()` or `punchOff()`.
+
+```{r garyOff, echo = TRUE, eval = FALSE}
+punchOff("Gary")
+```
+
+You can retrieve a person's timesheet at any time as a data frame with `timesheet(name)`. This is a tidy data frame: you know what that means!
+
+## Outputs
+
+There are a lot of outputs in consulting: documents, presentations, dashboards. Some need to go to the client, some need to be distributed internally: making sure you don't confuse the two is important!
+
+### Client Facing
+
+Subdirectory for analytics objects _ready to go to client_. Anything in this directory could end up in front of the client, use this carefully!
+
+### Internal
+
+Subdirectory for analytics objects _ready for internal validation_. Anything in this directory could be seen by your colleagues. Keep it nice, people.
+
+# Log issues
+
+There are some excellent issue trackers out there, but if a simple system is all you need, then keeping it all in R can have some advantages. You can log issues using `addIssue()`.
+
+Issues are identified with an ID- this can be numeric or something easy to type and remember. You can create a category to file it under, or leave it blank, you can also add notes if you wish.
+
+```{r addAnIssue, echo = TRUE, eval = FALSE}
+issueID <- "bug fix 4000"
+addIssue(issueID, "Steph")
+```
+
+You can add multiple issues, with more detail if you wish.
+
+```{r moreIssue, echo = TRUE, eval = FALSE}
+issueID2 <- "ID0001"
+addIssue(issueID2, "Gary", category = "unit tests", notes = "We need them")
+```
+
+You can close an issue at any time:
+
+```{r closeIssue, echo = TRUE, eval = FALSE}
+closeIssue(user = "Steph", ID = "ID0001", notes = "I added them.")
+```
+
+You can retrieve the database of open and closed issues as a dataframe at any time. This is tidy, you know what to do.
+
+```{r getIssuesDF, echo = TRUE, eval = FALSE}
+issues()
+```
+
+# Document your data
+
+A complete data analysis is not an optional activity in a data science consulting project, but a quick "is the data what we think it is" documentation can be useful at the early stages. `createBasicDocumentation()` can be used to run through all the `.csv` files in the `/data` directory and create a short document detailing what's in them using `skimr`.
+
+This function is currently of limited use, but is a quick check that you've got everything you expected. See `?createBasicDocumentation()` for details.
+
+# And you're off!
+
+If you've met one data science consultant, you've met one data science consultant: not everyone works the same way. Likewise, one data science project is not necessarily like another. `consultthat` provides some tools which may help structure your project within R, but it's not the only way to do it. Your mileage varies, but that's OK because you know how you're going to viz that data!
