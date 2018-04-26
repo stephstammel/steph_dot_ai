@@ -1,6 +1,6 @@
-baseurl = "https://example.org/"
+baseurl = "https://stephdesilva.com/"
 languageCode = "en-us"
-title = "Strata"
+title = "Steph de Silva"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -11,8 +11,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "Steph de Silva"
+	description = "Data Science and Analytics"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -27,30 +27,24 @@ paginate = 10
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.jpg"
+		avatar = "avatar.png"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "Steph de Silva, Ph.D."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = ""
+		twitter = "@stephdesilva"
+		github = "stephdesilva"
+		linkedin = "steph-de-silva-93b18444"
 
 		copyright = [
-			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"&copy; Steph de SIlva",
+			"Design: [HTML5 UP](//html5up.net)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Bio"
+		content = "Steph de Silva is the data scientist behind Rex Analytics. Steph holds a Ph.D. in Econometrics and is a former lecturer in the field at the University of Sydney she has also taught Economics, Statistics and Finance at Swinburne University’s online campus. Steph has worked in analytic and statistical consulting roles for organisations including the National Parks and Wildlife Service, the Department of Communications and the Arts, industry and academic research groups, among others. She spent four years consulting for the World Bank as part of the organisation’s Pacific education team. She worked on projects for countries such as Laos, Papua New Guinea, Tonga, Myanmar, Cambodia, Timor Leste and Vanuatu. Steph is also a regular writer on business, investment and data science and has published with The Constant Investor. You can find her on twitter here, on LinkedIn here and on Github here. Steph has expertise across both data science and economics domains. She has worked on projects providing advice on machine learning, AI and digital productivity, database design and build, forecasting and modelling, randomised control trials and personal finance."
 
 
 	[params.portfolio]
