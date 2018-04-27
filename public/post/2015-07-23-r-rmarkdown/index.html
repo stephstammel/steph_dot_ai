@@ -7,7 +7,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 -->
 <html>
 	<head>
-		<title>Upcoming Engagements &middot; Steph de Silva</title>
+		<title>Hello R Markdown &middot; Steph de Silva</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="author" content="Steph de Silva">
@@ -16,8 +16,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 		
 		<meta name="og:site_name" content="Steph de Silva">
-		<meta name="og:title" content="Upcoming Engagements">
-		<meta name="og:url" content="/publications/upcoming-engagements/">
+		<meta name="og:title" content="Hello R Markdown">
+		<meta name="og:url" content="/post/2015-07-23-r-rmarkdown/">
 		
 		<meta name="og:image" content="/images/avatar.png">
 		
@@ -68,10 +68,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<div id="main">
 			
 	<span>
-		<h1>Upcoming Engagements</h1>
+		<h1>Hello R Markdown</h1>
 
 		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
-<time datetime="2018-04-26 00:00:00 &#43;0000 UTC">2018-04-26</time>&nbsp;&nbsp;
+<time datetime="2015-07-23 21:13:14 -0500 -0500">2015-07-23</time>&nbsp;&nbsp;
 
 
 
@@ -80,7 +80,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     
         <i class="fa fa-folder"></i>&nbsp;&nbsp;
         
-        <a class="article-category-link" href="/categories/community">community</a>
+        <a class="article-category-link" href="/categories/r">R</a>
         
         
     
@@ -89,29 +89,60 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
    
    
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="/tags/r-markdown">R Markdown</a>
+       &middot;
+       
+       <a class="article-category-link" href="/tags/plot">plot</a>
+       &middot;
+       
+       <a class="article-category-link" href="/tags/regression">regression</a>
+       
+       
+   
 
 
 	</span>
 
 	<p>
-	    <div id="section" class="section level1">
-<h1>2018</h1>
-<div id="may" class="section level2">
-<h2>May</h2>
-<p><a href="https://www.cpaaustralia.com.au/training-and-events/conferences/emerging-leaders/melbourne/program"><strong>Emerging Leaders Conference: Melbourne</strong></a>, CPA Australia</p>
-<p><em>Creating data driven value and insights</em></p>
-<p>Thursday 17 May.</p>
-<p><a href="https://www.cpaaustralia.com.au/training-and-events/conferences/emerging-leaders/sydney/program"><strong>Emerging Leaders Conference: Sydney</strong></a>, CPA Australia</p>
-<p><em>Creating data driven value and insights</em></p>
-<p>Wednesday 23 May.</p>
+	    <div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
 </div>
-<div id="june" class="section level2">
-<h2>June</h2>
-</div>
-<div id="july" class="section level2">
-<h2>July</h2>
-<p><a href="https://user2018.r-project.org/scientific/"><strong>useR!2018: Brisbane</strong></a>, useR! Committee</p>
-<p><em>Beyond syntax, towards culture: the potentiality of deep open source communities</em></p>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
 </div>
 </div>
 
