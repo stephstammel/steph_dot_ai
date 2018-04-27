@@ -6,10 +6,27 @@
     <description>Recent content in Publications on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Speaking Engagements 2018</title>
+      <link>/publications/speaking-engagements-2018/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/speaking-engagements-2018/</guid>
+      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+Creating data driven value and insights
+Thursday 17 May.
+Emerging Leaders Conference: Sydney, CPA Australia
+Creating data driven value and insights
+Wednesday 23 May.
+ June  July useR!2018: Brisbane, useR! Committee
+Beyond syntax, towards culture: the potentiality of deep open source communities
+  </description>
+    </item>
     
     <item>
       <title>Publications</title>

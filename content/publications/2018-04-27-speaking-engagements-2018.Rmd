@@ -1,11 +1,11 @@
 ---
-title: Upcoming Engagements
-author: Steph de Silva
-date: '2018-04-26'
-slug: upcoming-engagements
+title: Speaking Engagements 2018
+author: Steph
+date: '2018-04-27'
+slug: speaking-engagements-2018
 categories:
   - community
-tags: []
+tags: [talks]
 ---
 
 # 2018

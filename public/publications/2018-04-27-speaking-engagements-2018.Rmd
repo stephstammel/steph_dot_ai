@@ -1,0 +1,35 @@
+---
+title: Speaking Engagements 2018
+author: Steph
+date: '2018-04-27'
+slug: speaking-engagements-2018
+categories:
+  - community
+tags: [talks]
+---
+
+# 2018
+
+## May
+
+[__Emerging Leaders Conference: Melbourne__](https://www.cpaaustralia.com.au/training-and-events/conferences/emerging-leaders/melbourne/program), CPA Australia
+
+_Creating data driven value and insights_
+
+Thursday 17 May.
+
+[__Emerging Leaders Conference: Sydney__](https://www.cpaaustralia.com.au/training-and-events/conferences/emerging-leaders/sydney/program), CPA Australia
+
+_Creating data driven value and insights_
+
+Wednesday 23 May.
+
+## June
+
+## July
+
+[__useR!2018: Brisbane__](https://user2018.r-project.org/scientific/), useR! Committee
+
+_Beyond syntax, towards culture: the potentiality of deep open source communities_
+
+

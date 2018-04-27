@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Speakings on Steph de Silva</title>
-    <link>/speaking/</link>
-    <description>Recent content in Speakings on Steph de Silva</description>
+    <title>Talks on Steph de Silva</title>
+    <link>/tags/talks/</link>
+    <description>Recent content in Talks on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/speaking/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Upcoming Engagements</title>
-      <link>/speaking/upcoming-engagements/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      <title>Speaking Engagements 2018</title>
+      <link>/publications/speaking-engagements-2018/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/speaking/upcoming-engagements/</guid>
+      <guid>/publications/speaking-engagements-2018/</guid>
       <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
 Creating data driven value and insights
 Thursday 17 May.
