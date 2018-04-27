@@ -44,7 +44,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Bio"
-		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy Rex Analytics."
+		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics."
 
 
 	[params.portfolio]
@@ -105,7 +105,7 @@ paginate = 10
 	#		"Nashville, TN 00000",
 	#		"United States"
 	#	]
-		phone = "+61 414 943 245"
+	#	phone = "+61 414 943 245"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -118,7 +118,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "steph@rex-analytics.com"
+	#	email = "steph@rex-analytics.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
