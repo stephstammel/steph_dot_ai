@@ -43,8 +43,8 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Bio"
-		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics."
+		title = "Steph de Silva, Ph.D."
+		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics. You can read about what I'm doing for fun here."
 
 
 	[params.portfolio]

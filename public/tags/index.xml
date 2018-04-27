@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>/tags/publications/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
@@ -39,29 +30,11 @@
     </item>
     
     <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Random</title>
       <link>/tags/random/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/random/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
       <description></description>
     </item>
     
