@@ -35,34 +35,25 @@ __Data Science Consultant and Strategist__
 
 _Rex Analytics  /  2014 - 2018_
 
-At Rex Analytics, we provided the missing link for companies with a data focus, but still developing a deep data expertise. Some (but not all) of the projects I worked on include:
-
-    * The Connecting Regional Communities Program, providing advice, analysis and visualization to the Victorian Government around digitization of regional communities.
-    * Workflow by Design, a project with a management consulting firm developing a workflow for a rapidly expanding data science consulting practice.
-    * Providing data strategy and insights for a late-stage startup.
+At Rex Analytics, we provided the missing link for companies with a data focus, but still developing a deep data expertise. Some of that included training, modelling, workflow design and strategy, visualisation.
 
 __Econometrician__
 
 _Department of Communications and the Arts /  July - December 2016_
 
-As a part of this short term contract I contributed to two projects: the regional telecommunications database and was a co-author on the Chief Economist’s major work on the impacts of digitization on productivity. Using Shiny/R, I designed a user interface which allowed departmental users to generate automated reporting. I also provided data visualisation, time series models and growth statistics for the productivity project. 
+As a part of this short term contract I contributed to two projects: the regional telecommunications database and was a co-author on the Chief Economist’s major work on the impacts of digitization on productivity.
 
 __Unit Coordinator/eLearning Advisor__
 
 _Swinburne Online  /  2015 – 2017_
 
 I taught for Swinburne’s MBA and MPA programs in finance and economics, as well undergraduate units such as statistics, marketing and business innovation. I take a team of students of varying abilities through a challenging semester of technical work, building on their skills and confidence. 
-I’ve taken courses previously rated by students at 5/10 to greater than 8/10 in a single semester.
-
-In order to get my team through the semester, I build interactive apps, design infographics and deliver online content while having fun with it. One of my favourite hobbies!
 
 __Econometrician__
 
 _The World Bank  /  2012 – 2015_
 
-At the World Bank, I worked with the Pacific education team and was responsible for the management of survey and data analysis, modelling and report writing. I provided support for intervention evaluation design, sample design and implementation, in-country support for teams during data collection and entry. I worked on projects from Laos, Papua New Guinea, Tonga, Vanuatu, Timor Leste, Myanmar and Cambodia. 
-
-In 2014, I travelled to Laos to provide statistical support to the Research Institute located in the Ministry of Education in Laos. I co-authored six major World Bank reports and provided statistical/econometric support for many more. In Stata, I developed multi- equation system models for categorical outcomes (classification), including logit, tobit and regression models. Power calculations, RCT evaluation/design, and probabilistic sampling and testing were also in my remit. 
+At the World Bank, I worked with the Pacific education team and was responsible for survey and data analysis, modelling and report writing. I provided support for intervention evaluation design, sample design and implementation, in-country support for teams during data collection and entry. I worked on projects from Laos, Papua New Guinea, Tonga, Vanuatu, Timor Leste, Myanmar and Cambodia. 
 
 __Casual Lecturer, Associate Lecturer, Research Assistant__
 
@@ -85,7 +76,7 @@ Organiser: R-Ladies Sydney
 
 I ran a Code Club from 2017- mid 2018 for a small rural school in Northern NSW. To put this into perspective for you, it was like running a dev team of 20 hyperactive squirrels. Other exciting parts included the time a kid bought a whole jar of spiders to class. Once, a kid bought in a baby rat they found. 
 
-It was the country, what can I tell you? The internet was dreadful, but the wildlife and the people are superb.
+It was the country, what can I tell you? The internet is dreadful, but the wildlife and the people are superb.
 
 #Language Skills
 
