@@ -1,0 +1,26 @@
+---
+title: CPA Emerging Leaders Conference
+author: Steph
+date: '2018-05-17'
+slug: cpa-emerging-leaders-conference
+categories:
+  - community
+tags:
+  - business
+  - get started
+---
+
+I had the opportunity to talk at the CPA Emerging Leaders Conference today in Melbourne, then again next week in Sydney. It was a great crowd with a really interesting mix of perspectives.
+
+I was talking about _Creating data driven value and insights_, which was aimed at showing an already very data literate group of people (accountants!) how to get started with data driven thinking.
+
+My thoughts on getting started come down to five things:
+
+    * Viz early, viz often (make charts, lots of them!)
+    * Value can come from aggregation ([@Nicole Radziwill](https://twitter.com/nicoleradziwill) on twitter framed this perfectly)
+    * Domain knowledge matters (even if you bring in a battery of data scientists, you know your business better than outsiders do)
+    * Think about where the uncertainty lies
+    * Calculate to communicate
+    
+[My slides for the talk are hosted on Speakerdeck](https://speakerdeck.com/stephdesilva/creating-data-driven-value-and-insights#) if you're interested.
+    
