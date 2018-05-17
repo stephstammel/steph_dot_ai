@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+
+<!-- 
+Strata by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Data Driven: By Design &middot; Steph de Silva</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Steph de Silva">
+		<meta name="description" content="Data Science and Analytics">
+		<meta http-equiv="content-language" content="en-us" />
+
+		
+		<meta name="og:site_name" content="Steph de Silva">
+		<meta name="og:title" content="Data Driven: By Design">
+		<meta name="og:url" content="/post/data-driven-by-design/">
+		
+		<meta name="og:image" content="/images/avatar.png">
+		
+		
+
+		<meta name="generator" content="Hugo 0.40.1" />
+
+		<!--[if lte IE 8]><script src='/js/ie/html5shiv.js'></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="//css/ie8.css"><![endif]-->
+
+		
+		
+	</head>
+
+	<body id="top">
+		<!-- Header -->
+<header id="header">
+	
+	<a href="/" class="image avatar"><img src="/images/avatar.png" alt="" /></a>
+	
+	
+		<h1>Steph de Silva, Ph.D.</h1>
+	
+
+	
+		<nav id="sidebar">
+			<ul>
+			
+				<li><a href="/">Home</a></li>
+			
+				<li><a href="/post/">Blog</a></li>
+			
+				<li><a href="/cv/">CV</a></li>
+			
+				<li><a href="/probono/">Pro Bono</a></li>
+			
+				<li><a href="/publications/">Publications &#43; Speaking</a></li>
+			
+			</ul>
+		</nav>
+	
+</header>
+
+
+		<!-- Main -->
+		<div id="main">
+			
+	<span>
+		<h1>Data Driven: By Design</h1>
+
+		<i class="fa fa-calendar"></i>&nbsp;&nbsp;
+<time datetime="2018-04-30 00:00:00 &#43;0000 UTC">2018-04-30</time>&nbsp;&nbsp;
+
+
+
+
+    
+    
+        <i class="fa fa-folder"></i>&nbsp;&nbsp;
+        
+        <a class="article-category-link" href="/categories/general">General</a>
+        
+        
+    
+
+
+
+   
+   
+       &nbsp;&nbsp;<i class="fa fa-tags"></i>&nbsp;&nbsp;
+       
+       <a class="article-category-link" href="/tags/excel">Excel</a>
+       &middot;
+       
+       <a class="article-category-link" href="/tags/publications">publications</a>
+       &middot;
+       
+       <a class="article-category-link" href="/tags/get-started">get started</a>
+       
+       
+   
+
+
+	</span>
+
+	<p>
+	    <p>The data revolution is upon us! Or at least that’s what someone with a snappy grasp of copy-editing and a mandate for clicks would say.</p>
+<p>There’s a common misperception that’s out there in the data world that only some of us know how to be data driven. Only some of us have our data driving licenses and can get behind the wheel.</p>
+<p>This is manifestly false. Even if you don’t know R or Python or any other part of the common data science toolkit (yet), there are things you can do and start to think about <em>today</em> as you begin to embrace the idea of data-driven decision making.</p>
+<p>A lot of people talk about how new all this data and data science is. While our industry has changed rapidly, both in the amount, quality and type of data we have access to and can interrogate, a lot <em>hasn’t</em> changed.</p>
+<p>We’re all still on the same mission we were 15 years ago (maybe a bit more) when I started out: <em>we’re here to create some kind of value</em>. The purpose of our work isn’t to execute a fancy model: it’s to find an insight that will drive value.</p>
+<p>That’s good news: because in addition to all the complexity we’re now dealing with, we have a pretty good grasp on the basics.</p>
+<p>Being data driven is a skillset, not a toolkit. You don’t need a particular programming language or application (though we all have favourites and I clearly have mine). You don’t absolutely require model X or statistic Y. Qualifications might be necessary in some contexts, but there’s no data driver’s license: just data people.</p>
+<p>Data navigation is a learned art form. The more you explore data, the better you’ll get at navigating it. So here’s five tips to get you started.</p>
+<div id="tip-one-viz-early-viz-often" class="section level1">
+<h1>Tip One: viz early, viz often</h1>
+<p>You’ve probably heard of <a href="www.kickstarter.com">Kickstarter</a>.A full dataset of all the kickstarter campaigns since inception was made available <a href="https://www.kaggle.com/kemical/kickstarter-projects/data">to the public on Kaggle</a> and we can use this to start exploring real business contexts.</p>
+<p>The basic idea of Kickstarter is that people tell their stories, pitch their ideas: the public pledges.</p>
+<p>You can start visualisaing your own data sets today. You’re all accountants, you know how to break out that excel spreadsheet. You can start right there with simple visual explorations of the data you’re working with. If you have access to more sophisticated tools like R, Tableau or Spotfire, that’s great: but don’t rule out the poor cousin of data science: Excel. Like I said: skillset, not toolkit.</p>
+<p>Let’s take a look at how we might use this in a business context – when you’re navigating on the road to value, you need to look around!</p>
+<p>Using visualisation to find things is a very interrogatory process. What are you seeing? Why is it there? How did it come to be this way?</p>
+<p>If we look at the number of campaigns launched by day since Kickstarter itself launched, we can start to understand the trajectory of the website over time.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## Warning: package &#39;tibble&#39; was built under R version 3.4.3</code></pre>
+<pre class="r"><code>kdata &lt;- read.csv(&quot;./data/ks-projects-201801.csv&quot;, sep = &quot;,&quot;) # read in the data
+kdata$launched &lt;- as.Date(kdata$launched) # set dates to a date type for ease of plotting
+kdata &lt;- filter(kdata, kdata$launched &gt;= &quot;2009-04-28&quot;) # There&#39;s some dirty data, keep only those observations *after* kickstarter was launched :)
+
+byDate &lt;- kdata %&gt;% group_by(kdata$launched) %&gt;% # group the data by date
+              summarise(nCampaigns = n()) # count the number of launches on each date
+
+# use ggplot to plot!
+
+ggplot(byDate) + 
+  geom_line(aes(`kdata$launched`, nCampaigns), colour = &quot;#aed9da&quot;)+ 
+  xlab(&quot;Launch date&quot;) +
+  ylab(&quot;Number of campaigns&quot;)+
+  theme_light()+
+  theme(plot.background = element_rect(fill = &quot;transparent&quot;,colour = NA))</code></pre>
+<p><img src="/post/2018-04-30-data-driven-by-design_files/figure-html/kickstarter1-1.png" width="672" /></p>
+<p>Not quite ready to tackle R yet? <em>Don’t let that stop you.</em> With a few extra steps, you can start visualising the same thing in Excel like this:</p>
+<div class="figure">
+<img src="images/kickstarter_time.png" alt="Looks familiar" />
+<p class="caption">Looks familiar</p>
+</div>
+<p>In order to get to the same point in Excel:</p>
+<pre><code>* I had to work out what the date range was
+* Collapse the date and time column into a date-only column
+* Create a column for the required dates
+* Use a countif formula for each day
+* Because the dataset is so large, I then had to copy and paste-special as values for the countif formula so the spreadsheet was workable.</code></pre>
+<div class="figure">
+<img src="images/kickstarter_countif.png" alt="Start today" />
+<p class="caption">Start today</p>
+</div>
+<p>While R is much more efficient, my point here is that <em>you don’t have to wait to be competent in R to start being data driven</em>.</p>
+<p>So what did we see from the plots? We saw <strong>potato salad</strong>.</p>
+<p>We can see launches trended along nicely from the website unveiling and levelled out in the last couple of years. If we were working with the kickstarter team and wanted to look at utilisation rates, that big spike in the middle there would be of great interest to us. What happened in July 2014?</p>
+<p><a href="https://www.kickstarter.com/blog/potato-salad-by-the-numbers">Potato salad happened</a>.</p>
+<p>Someone launched a kickstarter campaign for potato salad on july 06, 2014. Three days later, it’s going viral and the website and the campaign receive international coverage on a scale it neer has before..That’s the time of the spike in campaign launches there.</p>
+<p>A hypothesis we can take from this chart is that potato salad man launched a wave of users on the website. Data science lets us test that hypothesis, but it also lets us test deeper and more meaningful questions:</p>
+<pre><code>* Did that viral attention translate into real gains in the user base?
+* Were the campaigns launched in the wake of salad-gate different to the ones that came before – were they for more or less money? Joke campaigns or serious self starters?
+* These are questions we can start to answer with this data</code></pre>
+<p>By visualising early, we have some key questions to ask. You might not be ready to test complex salad-related hypotheses after a single blog post – but by visualising your data, you’re armed with questions to ask. Once you know the questions to ask, you can map out how you’re going to answer them.</p>
+</div>
+<div id="tip-two-value-can-come-from-aggregation" class="section level1">
+<h1>Tip Two: Value can come from aggregation</h1>
+<p><em>(This one is owing to <a href="https://twitter.com/nicoleradziwill">Nicole Radziwill</a> who suggested it during a Twitter conversation when I asked what data scientists would tell a room full of non data scientists about being data driven. Thanks Nicole!)</em></p>
+<p>Finding insights to transform your decisions into data driven ones could come from complex models, code and mathematical equations. But it can also come from aggregating many pieces together, both within and between data sets.</p>
+<p>Being data driven means defining clear destinations. What is it that measures your outcome and can you measure that accurately? Can we aggregate sensibly over groups to get an overall view of the data that provides insight?</p>
+<p>Here’s an example using data on Australian federal political doncations for the 2015/16 financial year. The <a href="http://www.abc.net.au/news/2017-02-09/political-donations-industry-dataset/8229192">ABC released this data in early 2017</a> and made it available openly.</p>
+<p>The ABC took the register of donations and <em>aggregated</em> them across donor categories - the original data was simply donor info which by itself was not particularly useful. I’m going to take the recipient categories and aggregate them further to see if we can gain some insight about who donates to whom in Australian politics.</p>
+<pre class="r"><code># load and read the data, clean it up a little
+
+library(readxl)
+data&lt;-read_xlsx(&quot;./data/donor-declarations-categorised-2016.xlsx&quot;, sheet=&quot;donor-declarations-categorised-&quot;, col_names = TRUE)
+data$`recipient-name`&lt;-as.factor(data$`recipient-name`)
+data$`party-group`&lt;-as.factor(data$`party-group`)
+data$`donor-state`&lt;-as.factor(data$`donor-state`)
+data$`donor-category`&lt;-as.factor(data$`donor-category`)
+data$`donor-postcode`&lt;-as.numeric(data$`donor-postcode`)
+
+# Make some lists - there are lots of branches of parties all considered seperately in this data. Let&#39;s AGGREGATE them into meaningful groups.
+
+statelist&lt;- c(&quot;ACT&quot;, &quot;NSW&quot;, &quot;NT&quot;, &quot;QLD&quot;, &quot;SA&quot;, &quot;TAS&quot;, &quot;VIC&quot;, &quot;WA&quot;)
+conservative.list&lt;-c(&quot;Australian Christians&quot;, &quot;Family First Party&quot;, &quot;Family First Party - SA&quot;, &quot;Democratic Labor Party (DLP) - Queensland Branch&quot;)
+progressive.list&lt;-c(&quot;Australian Equality Party (Marriage)&quot;, &quot;Socialist Alliance&quot;)
+greens.list&lt;-c(&quot;Australian Greens&quot;, &quot;Australian Greens, Tasmanian Branch&quot;, &quot;Queensland Greens&quot;, &quot;The Australian Greens - Victoria&quot;, &quot;The Greens (WA) Inc&quot;, &quot;The Greens NSW&quot;, &quot;Australian Greens, Victorian Branch&quot;)
+labor.list&lt;-c(&quot;Australian Labor Party (ACT Branch)&quot;, &quot;Australian Labor Party (ALP)&quot;, &quot;Australian Labor Party (N.S.W. Branch)&quot;, &quot;Australian Labor Party (Northern Territory) Branch&quot;, &quot;Australian Labor Party (South Australian Branch)&quot;, &quot;Australian Labor Party (State of Queensland)&quot;, &quot;Australian Labor Party (Tasmanian Branch)&quot;, &quot;Australian Labor Party (Victorian Branch)&quot;, &quot;Australian Labor Party (Western Australian Branch)&quot;)
+immigration.list&lt;-c(&quot;Australian Liberty Alliance&quot;, &quot;Citizens Electoral Council of Australia&quot;, &quot;Sustainable Australia&quot;)
+narrow.list&lt;-c(&quot;Australian Recreational Fishers Party&quot;, &quot;Help End Marijuana Prohibition (HEMP) Party&quot;, &quot;Australian Sex Party&quot;, &quot;Shooters, Fishers and Farmers Party&quot;)
+LNP.list&lt;-c(&quot;Country Liberals (Northern Territory)&quot;, &quot;Liberal National Party of Queensland&quot;, &quot;Liberal Party (W.A. Division) Inc&quot;, &quot;Liberal Party of Australia&quot;, &quot;Liberal Party of Australia - ACT Division&quot;, &quot;Liberal Party of Australia - Tasmanian Division&quot;, &quot;Liberal Party of Australia (Victorian Division)&quot;, &quot;Liberal Party of Australia, NSW Division&quot;, &quot;National Party of Australia&quot;, &quot;National Party of Australia - N.S.W.&quot;, &quot;National Party of Australia - Victoria&quot;, &quot;National Party of Australia (WA) Inc&quot;, &quot;Liberal Party of Australia (S.A. Division)&quot;)
+minor.list&lt;-c(&quot;Glenn Lazarus Team&quot;, &quot;Jacqui Lambie Network&quot;, &quot;Liberal Democratic Party&quot;, &quot;Nick Xenophon Team&quot;, &quot;Palmer United Party&quot;, &quot;VOTEFLUX.ORG | Upgrade Democracy!&quot;, &quot;Katter&#39;s Australian Party&quot;)
+
+data$recipient.group&lt;-NA
+ for (i in 1:length(data$`donor-state`)){
+   if((data$`donor-state`[i]%in%statelist)==TRUE)
+     {data$`donor-state`[i]&lt;-data$`donor-state`[i]}
+   if((data$`recipient-name`[i]%in%conservative.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Conservative&quot;}
+   if((data$`recipient-name`[i]%in%progressive.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Progressive&quot;}
+   if((data$`recipient-name`[i]%in%greens.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Greens&quot;}
+   if((data$`recipient-name`[i]%in%labor.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Labor&quot;}
+   if((data$`recipient-name`[i]%in%immigration.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Immigration Parties&quot;}
+   if((data$`recipient-name`[i]%in%narrow.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Narrow Focus Parties&quot;}
+   if((data$`recipient-name`[i]%in%LNP.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;LNP&quot;}
+   if((data$`recipient-name`[i]%in%minor.list)==TRUE)
+     {data$recipient.group[i]&lt;-&quot;Minor Parties&quot;}
+   if(is.na(data$recipient.group[i])==TRUE)
+     {print(data$`recipient-name`[i])}
+ }
+
+
+# choose some colours
+
+ colour_vec&lt;-c(&quot;#00239C&quot; ,&quot;#CE0056&quot;,&quot;#00B08B&quot;, &quot;#89532F&quot;, &quot;#BB29BB&quot;, &quot;#75787B&quot;, &quot;#000000&quot;, &quot;#991E66&quot;, &quot;#006F62&quot; )
+
+ 
+# consider these factor variables for ease of display 
+data$`donor-state`&lt;-factor(data$`donor-state`, levels=c(&quot;ACT&quot;, &quot;NSW&quot;, &quot;NT&quot;, &quot;QLD&quot;, &quot;SA&quot;, &quot;TAS&quot;, &quot;VIC&quot;, &quot;WA&quot;, &quot;NA&quot;))
+data$recipient.group&lt;-factor(data$recipient.group, levels=c(&quot;LNP&quot;, &quot;Labor&quot;, &quot;Greens&quot;, &quot;Immigration Parties&quot;, &quot;Minor Parties&quot;, &quot;Narrow Focus Parties&quot;, &quot;Conservative&quot;, &quot;Progressive&quot;))
+
+# use ggplot2 to create a visual
+
+ggplot(data)+
+  labs(x=&quot;Recipient&quot;, y=&quot;Donor Category&quot;)+
+  geom_jitter(aes(recipient.group, `donor-category`, colour=recipient.group), alpha=0.4)+
+  theme(plot.margin = unit(c(1,1,1,1), &quot;lines&quot;))+
+  theme(legend.position=&quot;bottom&quot;)+
+  scale_colour_manual(name=&quot;&quot;, values=colour_vec) +
+  theme_light()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))</code></pre>
+<p><img src="/post/2018-04-30-data-driven-by-design_files/figure-html/auspol-1.png" width="672" /></p>
+<p>Down the y axis we have different donor groups, and across the x axis, we have groups of parties There’s the obvious big ones – Liberal, Labour, Greens</p>
+<p>There’s also clusters of smaller parties that I’ve grouped by their common core issue.</p>
+<p>The data didn’t arrive this way – the ABC categorised the donors and I categorised the parties. Without that aggregate we wouldn’t have been able to pick out patterns: <em>that’s where aggregation adds value</em>.</p>
+<p>We can see banking and finance donate a lot to both major parties, but didn’t donate to the Greens party, who were calling for a royal commission around then.</p>
+<p>The unions donated to labour, but not liberal</p>
+<p>Advocacy/lobbyist groups donated more regularly to Liberal than Labour</p>
+<p>The collection of parties I’ll refer to as “immigration” parties, most notably One Nation collected the vast marjority of their donor funds from individuals and ‘uncategorised’ organisations.</p>
+<p>Without aggregation, we couldn’t see this though - we’d just know that Joe Blogs donated <code>$X</code> to <code>$Y</code> party.</p>
+<p><em>Not quite ready to do this in R yet?</em> This would not be an easy visual to reproduce in Excel, but something similar could be achieved (albeit without the visualisation) using a pivot table, as per below. Obviously R gives you more options, but if you’re looking to start thinking about and exploring aggregation: a pivot table might let you start that <em>today</em>.</p>
+<div class="figure">
+<img src="images/auspol_pivot.png" alt="A pivot table" />
+<p class="caption">A pivot table</p>
+</div>
+</div>
+<div id="tip-three-domain-knowledge-matters" class="section level1">
+<h1>Tip Three: Domain knowledge matters</h1>
+<p>Being data driven doesn’t matter if you’re driving somewhere that makes no sense. You don’t come to the data sciences a blank slate: you come to them with all of your experiences and domain knowledge: these are <em>useful</em> for arriving at valuable insights.</p>
+<p>Let’s take the example of <a href="www.ratesetter.com.au">Ratesetter</a>, a fintech that publishes its Australian loanbook quarterly ( <a href="https://www.ratesetter.com.au/peer-to-peer-lending/statistics">see here</a>, this one was downloaded 13/11/17).</p>
+<pre class="r"><code>loanBook &lt;- read_xlsx(&quot;data/20170930loanbook.xlsx&quot;, sheet = &quot;RSLoanBook&quot;, col_names = TRUE, skip = 8)
+
+ggplot(loanBook) +
+  geom_point(aes(FinanceAmount, AnnualRate),
+             colour = &quot;#aed9da&quot;, alpha = 0.2) +
+  theme_light()+
+  xlab(&quot;Financed Amount&quot;) +
+  ylab(&quot;Annual rate paid by borrower&quot;)</code></pre>
+<p><img src="/post/2018-04-30-data-driven-by-design_files/figure-html/ratesetter-1.png" width="672" /></p>
+<p>Here we have the amount borrowed by customers of Ratesetter agains the rate of interest they paid. We can see two distinct groups: but what could be the reason for this difference- people borrowing the same amount pay more or less. But why?</p>
+<p>This is the sort of question where domain knowledge comes into play. We can start to unpack what we observe in the data. If you have any basic knowledge of finance, you’ll know that interest rates are all about <em>risk</em>. What are some of the key factors in risk to a lender? Things like income, borrower history and location are all relevant. But one thing in particular matters: the length of the loan’s life.</p>
+<p>If we create a new variable to measure if a loan is less than two years or greater, we see a new picture.</p>
+<pre class="r"><code>shortTerm &lt;- ifelse(loanBook$LoanTerm &lt;= 24, 1, 0)
+shortTerm &lt;- factor(shortTerm)
+levels(shortTerm) &lt;- c(&quot;&gt; 24 months&quot;, &quot;&lt;= 24 months&quot;)
+loanBook &lt;- cbind(loanBook, shortTerm)
+
+ggplot(loanBook) +
+  geom_point(aes(FinanceAmount, AnnualRate, colour = shortTerm), alpha = 0.2) +
+  theme_light()+
+  scale_colour_manual(values = c(&quot;#aed9da&quot;, &quot;#ff4a1a&quot;))+
+  xlab(&quot;Financed Amount&quot;) +
+  ylab(&quot;Annual rate paid by borrower&quot;)</code></pre>
+<p><img src="/post/2018-04-30-data-driven-by-design_files/figure-html/ratesetter2-1.png" width="672" /></p>
+<p>Quite clearly, someone who borrows an amount for a longer term is perceived as higher risk and pays a higher rate of interest. This is an observation we could not have made without some domain knowledge.</p>
+<p><em>Not quite ready to do it in R yet?</em></p>
+<p>Excel has you covered here as well. A scatterplot gets you part of the way.</p>
+<div class="figure">
+<img src="images/ratesetter_excel.png" alt="Excel if statement and scatter plot" />
+<p class="caption">Excel if statement and scatter plot</p>
+</div>
+<p>A simple <code>if</code> statement creates the new variable and if you add that into a scatterplot you have something that shows this relationship.</p>
+<div class="figure">
+<img src="images/ratesetter_colours.png" alt="Two coloured scatterplots are a pain in the posterior distribution in Excel, to be perfectly frank." />
+<p class="caption">Two coloured scatterplots are a pain in the posterior distribution in Excel, to be perfectly frank.</p>
+</div>
+</div>
+<div id="tip-four-think-about-where-the-uncertainty-lies" class="section level1">
+<h1>Tip Four: Think about where the uncertainty lies</h1>
+<p>This brings me to my fourth tip. The data sciences exist because of uncertainty. As accountants, you’re all very familiar with uncertainty.</p>
+<p>While the process of audit or the rules of double entry book keeping might be fairly finite, the value you provide to your stakeholder is being able to take a complex real world problem, full of uncertainty and make recommendations. It’s the same for data sciences.</p>
+<p>There’s an impression going around that data science is valuable because it can be complex. But being data driven is about thinking about where the uncertainty lies, not pretending it’s not there with some equations and code. Being data driven is about using the data we have to make an informed recommendation.</p>
+<p>Back to our kickstarter data, we can visualise the campaigns in a different way.</p>
+<pre class="r"><code>ggplot(kdata) +
+  geom_point(aes(launched, log(usd_pledged_real), colour = state), alpha = 0.2) +
+ # ggtitle(&quot;Pledges over time by state&quot;)+
+  scale_colour_manual(values = c(&quot;#660066&quot;, &quot;#0d1a26&quot;, &quot;#ff4a1a&quot;, &quot;#00cccc&quot;, &quot;#ffccff&quot;, &quot;#ff80ff&quot;)) +
+  xlab(&quot;Launch date&quot;) +
+  ylab(&quot;log $US pledged)&quot;)+
+  theme_light()</code></pre>
+<p><img src="/post/2018-04-30-data-driven-by-design_files/figure-html/kickstarter2-1.png" width="672" /></p>
+<p>Often in a business context, your stakeholder wants to know: based on what’s happened in the past, will our plan work in the future.</p>
+<p>What goes into success? Can we start thinking about kickstarter successes?</p>
+<p>There’s clearly a lot of uncertainty over whether or not a campaign will be successful. I mean potato salad?</p>
+<p>Here we have all the campaigns launched on the site and whether they failed, succeeded, were cancelled or are still going. I like this chart because you can see the ‘live window’ on the end here. It shows just how ephermeral these campaigns are. The salad situation is long gone in kickstarter land!</p>
+<p>Broadly, the chart confirms our expectations: campaigns with a lot of money pledged are more likely to be successful than those who don’t. Great!</p>
+<p>But the uncertainty is all over this chart – knowing where uncertainty is, knowing that data driven tools and techniques can’t take it away, they can just tell you where it is, is critical to undertstanding your data.</p>
+<p>There’s clearly overlap of pledges here between success and failure and it’s really broad – what is it about those campaigns that have large amounts of money pledged, but still failed? Was it the amount they were asking for? Was it something else? Data science can start answering these questions.</p>
+<p>But without viualisation, we wouldn’t know to ask them, without visualisation we wouldn’t have a good understanding just how much uncertainty there is here.</p>
+<p><em>Honestly, I can’t think of a great way to produce this graph in Excel.</em> While I advocate for just getting started, there are some things that a dedicated data science tool is just better at. However, you can start to think about uncertainty in <em>your</em> data and how that might play into your decisions and the questions you’d like to ask.</p>
+</div>
+<div id="tip-five-calculate-to-communicate" class="section level1">
+<h1>Tip Five: Calculate to communicate</h1>
+<p>My final tip is a fairly simple one. Data driven thinking is incredibly powerful: but so is communication</p>
+<p>The best, most complex, scientific thinking in the world is undermined, if the people who could use it, can’t access it. The most under rated skill in data work is the ability to communicate it. That’s where the value lies!</p>
+<p>You have to tell the people you’re driving where you’re going and why. How do you communicate your findings to your stakeholders? Here’s some tips:</p>
+<pre><code>*No techie language
+* Explain relationships simply
+* Make sure you’re communicating uncertainty: we don’t offer many rock solid propositions in data science, we offer varying degrees of certainty!
+* Visualisation is one of the most important communication tools available to you.</code></pre>
+</div>
+<div id="get-behind-the-wheel" class="section level1">
+<h1>Get behind the wheel</h1>
+<p>You can start working towards data driven decisions today. There’s no license for getting out there and visualising your data, having a go is the start point.</p>
+<p>There’s no test that lets you build connections by creating new variables, or joining data sets together – it’s a matter of exploring where you’re going.</p>
+<p>Looking for uncertainty is definitely a challenge, but even just thinking about it is a huge step toward data driven decision making.</p>
+<p>Being data driven is about a skillset, not a toolkit. Don’t get me wrong, tools like R give you choices. But you don’t need any particular tool to start - if all you have is Excel today, use that.</p>
+</div>
+<div id="resources" class="section level1">
+<h1>Resources</h1>
+<p>New to data visualisation? Check out <a href="http://www.dicook.org/2018/04/14/content/post/2018-04-14-rookie-mistakes/">Di Cook and Stuart Lee’s brilliant rookie tips</a>.</p>
+</div>
+
+	</p>
+
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+		</div>
+
+		<!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		
+		
+		<li><a href="//twitter.com/@stephdesilva" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		
+		
+		<li><a href="//github.com/stephdesilva" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
+		
+		
+		
+		<li><a href="//linkedin.com/in/steph-de-silva-93b18444" target="_blank" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
+		
+		
+		
+		
+		<li><a href="/#contact-form" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+		
+		
+		<li><a href="/index.xml" class="icon fa-rss" type="application/rss+xml"><span class="label">RSS</span></a></li>
+		
+	</ul>
+
+	<ul class="copyright">
+		
+		<li>&copy; Steph de SIlva</li>
+		
+		<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+		
+	</ul>
+</footer>
+
+<!-- Scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.poptrox.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+
+<script src="/js/main.js"></script>
+
+
+
+
+
+	</body>
+</html>

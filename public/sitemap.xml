@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/cpa-emerging-leaders-conference/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/data-driven-by-design/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publications/speaking-engagements-2018/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +24,6 @@
   
   <url>
     <loc>/cv/cv/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/cv/</loc>
     <lastmod>2018-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,13 +53,19 @@
   </url>
   
   <url>
+    <loc>/tags/business/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/community/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -71,8 +82,20 @@
   </url>
   
   <url>
+    <loc>/tags/excel/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/general/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/get-started/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -84,7 +107,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,7 +131,7 @@
   
   <url>
     <loc>/tags/publications/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,13 +155,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
