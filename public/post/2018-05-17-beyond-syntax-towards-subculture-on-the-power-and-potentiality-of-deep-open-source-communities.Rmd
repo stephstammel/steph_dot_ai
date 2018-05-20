@@ -1,0 +1,132 @@
+---
+title: 'Beyond syntax, towards subculture: on the power and potentiality of deep open
+  source communities'
+author: Steph
+date: '2018-05-17'
+slug: beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities
+categories:
+  - community
+tags:
+  - talks
+---
+
+## bibliography stuff https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+
+# Introduction
+# Not just a language
+
+R is a developing subculture, as well as a developing, dynamic programming language.
+
+This subculture is at the intersection of a very broad array of fields and provides a communication medium for them, as well as a marketplace for the exchange of ideas.
+
+Evidence of culture:
+
+    * Coleman's _Hacker Culture_ observed specificaly in Debian open source communities. E.g. not unique to R.
+    * HOdkinson's spectacular and distinctive points
+    * Anheier et al. point about existing at all levels of an org, e.g. there's not one monolithic set of R 'thoughts', but many subs within subs.
+    * Heidegger's R as an object and a thing
+    * Tension between individualism and collectivism as per Coleman. Talk about gatekeeping as an outcome.? (Maybe next section).
+
+G. Coleman, COding Freedom: _Once we recognise the intimate connection between hacker ethics and liberal commitments *and* the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic and interconnected, but at times divergent ethical principles._ 
+
+G. Coleman: _the awareness of a shared social commonwealth takes on a decidedly moral character, leading some developers to reappraise their virtual interactions and behavior with fellow developers._ (Behaviour at conferences)
+
+G. Coleman: _Signs of sameness are everywhere. Most people are attached to their computers, and share a common language_ (Conf behaviour)
+
+Hodkinson, 2012: _-	At the very least, subcultural friendships, consumption, collecting, dancing and so on remain extra-ordinary in their location within the parameters and environment of unusually concentrated and often defiant communities centred on sets of styles and practices which, in some respects, are spectacular and distinctive and are understood as such both by insiders and outsiders._
+
+G. Coleman: _ What really grabbed me was the community. That was what really grabbed me, and you have to understand at the time, it was a completely foreign notion._ p. 42
+
+G. Coleman: _the awareness of a shared social commonwealth takes on a decidedly moral character, leading some developers to reappraise their virtual interactions and behavior with fellow developers._
+
+_Subcultures can exist at all levels of organizations, highlighting the fact that there are multiple cultures or value combinations usually evident in any one organization that can complement but also compete with the overall organisational culture._ p11
+Anheier, Helmut K., Stefan Toepler and Regina List, eds., International Encyclopedia of Civil Society, (Springer, 2010)
+
+Coleman: _Indeed, hacking, like all social domains, is shot through with a series of notable tensions. These oscillate between individualism and collectivism, elitism and humility, and frustration and deep pleasure, among others. There are various codes—informal and formal—by which hackers negotiate the tensions that characterize their productive landscape._
+
+Coleman: _The belief in the value of individuality coupled with the constant need for the help of other hackers points to a subtle paradox that textures their social world. The tension between individualism and collectivism, in particular, is negotiated through the extremely well-developed and common penchant that hackers have for performing cleverness, whether through technological production or humor_
+
+Coleman: _Hackers assert a form of individualism that valorizes self-expression and development among peers engaged in similar acts of technological production, while tightly entangled with each other through constant collaboration._
+
+Coleman on r as both object and thing: _In Heidegger’s cartography, an object strikes its users as familiar and beyond the scope of critical awareness. Its social meaning is held in place through regular patterns of use and circulation. But when we misuse an object (a spoon used as a knife or a can opener utilized as a hammer) or when an object malfunctions, its thingness is laid bare in the sense that its material characteristic becomes evident._
+
+Coleman: _A complicated set of norms and conventions surround asking for help. They depend on the social context of the query and who is asking the question._
+
+Coleman: _The use of RTFM is disputed as well. During the 2005 Debian project leader election, the issue of documentation erupted during a mailing list debate. The subject of RTFM rebukes was broached directly. One developer argued that RTFM is an inflammatory, unproductive response to newcomers who may find themselves confused and overwhelmed with Debian’s technical and procedural complexity. To make new users feel welcome, he believed that developers should refrain from replying with RTFM, and instead focus their efforts on achieving greater transparency and accessibility._
+
+Coleman: _meritocratic order based on expertise fundamentally requires others for constant evaluation as well._
+
+Coleman: _though hackers tend to approach other hackers as equals, they also construct themselves as high-tech cognoscenti creating the bleeding edge of technology._
+
+# With subculture comes value
+
+A unique array out outputs from this subculture is both broad and rich.
+
+A number of them translate to very substantive economic value, even if estimating that would be difficult.
+
+A subculture absorbs ideas from the outside, evolves them and generates new ones, the sends them out. This has real, intrinsice value.
+
+Some of the ideas that have been developed + championed (not in isolation) in the R community include
+
+    * Viz
+    * workflows
+    * interoperability - two groups: talk to other languages, read other data. Ursa, reticulate, rJava, rcpp, tabulizer
+    * documentation importance
+    
+Not the only things that are important, but these four prosaic things have had a profound impact on the way we work and will continue to work into the future. in an industry/group of people that are providing leadership into the future it's profoundly influential. Truly decentralising a workforce. 
+
+Important to remember no subculture exists or works in isolation.
+
+Influenced from the outside, but even a relatively small one can influence right back. That's what R is doing.
+
+The fact that open source has _value_ is not new, e.g. Debian, Microsoft's opposition to _FOSS_. But it's not just the technology that is being created that is valuable: it's an evolutionary tourney of ideas that a subculture gives rise to.
+
+
+
+# With subculture comes _values_
+
+A subculture transmits not just _ideas_ but _ideaology_.
+
+A unique place in time and in our broader super culture for data nerds right now.
+
+The development of this subculture is driving development in R and vv.
+
+Unique place for data nerds in history - we are influential, we are able to exert power on the way our world is changing. We are able to provide a nuanced view as a comnmunity. The power of a subsculture is that you can have multiple diverging view points about a single thing.
+
+As a subculture we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly.
+
+R as a subclulture transmits _value_, but it also transmits its _values_:
+
+    * A place for new people
+    * open source
+    * diversity and difference
+    * ethics
+    * reproducibility
+    
+The value of this has a strong historic precedent:
+
+G. Coleman: _By turning Linux and open source into household names, many more people learned about not just open source but also the ethical foundations—sharing, freedom, and collaboration—of free software production. In other words, historical outcomes proved to be more unpredictable, complex, and ultimately ironic than anyone could have ever imagined._
+
+G. Coleman: _Over ten years of active development and use of free software, a critical mass of hackers had inculcated not simply a commitment to their craft but also a well-developed ethos for information freedom and sharing that ran aground against developments in intellectual property law._
+
+_"Once we recognize the intimate connection between hacker ethics and liberal commitments and the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic of interconnected, but at times divergent, ethical principles."_ from "Coding Freedom: The Ethics and Aesthetics of Hacking" by E. Gabriella Coleman
+
+http://amzn.asia/8NAg14E
+
+Coleman: _Free software projects, while most famous as the place where technical coordination unfolds, is also where significant ethical work transpires. It is here where commitments to free speech are inculcated, thorny issues of meritocracies are resolved, and hackers embody and live out a dense ethical practice._
+
+Coleman: _Although we might be able to identify some indisputable commitments among hackers, such as meritocracy and the form of individualism it entails, the foundation of value among hackers is never without dispute and friction._
+
+Coleman: _Largely by way of F/ OSS philosophy, hackers laud mutual aid and cooperative reciprocity as vital features of technical collaboration. They spend an inordinate number of hours helping each other. But there is also an elitist stance that places an extremely high premium on self-reliance, individual achievement, and meritocracy. 8 While the populist stance affirms the equal worth of everyone who contributes to an endeavor, the elitist one distributes credit, rewarding on the basis of superior accomplishment, technical prowess, and individual talent—all judged meticulously by other hackers._
+
+Coleman: _Guiding this practice is the idea that the free software project represents an endeavor that far exceeds any single person’s efforts, and thus everyone’s contribution is highly regarded, whether it involves filing a bug report or offering a significant, large-scale innovation._
+
+Coleman: _On the other hand, hackers often express a commitment to self-reliance, which can be at times displayed in a quite abrasive and elitist tone. The most famous token of this stance is the short quip “Read the Fucking Manual” (RTFM)._
+
+Coleman: _Unlike academics—who at times religiously guard their data or findings until published, or only circulate them among a small group of trusted peers—hackers freely share their findings, insights, and solutions._
+
+Examples:
+
+    * Data values, e.g. [data based policing](https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce) 
+
+# Beyond syntax, conclusion
