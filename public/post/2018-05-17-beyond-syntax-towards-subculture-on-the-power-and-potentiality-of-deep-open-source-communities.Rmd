@@ -68,10 +68,10 @@ A subculture absorbs ideas from the outside, evolves them and generates new ones
 
 Some of the ideas that have been developed + championed (not in isolation) in the R community include
 
-    * Viz
-    * workflows
-    * interoperability - two groups: talk to other languages, read other data. Ursa, reticulate, rJava, rcpp, tabulizer
-    * documentation importance
+    * Viz. Cite ggplot2 + patchwork, cowplot, many others. Shiny!
+    * workflows. examples from mundane/minor/obvious to some Rachel Meager's [advice on filenames](https://twitter.com/economeager/status/997077103483981825), this gets propagated through the community regularly and never fails to pick up many who never heard it before. To Jenny Bryan's tour de force on workflows. Cite googlesheets, readxl, happy git with R etc.
+    * interoperability - two groups: talk to other languages, read other data. [Ursa](http://wesmckinney.com/blog/announcing-ursalabs/), reticulate, rJava, rcpp, tabulizer
+    * documentation importance. 
     
 Not the only things that are important, but these four prosaic things have had a profound impact on the way we work and will continue to work into the future. in an industry/group of people that are providing leadership into the future it's profoundly influential. Truly decentralising a workforce. 
 
@@ -80,6 +80,18 @@ Important to remember no subculture exists or works in isolation.
 Influenced from the outside, but even a relatively small one can influence right back. That's what R is doing.
 
 The fact that open source has _value_ is not new, e.g. Debian, Microsoft's opposition to _FOSS_. But it's not just the technology that is being created that is valuable: it's an evolutionary tourney of ideas that a subculture gives rise to.
+
+Being at the intersection of multiple academic disciplines (stats, ecology, bio, econ, engineering, comp sci, sociology/politics etc etc), schools of thought (e.g. sciences, econs, humanities) as well as practioners (academics, students, business, government) means an incredible confluence of ideas.
+
+These compete with and interact with one another, developing nuances, branches and new ideas themselves. This is inherently valuable.
+
+Examples of value:
+
+    * methodological sharing. A data scientist, trained from an econometrician can learn about the biological concept of an evolutionary tourney from a computer science professor 500km away. Business can pick up and start using a broad away of scientific methods very quickly thanks to FOSS. The public good that is research _works_. 
+    * idea sharing. The concepts of reproducibility make for better science, for better decision making and tracking over all. The accountability inherent in those concepts means that no matter who we are, we own the responsibility of our anlaysis and that's important (build on that later).
+    * strategy sharing. Shared and devloping concepts around workflows, professionalising software development management techniques and programmign skill in paralell with statistical/methodological skill contribute a more robust workforce with a broader outlook, doing better, faster and more productively.
+    
+[Differences promote ecological robustness](https://mobile.twitter.com/hrbrmstr/status/997485070100451328/photo/1) ERUM 2018, roger bivand. [Get talk notes here for research](https://github.com/rsbivand/eRum18)
 
 
 
@@ -93,7 +105,11 @@ The development of this subculture is driving development in R and vv.
 
 Unique place for data nerds in history - we are influential, we are able to exert power on the way our world is changing. We are able to provide a nuanced view as a comnmunity. The power of a subsculture is that you can have multiple diverging view points about a single thing.
 
-As a subculture we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly.
+As a subculture we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly. 
+
+    * Can explore the confluence of consequences. E.g. [building code to kill people](https://twitter.com/stephaniecodes/media), as expressed by Caleb Thompson and drawn by Stephanie Nemeth.
+    * Data values, e.g. [data based policing](https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce) [and the corollary in the US from the subculture](https://twitter.com/defsophiaray/status/996151795629125633) @defsophiaray - python user!.
+
 
 R as a subclulture transmits _value_, but it also transmits its _values_:
 
@@ -125,8 +141,5 @@ Coleman: _On the other hand, hackers often express a commitment to self-reliance
 
 Coleman: _Unlike academics—who at times religiously guard their data or findings until published, or only circulate them among a small group of trusted peers—hackers freely share their findings, insights, and solutions._
 
-Examples:
-
-    * Data values, e.g. [data based policing](https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce) 
 
 # Beyond syntax, conclusion
