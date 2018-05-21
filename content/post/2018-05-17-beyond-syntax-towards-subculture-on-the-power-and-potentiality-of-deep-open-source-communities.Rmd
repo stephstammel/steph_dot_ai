@@ -49,72 +49,7 @@ She noted: _The belief in the value of individuality coupled with the constant n
 
 A point which many participants in the R community will find familiar: particularly as to the common occurence of cleverness through technological production and humour _at the same time_ (see for example Averick and Meeks 2017).
 
-
-
-
-Outline:
-
-- R is a developing subculture as well as a programming language.
-- Define subculture as per Hodkinson (2012), spectacular/distinctive
-- Anheier et al. can exist at all levels of an org
-- Elements of subculture include
-    - shared institutions, each with their own purpose that assists the collective, e.g. CRAN, R Foundation, ROpensci, RLadies, R Core
-    - Distinct philosophical and well developed ideaological concepts, e.g. tidyverse - a collection of packages _yes_, but also a very specific view of how programming can be streamlined by means of a grammar and the implications this has for widening the tool's appeal.
-    - Content produced for appreciation/entertainment - art as viz
-    - Content produced for education/informing members of the subculture within the community - blogs, documentation etc. Disseminated through the community by lots of means, RWeekly, twitter, meetups etc.
-- Not unique among programmers/FOSS communities, c.f. Coleman's seminal work _Coding Freedom_
-- Similarities to the Debian findings she notes:
-  - Shared social commonwealth
-  - Coleman: _The belief in the value of individuality coupled with the constant need for the help of other hackers points to a subtle paradox that textures their social world. The tension between individualism and collectivism, in particular, is negotiated through the extremely well-developed and common penchant that hackers have for performing cleverness, whether through technological production or humor_
-  - Coleman: _Hackers assert a form of individualism that valorizes self-expression and development among peers engaged in similar acts of technological production, while tightly entangled with each other through constant collaboration._
-  - Coleman: _meritocratic order based on expertise fundamentally requires others for constant evaluation as well._
-  - Coleman: _though hackers tend to approach other hackers as equals, they also construct themselves as high-tech cognoscenti creating the bleeding edge of technology._
-- If there is a subculture developing, what does that _mean_ and is it even relevant to us?
-- Why isn't it just about the code?
-- This subculture is not unique, by any means. BUt it is particularly rich: sitting at the intersection of many different fields and domains. This creates a dynamic field for the development of _value_.
-
-R is a developing subculture, as well as a developing, dynamic programming language.
-
-This subculture is at the intersection of a very broad array of fields and provides a communication medium for them, as well as a marketplace for the exchange of ideas.
-
-Evidence of culture:
-
-    * Coleman's _Hacker Culture_ observed specificaly in Debian open source communities. E.g. not unique to R.
-    * HOdkinson's spectacular and distinctive points
-    * Anheier et al. point about existing at all levels of an org, e.g. there's not one monolithic set of R 'thoughts', but many subs within subs.
-    * Heidegger's R as an object and a thing
-    * Tension between individualism and collectivism as per Coleman. Talk about gatekeeping as an outcome.? (Maybe next section).
-
-G. Coleman, COding Freedom: _Once we recognise the intimate connection between hacker ethics and liberal commitments *and* the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic and interconnected, but at times divergent ethical principles._ 
-
-G. Coleman: _the awareness of a shared social commonwealth takes on a decidedly moral character, leading some developers to reappraise their virtual interactions and behavior with fellow developers._ (Behaviour at conferences)
-
-G. Coleman: _Signs of sameness are everywhere. Most people are attached to their computers, and share a common language_ (Conf behaviour)
-
-Hodkinson, 2012: _-	At the very least, subcultural friendships, consumption, collecting, dancing and so on remain extra-ordinary in their location within the parameters and environment of unusually concentrated and often defiant communities centred on sets of styles and practices which, in some respects, are spectacular and distinctive and are understood as such both by insiders and outsiders._
-
-G. Coleman: _ What really grabbed me was the community. That was what really grabbed me, and you have to understand at the time, it was a completely foreign notion._ p. 42
-
-G. Coleman: _the awareness of a shared social commonwealth takes on a decidedly moral character, leading some developers to reappraise their virtual interactions and behavior with fellow developers._
-
-_Subcultures can exist at all levels of organizations, highlighting the fact that there are multiple cultures or value combinations usually evident in any one organization that can complement but also compete with the overall organisational culture._ p11
-Anheier, Helmut K., Stefan Toepler and Regina List, eds., International Encyclopedia of Civil Society, (Springer, 2010)
-
-Coleman: _Indeed, hacking, like all social domains, is shot through with a series of notable tensions. These oscillate between individualism and collectivism, elitism and humility, and frustration and deep pleasure, among others. There are various codes—informal and formal—by which hackers negotiate the tensions that characterize their productive landscape._
-
-Coleman: _The belief in the value of individuality coupled with the constant need for the help of other hackers points to a subtle paradox that textures their social world. The tension between individualism and collectivism, in particular, is negotiated through the extremely well-developed and common penchant that hackers have for performing cleverness, whether through technological production or humor_
-
-Coleman: _Hackers assert a form of individualism that valorizes self-expression and development among peers engaged in similar acts of technological production, while tightly entangled with each other through constant collaboration._
-
-Coleman on r as both object and thing: _In Heidegger’s cartography, an object strikes its users as familiar and beyond the scope of critical awareness. Its social meaning is held in place through regular patterns of use and circulation. But when we misuse an object (a spoon used as a knife or a can opener utilized as a hammer) or when an object malfunctions, its thingness is laid bare in the sense that its material characteristic becomes evident._
-
-Coleman: _A complicated set of norms and conventions surround asking for help. They depend on the social context of the query and who is asking the question._
-
-Coleman: _The use of RTFM is disputed as well. During the 2005 Debian project leader election, the issue of documentation erupted during a mailing list debate. The subject of RTFM rebukes was broached directly. One developer argued that RTFM is an inflammatory, unproductive response to newcomers who may find themselves confused and overwhelmed with Debian’s technical and procedural complexity. To make new users feel welcome, he believed that developers should refrain from replying with RTFM, and instead focus their efforts on achieving greater transparency and accessibility._
-
-Coleman: _meritocratic order based on expertise fundamentally requires others for constant evaluation as well._
-
-Coleman: _though hackers tend to approach other hackers as equals, they also construct themselves as high-tech cognoscenti creating the bleeding edge of technology._
+Does a distinct developing R subculture matter? If so, what does it _mean_? 
 
 # With subculture comes value
 
@@ -124,6 +59,8 @@ OUTLINE:
 - A subculture absorbs ideas from the outside, evolves them and generates new ones, the sends them out. This has real, intrinsice value.
 - The development of this subculture is driving development in R and vv.
 - The fact that R as a community/subculture has a very unique array of inputs is not surprising.
+- This subculture is at the intersection of a very broad array of fields and provides a communication medium for them, as well as a marketplace for the exchange of ideas.
+
 - The array of outputs from this subculture is extraordinary.
   - First stage outputs: improvements and add ons to R itself. Things like packages, utilities etc.
   - Second stage outputs: scientific, statistical and humanities work built in part using first stage outputs.
