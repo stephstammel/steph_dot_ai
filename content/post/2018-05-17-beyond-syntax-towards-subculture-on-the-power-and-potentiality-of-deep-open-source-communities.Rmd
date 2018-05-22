@@ -10,8 +10,6 @@ tags:
   - talks
 ---
 
-## bibliography stuff https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
-
 # Introduction
 
 R is a dynamic, vibrant programming language, going from strength to strength. Originally created by Ihaka and Gentleman in the 1990s, what was a niche experimental language is now in mainstream world-wide usage across many disciplines and domains (Ihaka, 1998).
@@ -30,7 +28,7 @@ If we take the definition of a subculture as per Hodkinson (2012), these distinc
 
 The elements of the shared R lifeworld include:
 
-__Shared institutions.__ There are a number of institutions that R users regularly share with, participate in or benefited by. These include institutions critical to the functioning of R as a programming language, such as the R Core group, CRAN (Centralised R Archive Network) and the R Foundation. However, participants in the developing subculture are not limited to these institutions: many R users attend local meetups and/or are involved in a remote community either through Twitter, StackOverflow or some other platform. Others in addition may identify with certain groups or ideologies such as R-Ladies, the Tidyverse (a complex subcultural phenomenon in itself) or other community, like the R for Data Science learning community.
+__Shared institutions.__ There are a number of institutions that R users regularly share with, participate in or benefited by. These include institutions critical to the functioning of R as a programming language, such as the R Core group, CRAN (Centralised R Archive Network), the R Journal and the R Foundation. However, participants in the developing subculture are not limited to these institutions: many R users attend local meetups and/or are involved in a remote community either through Twitter, StackOverflow or some other platform. Others in addition may identify with certain groups or ideologies such as R-Ladies, the Tidyverse (a complex subcultural phenomenon in itself) or other community, like the R for Data Science learning community.
 
 __Distinct philosophical and well developed ideaological concepts__. While not espoused or recognised by every member of the community: many members grapple with, embrace or dispute certain philosophies (most notably _'the tidyverse'_), they nonetheless engage with it. Intellectual constructs like the _layered grammar of graphics_ (Wickham, 2010) or the _grammar of data manipulation_ (Wickham et al., 2017) contribute to overall meta constructs of programming and data agency. Indeed, there is a substantial differential of opinon within the developing subculture, which paralells the experience Coleman (2012) observed among 'hackers' in the Debian project:
 
@@ -38,10 +36,13 @@ __Distinct philosophical and well developed ideaological concepts__. While not e
 
 __Content developed for and by the subculture__. The developing subculture produces more content than code for the use of analysts and analysis produced by R code. The developing subculture produces, both for its own consumption and those outside of it:
 
-    * Visualisation as art both deliberately (see for example [the R Graph Gallery, Holtz (2017)](https://www.r-graph-gallery.com/portfolio/data-art/) or [Flowing Data (Yau, 2018)](http://flowingdata.com)), and accidentally, shared for appreciative purposes (see for example [accidental aRT (Woo and Mudrak 2018)](http://accidental-art.tumblr.com)).
-    * Analysis for entertainment and general education, for example Robinson's (2016, 2017) [analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) and [Meek and Averick (2017)](https://archervisualization.herokuapp.com) (although the site was built in D3, analysis was also conducted in R).
-    * Extensive educative materials and communities both for R, the programming language (see for example Bocek (2018), Maegan (2018) among many others), for the dynamic package sharing system, [such as Silge (2017)](https://juliasilge.com/blog/navigating-packages/) and for navigating the community itself, [such as Ellis (2017)](https://ropensci.org/blog/2017/06/23/community/).
-    * Meta cultural content, created for the purpose of alerting the subculture to these resources, such as [R-Bloggers](https://www.r-bloggers.com), [R Weekly](https://www.rweekly.org), and many others
+__Visualisation as art:__ both deliberately (see for example [the R Graph Gallery, Holtz (2017)](https://www.r-graph-gallery.com/portfolio/data-art/) or [Flowing Data (Yau, 2018)](http://flowingdata.com)), and accidentally, shared for appreciative purposes (see for example [accidental aRT (Woo and Mudrak 2018)](http://accidental-art.tumblr.com)).
+
+__Analysis for entertainment and general education:__ for example Robinson's (2016, 2017) [analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) and [Meek and Averick (2017)](https://archervisualization.herokuapp.com) (although the site was built in D3, analysis was also conducted in R).
+
+__Extensive educative materials and communities:__ both for R, the programming language (see for example Bocek (2018), Maegan (2018) among many others), for the dynamic package sharing system, [such as Silge (2017)](https://juliasilge.com/blog/navigating-packages/) and for navigating the community itself, [such as Ellis (2017)](https://ropensci.org/blog/2017/06/23/community/).
+
+__Meta cultural content:__ created for the purpose of alerting the subculture to these resources, such as [R-Bloggers](https://www.r-bloggers.com), [R Weekly](https://www.rweekly.org), and others of more formality such as the R Journal. 
     
 This developed lifeworld is not unique to R as a developing subculture among programming languages. The seminal work of Coleman (2012) first noted the development of a rich open source subculture within the Debian project. Coleman noted in particular the interplay between two competing ideaologies, those of individualism and collectivism, within the 'hacker' subculture, as exemplified by the Debian project.
 
@@ -53,41 +54,50 @@ Does a distinct developing R subculture matter? If so, what does it _mean_?
 
 # With subculture comes value
 
-OUTLINE:
+A programming subculture is more than just syntax: it's a confluence of institutions, informal and otherwise, inputs and a repeatable cycle of output and value generation. The development of this subculture is driving the development of R, the programming language and in reverse the same is true.
 
-- A subculture is more than just a programming language. It brings value to the process of creation that extends beyond satellite programmers sitting alone and coding in paralell.
-- A subculture absorbs ideas from the outside, evolves them and generates new ones, the sends them out. This has real, intrinsice value.
-- The development of this subculture is driving development in R and vv.
-- The fact that R as a community/subculture has a very unique array of inputs is not surprising.
-- This subculture is at the intersection of a very broad array of fields and provides a communication medium for them, as well as a marketplace for the exchange of ideas.
+The existence of a developing subculture brings value to the process of creation that extends beyond programmers coding alone and in teams. A subculture absorbs ideas from the outside, sets them to compete with each other, evolves them and generates new ones. This process, an evolutionary tourney of _ideas_ has a real and intrinsic value.
 
-- The array of outputs from this subculture is extraordinary.
-  - First stage outputs: improvements and add ons to R itself. Things like packages, utilities etc.
-  - Second stage outputs: scientific, statistical and humanities work built in part using first stage outputs.
-  - Third stage outputs: taking these scientific + other research outputs to create other objects of value in the community - business, government, scientific endeavour in the comunity etc.
-  - Obviously lots of interplay between stages and they're neither consecutive or necessarily required. One piece of work can encompass all three.
-- Why does this matter? Because productivity matters. Productivity is one of the ways that we can increase living standards for everone over all.
-- What is productivity?
-- Productivity has been lagging in the developed world [chart], but it's not even across industries by any means.
-- The fact that open source has _value_ is not new, e.g. Debian, Microsoft's opposition to _FOSS_. But it's not just the technology that is being created that is valuable: it's an evolutionary tourney of ideas that a subculture gives rise to.
+The fact that R as a developing subculture has a unique array of inputs is not surprising. This subculture is at the intersection of a very broad array of fields and provides a communication medium for them, as well as a marketplace for the exchange of ideas. 
 
-Being at the intersection of multiple academic disciplines (stats, ecology, bio, econ, engineering, comp sci, sociology/politics etc etc), schools of thought (e.g. sciences, econs, humanities) as well as practioners (academics, students, business, government) means an incredible confluence of ideas.
+While software developers are powering the development of the language, many of them come from non-traditional software engineering backgrounds, or no software engineering background at all.
+
+Users (as distinct to _creators_ of R the programming language) of R are even more diverse: while the language was intended as a statistical one, it now has scientific, engineering, economic applications, as well as important humanities and business ones.
+
+However, it is the array of outputs from this developing subculture that is truly extraordinary. These could be roughly divided into three, non-exclusive, not necessarily consecutive stages:
+
+__First stage outputs:__ Improvements and additions to R itself. Packages, developments to the R base, integrated development environments (IDEs) etc.
+
+__Second stage outputs:__ Scientific, statistical and humanities work built in part using first stage outputs. The development of new statistical, data science or other scientific techniques, algorithms and models.
+
+__Third stage outputs:__ Work that uses these scientific and other research outputs to create other objects of value in the community - business uses, government use, applied scientific research, education, health etc.
+
+Clearly there is an interplay between stages and being neither consecutive or even exhaustive, one piece of work can encompass all three stages.
+
+The fact that open source has _value_ is not new, e.g. Debian, Microsoft's opposition to _FOSS_. But it's not just the technology that is being created that is valuable: it's an evolutionary tourney of ideas that a subculture gives rise to.
+
+Being at the intersection of multiple academic disciplines (statistics, ecology, biology, economics, engineering, computer science, sociology, politics to name a few), schools of thought (e.g. sciences, business, humanities) as well as practioners (academics, students, business, government) means an incredible confluence of ideas generated by this developing subculture.
 
 These compete with and interact with one another, developing nuances, branches and new ideas themselves. This is inherently valuable.
 
 The value that's being driven by this tourney of ideas can be considered in three different types as a rough typology:
 
-    * methodological sharing. A data scientist, trained from an econometrician can learn about the biological concept of an evolutionary tourney from a computer science professor 500km away. Business can pick up and start using a broad away of scientific methods very quickly thanks to FOSS. The public good that is research _works_. 
-    * idea sharing. The concepts of reproducibility make for better science, for better decision making and tracking over all. The accountability inherent in those concepts means that no matter who we are, we own the responsibility of our anlaysis and that's important (build on that later).
-    * strategy sharing. Shared and devloping concepts around workflows, professionalising software development management techniques and programmign skill in paralell with statistical/methodological skill contribute a more robust workforce with a broader outlook, doing better, faster and more productively.
-    
-[Differences promote ecological robustness](https://mobile.twitter.com/hrbrmstr/status/997485070100451328/photo/1) ERUM 2018, roger bivand. [Get talk notes here for research](https://github.com/rsbivand/eRum18)
+__Methodological sharing.__ New methodologies as well as old ones not well known outside their specific fields can and are picked up, transmitted and pollinated across new fields with incredibly rapidity within this subculture.
+
+__Ideaological sharing.__ Ideaologies within the developing subculture are floated, debated, evolve and take root. These can include ideaologies around diversity, ethics and robust science (reproducibility amongst others).
+
+__Strategy sharing.__ Shared and devloping concepts around workflows, professionalising software development management techniques and programming norms in parallel with statistical/methodological skill contribute to a more robust workforce with a broader outlook, doing better, faster and more productively.
+
+A number of these R cultural outputs can translate into very substantive economic value simply by the productivity increases they engender for such a wide group users. They may seem prosaic, but because of the number of people they can help and apply to, their impacts are extraordinary.
+
+Some of the ideas that have been developed and championed in the R community include:
+
+__Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most well known example, the base graphics functionality of R (R Core Team, 2017) helped create a new environment where visualisation was a key factor in the two critical components of creating value: the _finding_ and _communication_ of insights. However, the contribution of the subculture does not start and finish with provision of utilities. Critical to the usage of those utilities is the development of modes of usage and educating the developing subculture as to their value. Critical contributions to this field include the work of Cook (see for a few examples, Unwin, Hofman and Cook (2013), Cook, Lee and Majumder (2016) amongst many others), also ############################
 
 
-- A number of these R culture outputs translate into very substantive economic value further down the chain, just by the productivity increases they engender for users. They may seem prosaic, but because of the number of people they can help and apply to, they're huge!
-- Some of the ideas that have been developed + championed (not in isolation) in the R community include
 
-    * Viz. Cite ggplot2 + patchwork, cowplot, many others. Shiny!
+
+
     * workflows. examples from mundane/minor/obvious to some Rachel Meager's [advice on filenames](https://twitter.com/economeager/status/997077103483981825), this gets propagated through the community regularly and never fails to pick up many who never heard it before. To Jenny Bryan's tour de force on workflows. Cite googlesheets, readxl, happy git with R etc.
     * interoperability - two groups: talk to other languages, read other data. [Ursa](http://wesmckinney.com/blog/announcing-ursalabs/), reticulate, rJava, rcpp, tabulizer
     * documentation importance- increase the use of these tools for everybody. Understanding that documentation that works for _me_ doesn't work for everyone. Blog posts, _emojis_ all of these are critical tools for communication. Break down barriers!
@@ -97,6 +107,14 @@ The value that's being driven by this tourney of ideas can be considered in thre
 Important to remember no subculture exists or works in isolation.
 
 Influenced from the outside, but even a relatively small one can influence right back. That's what R is doing.
+
+
+
+
+    
+[Differences promote ecological robustness](https://mobile.twitter.com/hrbrmstr/status/997485070100451328/photo/1) ERUM 2018, roger bivand. [Get talk notes here for research](https://github.com/rsbivand/eRum18)
+
+
 
 
 # With subculture comes _values_
@@ -162,6 +180,8 @@ Bocek, M., (2018): _Data Science Course in a Box_, <https://github.com/rstudio-e
 
 Coleman, E.G., (2012): _Coding Freedom: The Ethics and Aesthetics of Hacking_, Princeton University Press, Princeton.
 
+Cook, D., Lee, E-K., Majumder, M. (2016): "Data visualization and statistical graphics in big data analysis"," _Annual Review of Statistics and Its Application_, Volume 3, p. 133-159, <https://www.annualreviews.org/doi/10.1146/annurev-statistics-041715-033420>, accessed 18/05/22. 
+
 Ellis, S.E., (2017): "Hey! You there! You are welcome here", _ROpenSci_, <https://ropensci.org/blog/2017/06/23/community/>, accessed 18/05/21.
 
 Hodkinson, P., (2012): Beyond Spectacular Specifics in the Study of Youth (Sub)Cultures, _Journal of Youth Studies_, Volume 15, Issue 5. 
@@ -172,11 +192,17 @@ Ihaka, R., (1998): _R: Past and Future History_, <https://www.stat.auckland.ac.n
 
 Maegan, J., (2018): _R4DS: the next iteration_, <https://www.jessemaegan.com/post/r4ds-the-next-iteration/>, acccessed 18/05/21.
 
-Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
+R Core Team, (2017): _R: A Language and Environment for Statistical Computing_, R Foundation for Statistical Computing, Vienna.
 
 Robinson, D., (2016): "Text analysis of Trump's tweets confirms he writes only the (angrier) Android half", _Variance Explained_, <http://varianceexplained.org/r/trump-tweets/>, accessed 18/05/21.
 
 Robinson, D., (2017): "Trump's Android and iPhone tweets, one year later", _Variance Explained_, <http://varianceexplained.org/r/trump-followup/>, accessed 18/05/21.
+
+Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
+
+Unwin, A., Hofmann, H., Cook, D., (2013): Let graphics tell the story - datasets in R, _The R Journal_, Volume 5, Issue 1, p. 117-129. <https://journal.r-project.org/archive/2013/RJ-2013-012/RJ-2013-012.pdf>, accessed 18/05/22.
+
+Wickham, H., (2009): _ggplot2: Elegant Graphics for Data Analysis_, Springer-Verlag New York.
 
 Wickham, H., (2010): "A Layered Grammar of Graphics", _Journal of Computational and Graphical Statistics_, Volume 19, Number 1, p. 3 - 28.
 
