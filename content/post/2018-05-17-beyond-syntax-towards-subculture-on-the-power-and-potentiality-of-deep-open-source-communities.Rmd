@@ -92,29 +92,17 @@ A number of these R cultural outputs can translate into very substantive economi
 
 Some of the ideas that have been developed and championed in the R community include:
 
-__Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most well known example, the base graphics functionality of R (R Core Team, 2017) helped create a new environment where visualisation was a key factor in the two critical components of creating value: the _finding_ and _communication_ of insights. However, the contribution of the subculture does not start and finish with provision of utilities. Critical to the usage of those utilities is the development of modes of usage and educating the developing subculture as to their value. Critical contributions to this field include the work of Cook (see for a few examples, Unwin, Hofman and Cook (2013), Cook, Lee and Majumder (2016) amongst many others), also ############################
+__Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most well known example, the base graphics functionality of R (R Core Team, 2017) helped create a new environment where visualisation was a key factor in the two critical components of creating value: the _finding_ and _communication_ of insights. However, the contribution of the subculture does not start and finish with provision of utilities. Critical to the usage of those utilities is the development of modes of usage and educating the developing subculture as to their value. Critical contributions to this field include the work of Cook (see for two examples, Unwin, Hofman and Cook (2013), Cook, Lee and Majumder (2016)) amongst many others.
 
+__Designed workflows.__ While workflows have always existed in some from for any data work, the concept of a deliberate, strategically designed flow of work from project inception to completion has not had the wide acceptance it currently has in previous years. Championed by the R community, examples include simple and useful advice, casually applied (a single examplar being [Meager, 2018](https://twitter.com/economeager/status/997077103483981825)) to Bryan's tour de force modernising, deliberately desiging and championing productive, efficient work practices. For a few examples, see Bryan (2017, 2018), Wickham and Bryan (2017), Bryan and Zhao (2017) to name a very few.
 
+__Interoperability.__ The R community has long been a champion of the concepts around interoperability: the need for R to be able to communicate with other platforms and for R users to be able to access data in many forms. Examples are many and varied, but include recent developments such as [Ursa Labs](http://wesmckinney.com/blog/announcing-ursalabs/) as well as critical packages such as Rcpp (Eddelbuettel and Francois 2011), rJava (Urbanek, 2016), reticulate (Allaire, Tang and Geelnard 2018) and tabulizer (Leeper, 2018), to take a few select examples among many critical ones.
 
-
-
-    * workflows. examples from mundane/minor/obvious to some Rachel Meager's [advice on filenames](https://twitter.com/economeager/status/997077103483981825), this gets propagated through the community regularly and never fails to pick up many who never heard it before. To Jenny Bryan's tour de force on workflows. Cite googlesheets, readxl, happy git with R etc.
-    * interoperability - two groups: talk to other languages, read other data. [Ursa](http://wesmckinney.com/blog/announcing-ursalabs/), reticulate, rJava, rcpp, tabulizer
-    * documentation importance- increase the use of these tools for everybody. Understanding that documentation that works for _me_ doesn't work for everyone. Blog posts, _emojis_ all of these are critical tools for communication. Break down barriers!
+__The value of diverse documentation.__ The R community has long championed not just documentation, but diversity of documentation, recognising different learning styles. From vignettes, to videos, talks, blog posts, communities and Stack Overflow, the R language is increasingly richly documented, and these documents are propagated throughout the developing subculture as discussed above.
     
-- Not the only things that are important, but these four prosaic things have had a profound impact on the way we work and will continue to work into the future. in an industry/group of people that are providing leadership into the future it's profoundly influential. Truly decentralising a workforce. 
+These four specific ideas are not the only things that are important within R subculture, but they have had a profound impact on the way we work and will continue to work into the future.
 
-Important to remember no subculture exists or works in isolation.
-
-Influenced from the outside, but even a relatively small one can influence right back. That's what R is doing.
-
-
-
-
-    
-[Differences promote ecological robustness](https://mobile.twitter.com/hrbrmstr/status/997485070100451328/photo/1) ERUM 2018, roger bivand. [Get talk notes here for research](https://github.com/rsbivand/eRum18)
-
-
+It's also important to remember no subculture exists or works in isolation: many of these issues have influenced and been influenced by similar concerns among other programming subcultures.
 
 
 # With subculture comes _values_
@@ -171,6 +159,7 @@ Coleman: _Unlike academics—who at times religiously guard their data or findin
 
 # References
 
+Allaire, J.J., Tang, Y., Geelnard, M., 2018: _Reticulate: Interface to 'Python'_,  R package version 1.5, <https://CRAN.R-project.org/package=reticulate>.
 
 Anheier, Helmut K., Stefan Toepler and Regina List, eds., (2010): _International Encyclopedia of Civil Society_, Springer New York.
 
@@ -178,9 +167,18 @@ Averick, M. and Meeks, E., (2017): _Beyond the Tip: A data-driven exploration of
 
 Bocek, M., (2018): _Data Science Course in a Box_, <https://github.com/rstudio-education/datascience-box>, accessed 18/05/21.
 
+Bryan, J., (2017): _Stat 545_, <https://github.com/STAT545-UBC>, acessed 18/05/22.
+
+Bryan, J., (2018): _Happy Git and GitHub for the useR_, <http://happygitwithr.com>, accesed 18/05/22.
+
+Bryan, J., Zhao, J., (2017): _googlesheets: Manage Google Spreadsheets from R_, R package version 0.2.2, <https://CRAN.R-project.org/package=googlesheets>.
+
 Coleman, E.G., (2012): _Coding Freedom: The Ethics and Aesthetics of Hacking_, Princeton University Press, Princeton.
 
 Cook, D., Lee, E-K., Majumder, M. (2016): "Data visualization and statistical graphics in big data analysis"," _Annual Review of Statistics and Its Application_, Volume 3, p. 133-159, <https://www.annualreviews.org/doi/10.1146/annurev-statistics-041715-033420>, accessed 18/05/22. 
+
+Eddelbuettel, D., Francois, R., (2011). "Rcpp: Seamless R and C++
+  Integration", _Journal of Statistical Software_, Volume 40, Number 8, p. 1-18, <http://www.jstatsoft.org/v40/i08/>.
 
 Ellis, S.E., (2017): "Hey! You there! You are welcome here", _ROpenSci_, <https://ropensci.org/blog/2017/06/23/community/>, accessed 18/05/21.
 
@@ -190,7 +188,13 @@ Holtz, Y., (2018): _The R Graph Gallery_ <https://www.r-graph-gallery.com>, acce
 
 Ihaka, R., (1998): _R: Past and Future History_, <https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf>, accessed 18/05/21.
 
+Leeper, T., (2018): "Release 'open' data from their PDF prisons using tabulizer", _ROpenSci_, <https://ropensci.org/blog/2017/04/18/tabulizer/>, accessed 18/05/22.
+
 Maegan, J., (2018): _R4DS: the next iteration_, <https://www.jessemaegan.com/post/r4ds-the-next-iteration/>, acccessed 18/05/21.
+
+McKinney, W., (2018): _Announcing Ursa Labs: an innovation lab for open source data science_, <http://wesmckinney.com/blog/announcing-ursalabs/>, accessed 18/05/22.
+
+Meager, R., (2018): _Twitter post_, <https://twitter.com/economeager/status/997077103483981825>, accessed 18/05/22.
 
 R Core Team, (2017): _R: A Language and Environment for Statistical Computing_, R Foundation for Statistical Computing, Vienna.
 
@@ -202,9 +206,14 @@ Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/
 
 Unwin, A., Hofmann, H., Cook, D., (2013): Let graphics tell the story - datasets in R, _The R Journal_, Volume 5, Issue 1, p. 117-129. <https://journal.r-project.org/archive/2013/RJ-2013-012/RJ-2013-012.pdf>, accessed 18/05/22.
 
+Urbanek, S., (2016): _rJava: Low-Level R to Java Interface_, R package
+  version 0.9-8, <https://CRAN.R-project.org/package=rJava>.
+
 Wickham, H., (2009): _ggplot2: Elegant Graphics for Data Analysis_, Springer-Verlag New York.
 
 Wickham, H., (2010): "A Layered Grammar of Graphics", _Journal of Computational and Graphical Statistics_, Volume 19, Number 1, p. 3 - 28.
+
+Wickham, H., Bryan, J., (2017): _readxl: Read Excel Files_, R package version 1.0.0, <https://CRAN.R-project.org/package=readxl>.
 
 Wickham, H., Francois, R., Henry, L., Müller, K. (2017): _dplyr: A Grammar of Data Manipulation_, R package version 0.7.4, <https://CRAN.R-project.org/package=dplyr>.
 
