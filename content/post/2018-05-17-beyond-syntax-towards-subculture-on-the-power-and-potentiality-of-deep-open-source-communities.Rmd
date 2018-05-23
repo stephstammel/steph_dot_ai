@@ -136,46 +136,21 @@ R as a subculture creates _value_, but it also receives, develops and ultimately
 
 __A place for new adopters.__ Many in the R community see it as part of their participation in the community to be encouraging and welcoming to new users. Some go further and create diverse resources or host community events (online or otherwise) to support this aim.
 
-__Open source.__ As an open source programming language, the ethics of open source are 'built in' to the developing subculture. Many see contribution to open source development of R as part of their involvement with the subculture. They believe in creating new utilities for others to use and build on freely.
+__Open source.__ As an open source programming language, the ethics of open source are 'built in' to the developing subculture. Many see contribution to open source development of R as part of their involvement with the subculture. They believe in creating new utilities for others to use and build on freely. CRAN is the most visible and important of the institutions supporting these values, but there are many others.
 
-__Diversity and inclusion.__ There is a developing awareness in the R community that not all members of the subculture have equal access to the meritocracy that the community believes in. Many programs and organisations have stepped up to 
+__Diversity and inclusion.__ There is a developing awareness in the R community that not all members of the subculture have equal access to the meritocracy that the community believes in. Many programs and organisations have stepped up to begin the work of changing this, most notably R-Ladies amongst others.
 
-- R as a subclulture transmits _value_, but it also transmits its _values_:
+__Reproducibility.__ Originally a question of ensuring scientific contributions are accountable and testable, the importance of reproducibility now has much wider acceptance outside science and in the business community at large. Led in part by ROpenSci's purpose of creating tools for reproducible science and the concept has been championed by Leek (2017, 2018), Leek and Peng (2015), amongst others.
 
-    * A place for new people
-    * open source
-    * diversity and difference
-    * ethics
-    * reproducibility
-    
-The value of this outside the subculture has a strong historic precedent, c.f. Coleman again and again:
-    - G. Coleman: _By turning Linux and open source into household names, many more people learned about not just open source but also the ethical foundations—sharing, freedom, and collaboration—of free software production. In other words, historical outcomes proved to be more unpredictable, complex, and ultimately ironic than anyone could have ever imagined._
-    - G. Coleman: _Over ten years of active development and use of free software, a critical mass of hackers had inculcated not simply a commitment to their craft but also a well-developed ethos for information freedom and sharing that ran aground against developments in intellectual property law._
+The influence that commitment to these and other values may have on a developing subculture is not without precedent. In the case of Debian, Coleman (2012) notes that _"Over ten years of active development and use of free software, a critical mass of hackers had inculcated not simply a commitment to their craft but also a well-developed ethos for information freedom and sharing that ran aground against developments in intellectual property law."_ In R's case, it is possible that community commitment to these and other values will have similar effects at large.
 
-- But this is not a homogeneous world view. It's one that comes with a certain level of unavoidable friction.
-    - G. Coleman: _Over ten years of active development and use of free software, a critical mass of hackers had inculcated not simply a commitment to their craft but also a well-developed ethos for information freedom and sharing that ran aground against developments in intellectual property law._
-    - _"Once we recognize the intimate connection between hacker ethics and liberal commitments and the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic of interconnected, but at times divergent, ethical principles."_ from "Coding Freedom: The Ethics and Aesthetics of Hacking" by E. Gabriella Coleman
-
-http://amzn.asia/8NAg14E
-
-≈
-
-- We have to decide which values matter to us, which ones will be put out to the world.
-- There is no opt-out, they're there whether we acnknowledge them or not. 
-- We should debate rigorously amongst ourselves the impacts of our work outside our little life world that's R
-0 * life world: technical term.
-- We should also think deeply and talk about how we want to shape this lifeworld.
-
-
-
-Coleman: _Guiding this practice is the idea that the free software project represents an endeavor that far exceeds any single person’s efforts, and thus everyone’s contribution is highly regarded, whether it involves filing a bug report or offering a significant, large-scale innovation._
-
-Coleman: _On the other hand, hackers often express a commitment to self-reliance, which can be at times displayed in a quite abrasive and elitist tone. The most famous token of this stance is the short quip “Read the Fucking Manual” (RTFM)._
-
-Coleman: _Unlike academics—who at times religiously guard their data or findings until published, or only circulate them among a small group of trusted peers—hackers freely share their findings, insights, and solutions._
-
+The R community is a group of individuals collectively identifying as part of a whole. Each one contributes his, her or their values to the collective. This is the case whether the decision is made consciously and followed up by action or if no conscious thought is given to values individually or collectively. When conscious thought around values is missing, it is not the presence of an absence of values, rather an absence of the presence of thought for them. 
 
 # Beyond syntax, conclusion
+
+The R programming language has a vibrant, developing subculture attached to it. This subculture creates not just programming utilities, but art, educational artefacts, communities and research across many domains and fields. The subculture has championed ideas that have had a profound and valuable impact on the development of a modern analytics practice, namely visualisation, workflow, documentation and interoperability.
+
+The presence of a subculture allows ideas to be inherited from other subcultures, altered, debated and built upon in a kind of ideaological evolutionary tourney. This goes beyond content created and into ideaology and values. As a community focussed on data agency and literacy, the developing subculture has the potential to be highly influential in the super culture in which it exists, being able to provide a nuanced, robust and multifaceted view of new technological developments.
 
 # References
 
@@ -217,6 +192,12 @@ Keyes, O. (2016): "Ethics, scientific consent and OKCupid", _Ironholds_, <https:
 Keyes, O. (2017): "Stop Mapping Names to Gender", _Ironholds_, <https://ironholds.org/names-gender/>, accessed 18/05/23.
 
 Keys, O. (2017b): "Behaviour and Community in Open Science", _Ironholds_, <https://ironholds.org/not-about-image/>, accessed 18/05/23.
+
+Leek, J., (2017): "Reproducibility and replicability is a glossy science now so watch out for the hype", _Simply Statistics_, <https://simplystatistics.org/2017/03/02/rr-glossy/>, accessed 2018/05/23.
+
+Leek, J., (2018): "The value of re-analysis", _Simply Statistics_, <https://simplystatistics.org/2012/12/18/the-value-of-re-analysis/>, accessed 2018/05/23.
+
+Leek, J., Peng, R.D., (2015): "Opinion: Reproducible research can still be wrong: Adopting a prevention approach", _Proceedings of the National Academy of Sciences of the United States of America_, Volume 112, Number 6, p. 1645-1646, <http://www.pnas.org/content/112/6/1645>, accessed 18/05/23.
 
 Leeper, T., (2018): "Release 'open' data from their PDF prisons using tabulizer", _ROpenSci_, <https://ropensci.org/blog/2017/04/18/tabulizer/>, accessed 18/05/22.
 
