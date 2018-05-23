@@ -30,9 +30,7 @@ The elements of the shared R lifeworld include:
 
 __Shared institutions.__ There are a number of institutions that R users regularly share with, participate in or benefited by. These include institutions critical to the functioning of R as a programming language, such as the R Core group, CRAN (Centralised R Archive Network), the R Journal and the R Foundation. However, participants in the developing subculture are not limited to these institutions: many R users attend local meetups and/or are involved in a remote community either through Twitter, StackOverflow or some other platform. Others in addition may identify with certain groups or ideologies such as R-Ladies, the Tidyverse (a complex subcultural phenomenon in itself) or other community, like the R for Data Science learning community.
 
-__Distinct philosophical and well developed ideaological concepts__. While not espoused or recognised by every member of the community: many members grapple with, embrace or dispute certain philosophies (most notably _'the tidyverse'_), they nonetheless engage with it. Intellectual constructs like the _layered grammar of graphics_ (Wickham, 2010) or the _grammar of data manipulation_ (Wickham et al., 2017) contribute to overall meta constructs of programming and data agency. Indeed, there is a substantial differential of opinon within the developing subculture, which paralells the experience Coleman (2012) observed among 'hackers' in the Debian project:
-
- _Once we recognise the intimate connection between hacker ethics and liberal commitments *and* the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic and interconnected, but at times divergent ethical principles._ 
+__Distinct philosophical and well developed ideaological concepts__. While not espoused or recognised by every member of the community: many members grapple with, embrace or dispute certain philosophies (most notably _'the tidyverse'_), they nonetheless engage with it. Intellectual constructs like the _layered grammar of graphics_ (Wickham, 2010) or the _grammar of data manipulation_ (Wickham et al., 2017) contribute to overall meta constructs of programming and data agency. Indeed, there is a substantial differential of opinon within the developing subculture, which paralells the experience Coleman (2012) observed among 'hackers' in the Debian project.
 
 __Content developed for and by the subculture__. The developing subculture produces more content than code for the use of analysts and analysis produced by R code. The developing subculture produces, both for its own consumption and those outside of it:
 
@@ -96,7 +94,7 @@ __Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most 
 
 __Designed workflows.__ While workflows have always existed in some from for any data work, the concept of a deliberate, strategically designed flow of work from project inception to completion has not had the wide acceptance it currently has in previous years. Championed by the R community, examples include simple and useful advice, casually applied (a single examplar being [Meager, 2018](https://twitter.com/economeager/status/997077103483981825)) to Bryan's tour de force modernising, deliberately desiging and championing productive, efficient work practices. For a few examples, see Bryan (2017, 2018), Wickham and Bryan (2017), Bryan and Zhao (2017) to name a very few.
 
-__Interoperability.__ The R community has long been a champion of the concepts around interoperability: the need for R to be able to communicate with other platforms and for R users to be able to access data in many forms. Examples are many and varied, but include recent developments such as [Ursa Labs](http://wesmckinney.com/blog/announcing-ursalabs/) as well as critical packages such as Rcpp (Eddelbuettel and Francois 2011), rJava (Urbanek, 2016), reticulate (Allaire, Tang and Geelnard 2018) and tabulizer (Leeper, 2018), to take a few select examples among many critical ones.
+__Interoperability.__ The R community has long been a champion of the concepts around interoperability: the need for R to be able to communicate with other platforms and for R users to be able to access data in many forms. Examples are many and varied, but include recent developments such as [Ursa Labs](http://wesmckinney.com/blog/announcing-ursalabs/) as well as critical packages of long standing such as Rcpp (Eddelbuettel and Francois 2011), rJava (Urbanek, 2016), to newer efforts such as reticulate (Allaire, Tang and Geelnard 2018) and tabulizer (Leeper, 2018). These are a few select examples among many critical ones.
 
 __The value of diverse documentation.__ The R community has long championed not just documentation, but diversity of documentation, recognising different learning styles. From vignettes, to videos, talks, blog posts, communities and Stack Overflow, the R language is increasingly richly documented, and these documents are propagated throughout the developing subculture as discussed above.
     
@@ -107,18 +105,40 @@ It's also important to remember no subculture exists or works in isolation: many
 
 # With subculture comes _values_
 
-OUTLINE:
+The existence of a developing subculture creates value: both economically and in terms of art, humour and community. However, the confluence of ideas promoted by a developing subculture also brings with it _values_. A subculture transmits not just _ideas_ but _ideaologies_.
 
-- A subculture transmits not just _ideas_ but _ideaology_.
+Coleman (2012) notes that this is not a monolithic ideaology in the hacker subculture exemplified by Debian, nor is it in the case in R. To quote Coleman,  _"Once we recognise the intimate connection between hacker ethics and liberal commitments *and* the diversity of ethical positions, it is clear that hackers provide less of a unitary and distinguishable ethical position, and more of a mosaic and interconnected, but at times divergent ethical principles."_ 
 
-- A unique place in time and in our broader super culture for data nerds right now.
-- Unique place for data nerds in history - we are influential, we are able to exert power on the way our world is changing. We are able to provide a nuanced view as a comnmunity. The power of a subsculture is that you can have multiple diverging view points about a single thing.
+R as a subculture is dedicated to two broad ideas in particular: data agency, the ability to manipulate data at will, and data literacy, the ability to understand the information it represents.
 
-- As a subculture we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly. 
+We are at a unique place in history to be a subculture with a viewpoint focussed on data. The data sciences are a powerful influence on a changing world. The power of a subsculture is that multiple diverging view points about a single development is possible and we are able to provide a robust, nuanced and debated view as a community.
 
-    * Can explore the confluence of consequences. E.g. [building code to kill people](https://twitter.com/stephaniecodes/media), as expressed by Caleb Thompson and drawn by Stephanie Nemeth.
-    * Data values, e.g. [data based policing](https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce) [and the corollary in the US from the subculture](https://twitter.com/defsophiaray/status/996151795629125633) @defsophiaray - python user!.
+As a subculture, part of broader subcultures of programming and the data sciences, we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly. 
 
+The phenomenon of a subculture influencing the broader general culture in which it exists was well documented among the Debian hackers by Coleman. She noted,  _"By turning Linux and open source into household names, many more people learned about not just open source but also the ethical foundations—sharing, freedom, and collaboration—of free software production."_
+The Debian subculture directly participated in transitioning the view of open source software from unvaluable, unethical, unimportant, to the vibrant, essential and ethically bound ideaology it's considered today.
+
+The same is possible for R as a subculture in the future. We are at a crossroads where algorithmic decision making, data-driven automation and AI are all a part of our near futures. A strong subculture debates new advances, sees the economic value in them and develops an ethical framework to propose that that value can be distributed fairly, while ensuring the costs are not borne unfairly by a minority.
+
+Ethical explorations are active in the R community. These include projects developed with the assistance of the ROpenSci foundation [such as that owing to Bailey (2018)](https://github.com/dynamicwebpaige/runconf18), and those created by individuals under their own ethical imperatives, such as those owing to Keyes ( [2016](https://ironholds.org/scientific-consent/), [2017](https://ironholds.org/names-gender/)). [Keyes (2017b)](https://ironholds.org/not-about-image/) also explores how community management can create (or fail to create) an environment of diversity and inclusion: and that this has a direct ethical implication for a community at large.
+
+The R community does not develop its ethics in isolation from the broader programming or data sciences communities. The community is also exploring confluences of consequences through online media such as Twitter. In one example, Thompson and Nemeth (2018), neither of whom appear to be R programmers, explored unintended ethical consequences in a post widely shared among data science communities, shown below.
+
+![[Unforseen consequences, Thompson and Nemeth(2018)](https://twitter.com/stephaniecodes/status/992419444810010625)](./images/code_to_kill.jpeg)
+
+In another widely shared example, Python user `@defsophiaray` (Soph, 2018), [noted the often unacknowledged biases of data collection and its unintended consequences on predictive algorithms](https://twitter.com/defsophiaray/status/996151795629125633), shown below. The issues of data-based policing are particularly pertinent world wide, see for example, [The Economist's](https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce) coverage of British gang activity databases (The Economist, 2018).
+
+![Neither data nor algorithms are neutral, Soph (2018)](./images/soph.png)
+
+These highly visible ethical explorations, shared widely within the R community, reinforce existing ethical norms, develop new ones and educate new members of the developing subculture of the expectations of the community.
+
+R as a subculture creates _value_, but it also receives, develops and ultimately transmits its _values_. There are some values that have taken root in this developing subculture and are points of pride for many within the community:
+
+__A place for new adopters.__ Many in the R community see it as part of their participation in the community to be encouraging and welcoming to new users. Some go further and create diverse resources or host community events (online or otherwise) to support this aim.
+
+__Open source.__ As an open source programming language, the ethics of open source are 'built in' to the developing subculture. Many see contribution to open source development of R as part of their involvement with the subculture. They believe in creating new utilities for others to use and build on freely.
+
+__Diversity and inclusion.__ There is a developing awareness in the R community that not all members of the subculture have equal access to the meritocracy that the community believes in. Many programs and organisations have stepped up to 
 
 - R as a subclulture transmits _value_, but it also transmits its _values_:
 
@@ -159,11 +179,15 @@ Coleman: _Unlike academics—who at times religiously guard their data or findin
 
 # References
 
+--- (2018): "A database of suspected London gangsters has been widely shared", _The Economist_, 18/05/10, <https://www.economist.com/news/britain/21742151-over-third-those-named-it-have-no-serious-convictions-database-suspected-london?frsc=dg%7Ce>, accessed 18/05/23.
+
 Allaire, J.J., Tang, Y., Geelnard, M., 2018: _Reticulate: Interface to 'Python'_,  R package version 1.5, <https://CRAN.R-project.org/package=reticulate>.
 
 Anheier, Helmut K., Stefan Toepler and Regina List, eds., (2010): _International Encyclopedia of Civil Society_, Springer New York.
 
 Averick, M. and Meeks, E., (2017): _Beyond the Tip: A data-driven exploration of Archer_, <https://archervisualization.herokuapp.com>, accessed 18/05/21.
+
+Bailey, P. (2018): _Ethical Machine Learning: A vignette designed to assist with spotting and preventing proxy bias_, <https://github.com/dynamicwebpaige/runconf18>, accessed 18/05/23.
 
 Bocek, M., (2018): _Data Science Course in a Box_, <https://github.com/rstudio-education/datascience-box>, accessed 18/05/21.
 
@@ -188,6 +212,12 @@ Holtz, Y., (2018): _The R Graph Gallery_ <https://www.r-graph-gallery.com>, acce
 
 Ihaka, R., (1998): _R: Past and Future History_, <https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf>, accessed 18/05/21.
 
+Keyes, O. (2016): "Ethics, scientific consent and OKCupid", _Ironholds_, <https://ironholds.org/scientific-consent/>, accessed 18/05/23.
+
+Keyes, O. (2017): "Stop Mapping Names to Gender", _Ironholds_, <https://ironholds.org/names-gender/>, accessed 18/05/23.
+
+Keys, O. (2017b): "Behaviour and Community in Open Science", _Ironholds_, <https://ironholds.org/not-about-image/>, accessed 18/05/23.
+
 Leeper, T., (2018): "Release 'open' data from their PDF prisons using tabulizer", _ROpenSci_, <https://ropensci.org/blog/2017/04/18/tabulizer/>, accessed 18/05/22.
 
 Maegan, J., (2018): _R4DS: the next iteration_, <https://www.jessemaegan.com/post/r4ds-the-next-iteration/>, acccessed 18/05/21.
@@ -203,6 +233,10 @@ Robinson, D., (2016): "Text analysis of Trump's tweets confirms he writes only t
 Robinson, D., (2017): "Trump's Android and iPhone tweets, one year later", _Variance Explained_, <http://varianceexplained.org/r/trump-followup/>, accessed 18/05/21.
 
 Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
+
+Soph (2018): _Twitter status_, <https://twitter.com/defsophiaray/status/996151795629125633>, accessed 18/05/23.
+
+Thompson, C., Nemeth, S. (2018): _I Build Software to Kill People_, <https://twitter.com/stephaniecodes/status/992419444810010625>, accessed 18/05/23.
 
 Unwin, A., Hofmann, H., Cook, D., (2013): Let graphics tell the story - datasets in R, _The R Journal_, Volume 5, Issue 1, p. 117-129. <https://journal.r-project.org/archive/2013/RJ-2013-012/RJ-2013-012.pdf>, accessed 18/05/22.
 
