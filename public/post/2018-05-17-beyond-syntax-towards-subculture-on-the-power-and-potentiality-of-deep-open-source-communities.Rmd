@@ -258,7 +258,7 @@ Robinson, D., (2016): "Text analysis of Trump's tweets confirms he writes only t
 
 Robinson, D., (2017): "Trump's Android and iPhone tweets, one year later", _Variance Explained_, <http://varianceexplained.org/r/trump-followup/>, accessed 18/05/21.
 
-ROpensci (2018): "Our Vision and Missiong", _ROpenSci_, <https://ropensci.org/about/>, accessed 18/05/27.
+ROpensci (2018): "Our Vision and Mission", _ROpenSci_, <https://ropensci.org/about/>, accessed 18/05/27.
 
 Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
 
