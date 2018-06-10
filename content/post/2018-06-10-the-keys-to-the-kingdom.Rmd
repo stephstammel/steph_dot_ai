@@ -1,0 +1,122 @@
+---
+title: The keys to the kingdom
+author: Steph
+date: '2018-06-10'
+slug: the-keys-to-the-kingdom
+categories: 
+  - spatial
+  - transport
+  - cities
+tags: 
+  - learning
+---
+
+I started a new job last week. On day 2, the boss said to me "What do you know about transport and GIS?", to which I gamely replied (with more honesty than career sense) "nothing!"
+
+So here I am working on transport and GIS. 
+
+She who brags about being a fast learner in interviews reaps what she sows.
+
+As it turns out, both transport and GIS are _awesome_. But how do you get up to speed really, really quickly?
+
+You ask for help.
+
+![_Asking for help_](./images/asking.png)
+
+In return, I was given the keys to the kingdom - people to follow, blog posts to explore, books to read, offers of help. This community is _amazing_.
+
+The resources were too good not to share and following [Steph Locke's geospatial lead on this](https://itsalocke.com/blog/r-spatial-resources/), here's the summary. I've also added a few I found on my own.
+
+# Great people to follow
+
+One of the ways I get a good overall view of a topic is by following great people on Twitter. Having a feed that offers me a little new information every day means I'm learning continuously - with context.
+
+The people recommended to me for following include:
+
+[Elaine McVey (multiple times)](https://twitter.com/eamcvey)
+
+[Civic Angela (who is fighting the patriarchy one spontaneous conference talk at a time AND just graduated!)](https://twitter.com/CivicAngela)
+
+[Robin Lovelace, who wrote two of the books I'll link to below. I'm up to Chapter 5 of the microsimulation book and it is an excellent starter's guide. Highly recommended!](https://twitter.com/robinlovelace)
+
+[Reka S, who was at this year's Seattle Unconference and by report an all-round super star.](https://twitter.com/r_solymosi)
+
+[Oliver Obrien, who tweets about cities](https://twitter.com/oobr)
+
+[Mark Padgham, bike expert](https://twitter.com/bikesRdata)
+
+[Michael Sumner, #rstats GIS nice guy](https://twitter.com/mdsumner) who was the first person I ever asked about GIS stuff and came through in spades for a complete twitter stranger. It was my first introduction to what this community can be like.
+
+[Belinda Maher, Aussie transport maven](https://twitter.com/mingabelle).
+
+[Alon Levy, transport writer](https://twitter.com/alon_levy).
+
+[Mastodon C, I think he's/she/they is a cities person?](https://twitter.com/MastodonC)
+
+[Jarret Walker, author of human transit](https://twitter.com/humantransit).
+
+# Packages to explore
+
+[gtfsr, a package for doing things with gtfs data.](https://github.com/ropensci/gtfsr) Also, for the record, I found out that gtfs is a type of transport data and does not stand for ["go the @#$% to sleep" in this context (language warning on this link!)](https://www.youtube.com/watch?v=Udj-o2m39NA).
+
+[stplanr, by Robin Lovelace and Richard Ellison.](https://cran.r-project.org/web/packages/stplanr/vignettes/stplanr-paper.html) A package full of useful transport functions and ideas.
+
+[RNetlogo for Agent Based Modelling](http://rnetlogo.r-forge.r-project.org).
+
+[NetLogoR](https://github.com/PredictiveEcology/NetLogoR).
+
+Not an R package: [The Multi-Agent Transport Simulation MATSim](http://www.oapen.org/search?identifier=613715). As far as I can ascertain there is no R wrapper for this Java-based piece of open source magic. We may need to do something about that...
+
+# Books to read
+
+[Spatial Microsimulation in R](http://spatial-microsim-book.robinlovelace.net) by Robin Lovelace. I got through five chapters or so of this already and it's an excellent starter's guide.
+
+[Geocomputation in R](https://geocompr.robinlovelace.net) by Lovelace, Nowosad and Muenchow. Forthcoming, but looks fantastic.
+
+[Agent-Based Models of Geographical Systems](http://www.casa.ucl.ac.uk/ABM.pdf) by Heppenstall, Crooks, See and Batty, editors.
+
+[Forecasting Urban Travel](https://www.ebooks.com/1997057/forecasting-urban-travel/boyce-d-e-williams-h-c-w-l/) by Boyce and Williams. This one is not free, but I have a feeling I'm going to get acquainted with it in the future.
+
+[Modelling Transport](https://www.amazon.com.au/Modelling-Transport-Juan-Dios-Ortúzar-ebook/dp/B005CPJU5Y) by Ortuzar and Willumsen, ditto.
+
+[Handbook of Choice Modelling](https://www.e-elgar.com/shop/handbook-of-choice-modelling?___website=us_warehouse#none), again not free. But then the funding to produce these kinds of works has to come from somewhere, right?
+
+# Blogs and articles
+
+[Todd Schneider on the NYC subway countdown clock](http://toddwschneider.com/posts/nyc-subway-data-analysis/)
+
+[Steve Bennett's blog](https://stevebennett.me)
+
+[Visualising GTFS data in R](https://rpubs.com/data_feelings/data607_gtfs) by DataFeelings
+
+Not R, but some great [Open Cities projects and blogs](https://carto.com/blog/forty-brilliant-open-data-projects-preparing-smart-cities-2018/).
+
+
+# Talks to watch
+
+[This talk by Katie Bell on Sydney Buses](https://www.youtube.com/watch?v=O7jqU39wvKk)
+
+# Papers largely trapped behind paywalls (sorry!)
+
+These are mostly about choice modelling, which is where I have alot of interest at the moment. A short pay-walled bibliography if you will.
+
+[Endogenous treatment of residential location choices in transport and land use models: Introducing the MetroScan framework](https://www.sciencedirect.com/science/article/pii/S0966692317302594?via%3Dihub)
+
+[Application of irrelevance of state-wise dominated alternatives (ISDA) for identifying candidate processing strategies and behavioural choice rules adopted in best–worst stated preference studies](https://www.sciencedirect.com/science/article/pii/S1755534517300106?via%3Dihub)
+
+[The multi-objective network design problem using minimizing externalities as objectives: comparison of a genetic algorithm and simulated annealing framework](https://link.springer.com/article/10.1007%2Fs11116-016-9738-y)
+
+[Hybrid Route Choice Modeling in Dynamic Traffic Assignment](https://trrjournalonline.trb.org/doi/abs/10.3141/2091-11)
+
+[Stated preference modelling of intra-household decisions: Can you more easily approximate the preference space?](https://link.springer.com/article/10.1007%2Fs11116-017-9822-y)
+
+[A joint best–worst scaling and stated choice model considering observed and unobserved heterogeneity: An application to residential location choice](https://www.sciencedirect.com/science/article/pii/S1755534515300312)
+
+[What if My Model Assumptions are Wrong? The Impact of Non-standard Behaviour on Choice Model Estimation](http://www.ingentaconnect.com/content/lse/jtep/2013/00000047/00000002/art00005)
+
+[Multimodal pricing and optimal design of urban public transport: The interplay between traffic congestion and bus crowding](https://www.sciencedirect.com/science/article/pii/S0191261514000046)
+
+# People to thank
+
+I got an amazing list of resources to learn in a very short period of time, because of the help and assistance of the R Community. Thankyou so much to you all!
+

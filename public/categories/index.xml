@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Cities</title>
+      <link>/categories/cities/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/cities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Community</title>
       <link>/categories/community/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
@@ -61,6 +70,24 @@
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial</title>
+      <link>/categories/spatial/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/spatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transport</title>
+      <link>/categories/transport/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/transport/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transport on Steph de Silva</title>
+    <link>/categories/transport/</link>
+    <description>Recent content in Transport on Steph de Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/transport/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The keys to the kingdom</title>
+      <link>/post/the-keys-to-the-kingdom/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/the-keys-to-the-kingdom/</guid>
+      <description>I started a new job last week. On day 2, the boss said to me “What do you know about transport and GIS?”, to which I gamely replied (with more honesty than career sense) “nothing!”
+So here I am working on transport and GIS.
+She who brags about being a fast learner in interviews reaps what she sows.
+As it turns out, both transport and GIS are awesome. But how do you get up to speed really, really quickly?</description>
+    </item>
+    
+  </channel>
+</rss>
