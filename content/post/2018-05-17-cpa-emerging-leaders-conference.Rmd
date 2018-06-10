@@ -8,6 +8,7 @@ categories:
 tags:
   - business
   - get started
+  - talks
 ---
 
 I had the opportunity to talk at the CPA Emerging Leaders Conference today in Melbourne, then again next week in Sydney. It was a great crowd with a really interesting mix of perspectives.
