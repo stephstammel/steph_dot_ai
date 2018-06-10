@@ -14,7 +14,9 @@ tags:
 
 R is a growing, vibrant programming language. Originally created by Ihaka and Gentleman in the 1990s, what was a niche experimental language is now in mainstream usage across many disciplines and domains (Ihaka, 1998).
 
-One thing that Ihaka and Gentleman may not have intended at the time was the fact that R is no longer _just_ a programming language. Users of R are developing into a distinct programming subculture at the intersection of multiple domains. This places it in a unique position, both to benefit from and to influence those domains
+One thing that Ihaka and Gentleman may not have intended at the time was the fact that R is no longer _just_ a programming language. Users of R are developing into a distinct programming subculture at the intersection of multiple domains. This places it in a unique position, both to benefit from and to influence those domains. For instance, ecologists interact regularly with economists in this community. While a software developer in Denmark can extend the concepts of a New Zealand statistician and plot seals swimming in the Antarctic ocean. 
+
+There are few communities where a wealth of intellectual diversity this large have commmon mediums of communication, common shared values and identities. We bring to this community our experiences and knowledge. We take our learnings and explorations back to our own domains.
 
 This piece argues that not only is R a developing subculture: that being a subculture it can transmit and develop ideas that have a fundamental economic value beyond the coded output it enables. This value generation is a powerful force that helps members of the subculture perform more efficiently and more creatively. 
 
@@ -36,19 +38,33 @@ If we take the definition of a subculture as per Hodkinson (2012), these distinc
 
 In the context of R, these are distinctive traits applied by others collectively _("the R community is ...")_ as well as those proudly championed within the community. For example, R's own language quirks, notably the assignment operator, <-.
 
-## Diverse communities, shared features
+Haenfler (2014) defines subculture more specifically: _"A relatively diffuse social network having shared identity, distinctive meanings around certain ideas, practice and objects, and a sense of marginalization of resistance to the perceived conventional society.."_
 
-The developing R subculture has a number of facets of a shared lifeworld that ties these diverse groups together. These include:
+In most respects, the R community fits very tightly into this definition.
 
-__Shared institutions.__ There are a number of institutions that R users regularly share with, participate in or are benefited by. 
+__Diffuse networks:__ There is no single organisation that controls the R community, though there are some that have a great degree of influence. There are, however, a number of institutions that R users regularly share with, participate in or are benefited by. 
 
-These include institutions critical to the functioning of R as a programming language, such as the R Core group, CRAN (Centralised R Archive Network) and the R Foundation. However, participants in the developing subculture are not limited to these institutions: many R users participate in other institutions like R-Ladies, or R for Data Science learning community. Many user and interest groups are benefited by the work of the R Consortium.
+These include institutions critical to the functioning of R as a programming language, such as the R Core group, CRAN (Centralised R Archive Network) and the R Foundation. However, participants in the developing subculture are not limited to these institutions: many R users participate in other institutions like R-Ladies, or the R for Data Science learning community. Many user and interest groups are benefited by the work of the R Consortium.
 
-__Distinct and well-developed philosophical concepts__. Many members of the developing subculture grapple with, embrace or dispute with certain philosophies, most notably _'the tidyverse'_. Indeed, there is a substantial differential of opinon within the subculture around the tidyverse, which paralells the experience Coleman (2012) observed among 'hackers' in the Debian project. The _tidyverse_ should not be consiered a mere collection of packages. It is in fact a substantial subcultural phenomenon [with a manifesto (Wickham, 2018)](http://tidyverse.tidyverse.org/articles/manifesto.html), adherents and detractors. With a manifesto composed of four principles, it is the last principle _design for humans_ that underpins its purpose to improve accessibility of R usage to users without an extensive programming background.
+Not every R user considers themselves a part of 'the community'. In fact, many use R regularly without giving thought to a broader user community at all. 
+
+__Shared identity:__ What makes a person a part of this developing subculture? I would posit it's seeing a difference between R as _something you use_ and R as _something you share_, in whatever format that is. There's nothing wrong with seeing R in its intended purpose alone- just _using_ is more than fine! But many people step beyond that and start _sharing_. 
+
+This is not limited to sharing code by writing packages or gists on github. It's also as simple as sharing advice with new users, or being that new comer _asking_ for advice. It's taking the time to help a colleague write their first function, or pointing someone to a resource. 
+
+__Shared distinct meanings:__ Many members of the developing subculture grapple with, embrace or dispute with certain philosophies, most notably _'the tidyverse'_. Indeed, there is a substantial differential of opinon within the subculture around the tidyverse, which paralells the experience Coleman (2012) observed among 'hackers' in the Debian project. Whether or not a member of the community is an adherent or a detractor: they maintain a shared meaning of what the tidyverse is in order to form an opinion on it. 
+
+The _tidyverse_ should not be considered just a collection of packages. It is in fact a substantial subcultural phenomenon [with a manifesto (Wickham, 2018)](http://tidyverse.tidyverse.org/articles/manifesto.html), adherents and detractors. It has a manifesto composed of four principles. It is the last principle, _design for humans_, that underpins its purpose to improve accessibility of R usage to users without an extensive programming background. 
 
 Domain-specific issues, such as the replicability crisis in psychology (see for example Pashler and Wagenmakers, 2012) have created deep ideological discussions and responses from within the R community that transcend the original domain. Indeed, one of the most important institutions in the subculture, ROpensci, is predicated on improving the tools available to the subculture to manage reproducibility generally ( [ROpensci, 2018](https://ropensci.org/about/)).
 
 Intellectual constructs like the _layered grammar of graphics_ (Wickham, 2010) or the _grammar of data manipulation_ (Wickham et al., 2017) contribute to overall meta constructs around programming and data agency. 
+
+__Resistance to a mainstream culture:__ The R community was never formed as a part of a resistance to anything in particular. Ihaka and Gentleman were looking to build something better than what was available at the time. That nuceleus of code formed a community around itself over decades. As a subset of a broader open source subculture, the resistance to corporate control of source code is well known, especially as discussed by Coleman (2012).
+
+__Marginalisation:__ The final part of Haenfler's definition refers to marginalisation. Many subcultures form around marginalised members of our broader society: queer subcultures, subcultures supporting people of colour to name two obvious examples. R users are not necessarily marginalised by using R, though many of them are due to other parts of their lives. R users are different to a broader, less keenly numerate and technically literate population. This may have led to some degree of marginalisation in the past. The proportion of R users picked last for bin ball in the playground may be distressingly high! However, at this point in time, in this society, the power of individuals who have agency over data and are literate in its meanings is increasing rapidly. 
+
+The developing R subculture has a number of facets of a shared lifeworld that ties these diverse groups together. These include:
 
 __Content developed especially for consumption within subculture__. The developing subculture produces more than code for the use of analysts and analysis produced by R code. The developing subculture produces, both for its own consumption and those outside of it:
 
@@ -60,9 +76,12 @@ But it can also be produced accidentally and shared for appreciative purposes (s
 
 ![Accidental visualisation as art (Brace, 2018)](./images/brace_2018.png)
 
-_Analysis for entertainment and general education:_ Many analyses produced in R by the subculture are not intended solely for serious scientific or business purposes. They can be intended to educate about tools or techniques, or simply created for the pleasure the maker has in the act of analysis and sharing. Two well-known examples include Robinson's (2016, 2017) [analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) and [Meek and Averick (2017)](https://archervisualization.herokuapp.com) (although the site was built in D3, analysis was also conducted in R). 
+
+_Analysis for entertainment and general education:_ Many analyses produced in R by the subculture are not intended solely for serious scientific or business purposes. They can be intended to educate about tools or techniques or broader social issues. Or they can be simply created for the pleasure the maker has in the act of analysis and sharing. Two well-known examples include Robinson's (2016, 2017) [analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) and [Meek and Averick (2017)](https://archervisualization.herokuapp.com) (although the site was built in D3, analysis was also conducted in R). 
+
 
 _Extensive educative materials and communities:_ The purposes for these materials are varied, but include materials for R, the programming language (see for example Bocek (2018), Maegan (2018) among many others), for the dynamic package sharing system, [such as Silge (2017)](https://juliasilge.com/blog/navigating-packages/) and for navigating the community itself, [such as Ellis (2017)](https://ropensci.org/blog/2017/06/23/community/) as well as many other specific purposes.
+
 
 _Meta cultural content:_ Created for the purpose of alerting the subculture to resources, developments or other community concerns, examples include [R-Bloggers](https://www.r-bloggers.com), [R Weekly](https://www.rweekly.org), [Rseek](rseek.org) and the R Journal. 
 
@@ -82,11 +101,17 @@ A programming subculture is more than just syntax: it's a confluence of institut
 
 A subculture is a powerful means of generating and transmitting information. Subcultures have both formal and informal institutions that generate value and disperse it both within and beyond the subculture. A common R subculture between disciplines helps reduce the intellectual isolation many work under and promotes a marketplace of ideas where good ones get better and great ones move far beyond their initial disciplinary home.
 
-The fact that open source has _value_ is not new, for example, the Debian project and Microsoft's opposition to FOSS (Free Open Source Software). But it is not just the technology being created within the R subculture that is valuable. 
+The fact that open source has _value_ is not new: consider for example, the Debian project and Microsoft's original opposition to FOSS (Free Open Source Software) [and their modern embrace of it, most recently demonstrated by the acquisition of Github (Warren, 2018) ](https://www.theverge.com/2018/6/8/17441096/microsoft-github-acquisition-reaction-linux-foundation). But it is not just the technology being created within the R subculture that is valuable. 
 
 In a subculture, there is an evolutionary tourney of ideas. A subculture absorbs ideas from the outside, sets them to compete with each other, evolves them and generates new ones. Being at the intersection of multiple academic disciplines (statistics, ecology, biology, economics, engineering, computer science, sociology, politics to name a few), schools of thought (e.g. sciences, business, humanities) as well as practioners (academics, students, business, government) means an incredible confluence of ideas absorbed and interacted with. 
 
 A common subculture gives ecologists and economists both a medium and a platform for communication that would not otherwise exist. A world-wide subculture spanning multiple spoken languages gives rise to interactions between users on different continents, both within the same fields and beyond it. Each of these participants brings with them their own perspectives, methodologies and use-cases. These combine to create a whole greater than the sum of its parts.
+
+The evolutionary tourney of ideas is sometimes explicit and conscious: see for example, the development of the _layered grammar of graphics_. While the original R implementation had a single creator, Wickham (2009), it is now contributed to and built upon by hundreds. The Github repository associated with it [has 152 contributors at the time of writing](https://github.com/tidyverse/ggplot2). While additions such as plotly (Sievert et al. 2017), Pederson (2018) and Wilke (2018) add up to many more.
+
+At other times the tourney of ideas is less formalised. The importance of high quality documentation, for example, was an idea that has developed broad acceptance over a long period of time. 
+
+The participants in this tourney are not limited to scientific researchers and software developers: users, students of R and people with interest rather than work in the area can all contribute. The mediums are many and varied: talks given at local meet ups, to international conferences, Twitter and Slack conversations. All contribute to build shared concepts and ideas, as well as to challenge those currently accepted.
 
 The value being driven by this tourney of ideas could be considered as of three different types:
 
@@ -104,7 +129,24 @@ Without the support of a broader subculture which recognises the power of these 
 
 Some of the ideas that have been developed and championed in the R community include:
 
-__Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most well-known example, the base graphics functionality of R (R Core Team, 2017) helped create a new environment where visualisation was a key factor in the two critical components of creating value through data: the _finding_ and _communication_ of insights. While previous statistical software packages had some plotting functionality, it was often lacking. R provided a significant leap forward in not only the variety and types of plots available for statistical insight and communication: it provided an interface which could be controlled down to very fine details. Successive programming iterations from many different developers such as Pederson (2018 among many) and Wilke (2018) have provided significant further utility.
+```{r dlstat_ggplot, echo = FALSE}
+
+x <- dlstats::cran_stats(c("ggplot2", "readxl", "Rcpp", "rJava", "reticulate"))
+
+```
+
+```{r addItUp, echo = FALSE}
+library(magrittr)
+ggplot_downloads <- dplyr::filter(x, package == "ggplot2") %>% 
+                      dplyr::select(downloads) %>%
+                        sum()
+
+readxl_downloads <- dplyr::filter(x, package == "readxl") %>% 
+                      dplyr::select(downloads) %>%
+                        sum()
+```
+
+__Visualisation.__ While `ggplot2` owing to Wickham (2009) is possibly the most well-known example, the base graphics functionality of R (R Core Team, 2017) helped create a new environment where visualisation was a key factor in the two critical components of creating value through data: the _finding_ and _communication_ of insights. While previous statistical software packages had some plotting functionality, it was often lacking. R provided a significant leap forward in not only the variety and types of plots available for statistical insight and communication: it provided an interface which could be controlled down to very fine details. Successive programming iterations from many different developers such as Pederson (2018 among many) and Wilke (2018) have provided significant further utility. There have been millions of users of ggplot2, each creating value in their own domain.
 
 However, the contribution of the subculture does not start and finish with provision of utilities. Critical to the usage of those utilities is the development of modes of usage and educating the developing subculture as to their importance. Critical contributions to this field include the work of Cook (see for two examples, Unwin, Hofman and Cook (2013), Cook, Lee and Majumder (2016)), Cairo (2013, 2016 to name a few)  amongst many others. The impact of this was to educate the statistical and datascience communities on both the utility of graphics as a means of finding and communicating insights as well as the many ways in which these can be achieved. 
 
@@ -116,7 +158,7 @@ __Interoperability.__ The R community has long been a champion of the concept of
 
 The interoperability of R, both its ability to employ and exploit other languages and its ability to query and access different data sources; provides for immense productivity. Highly efficient code can be written, combined with other packages and used in a wide variety of use-cases. Data sources, once trapped in single formats or platforms, can now be used far more broadly than ever before.  
 
-__The value of diverse documentation.__ The R community has long championed not just documentation, but diversity of documentation, recognising different learning styles. From vignettes, to videos, talks, blog posts, learning communities and Stack Overflow: the R language is increasingly richly documented and well informed.
+__The value of diverse documentation.__ The R community has long championed not just documentation, but diversity of documentation, recognising different learning preferences From vignettes, to videos, talks, blog posts, learning communities and Stack Overflow: the R language is increasingly richly documented and well informed.
 
 The value of diversity of documentation is that it leads to a much broader user base for critical pieces of the infrastructure. This in turn ensures a broader selection of insights and outputs than could have been generated from a narrower user base.
     
@@ -132,7 +174,7 @@ R as a subculture is dedicated to two broad ideas in particular: data agency, th
 
 We are at a unique place in history as a subculture with a viewpoint focussed on data. The data sciences are a powerful influence on a changing world. The potential of a subculture is that multiple diverging view points about a single development are possible. The potentiality of a subculture is to provide a robust, nuanced and debated view of new developments.
 
-As a subculture, we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly. This is particularly critical in light of the rapid development of AI technologies in or culture at large. For example, the Google Voice Assistant's demonstration raised both admiration for the technical skill and productivity potential it displayed, as well as concerns [about the ethics of a human-sounding bot (The Straits Times, 2018)](https://www.straitstimes.com/world/united-states/human-sounding-google-assistant-sparks-ethics-questions). Both are valid reactions to the technological development: there is value in the technical creation, but our values around our interaction with it are still developing. A highly technically literate subculture has the potential to grapple with both of these points, helping to inform a greater super culture.
+As a subculture, we are aware of both the _value_ of the new, as well as the need for _values_ to utilise the new fairly. This is particularly critical in light of the rapid development of AI technologies in our culture at large. For example, the Google Voice Assistant's demonstration raised both admiration for the technical skill and productivity potential it displayed, as well as concerns [about the ethics of a human-sounding bot (The Straits Times, 2018)](https://www.straitstimes.com/world/united-states/human-sounding-google-assistant-sparks-ethics-questions). Both are valid reactions to the technological development: there is value in the technical creation, but our values around our interaction with it are still developing. A highly technically literate subculture has the potential to grapple with both of these points, helping to inform a greater super culture.
 
 Other ethical concerns of great import for the R subculture and the super culture beyond it include the rise of algorithmic decision making and its possible consequences. See for example [McQuillan (2018)](http://journals.sagepub.com/doi/full/10.1177/2056305118768303#articleShareContainer) and [Kehl, Guo and Kessler (2017)](https://dash.harvard.edu/handle/1/33746041).
 
@@ -157,7 +199,7 @@ __Diversity and inclusion:__ There is a developing awareness in the R community 
 
 __Reproducibility.__ Originally a question of ensuring scientific contributions are accountable and testable, the importance of reproducibility now has much wider acceptance outside science and in the analytics community at large. Suppported by ROpenSci's purpose of creating tools for reproducible science, the concept has also been championed by Leek (2017, 2018) and Leek and Peng (2015), amongst others.
 
-The potential of the R community to influence a broader superculture has a precedent. In the case of Debian, Coleman (2012) notes that _"Over ten years of active development and use of free software, a critical mass of hackers had inculcated not simply a commitment to their craft but also a well-developed ethos for information freedom and sharing..."_ In R's case, it is possible that community commitment to these and other values may have similar effects at large.
+The potential of the R community to influence a broader superculture has a precedent in the Debian subculture.
 
 The R community is a group of individuals collectively identifying as part of a whole. Each one contributes his, her or their values to the collective. This is the case whether the decision is made consciously and followed up by action or if no conscious thought is given to values individually or collectively. 
 
@@ -165,11 +207,15 @@ When conscious thought around values is missing, it is not the presence of an ab
 
 Members of the subculture take their values with them into their workplaces and use them to make judgement decisions about the work they are doing. They are in turn influenced by the ethics in their workplaces and bring these back to the R community. This has the potential to create powerful change in the culture at large.
 
-# Beyond syntax, conclusion
+# Beyond syntax
 
 The R programming language has a vibrant, developing subculture attached to it. This subculture creates not just programming utilities, but art, educational artefacts, communities and research across many domains and fields. The subculture has championed ideas that have had a profound and valuable impact on the development of a modern analytics practice, namely visualisation, workflow, documentation and interoperability.
 
-The presence of a subculture allows ideas to be inherited from other subcultures, altered, debated and built upon in a kind of ideaological evolutionary tourney. This goes beyond content created and into ideology and values. As a community focussed on data agency and literacy, the developing subculture has the potential to be highly influential in the super culture in which it exists, being able to provide a nuanced, robust and multifaceted view of new technological developments.
+The presence of a subculture allows ideas to be inherited from other subcultures, altered, debated and built upon in a kind of evolutionary tourney. This goes beyond content created and into ideology and values. As a community focussed on data agency and literacy, the developing subculture has the potential to be highly influential in the super culture in which it exists, being able to provide a nuanced, robust and multifaceted view of new technological developments.
+
+# Acknowledgements
+
+This piece benefited enormously from input, suggestions and challenges posed by Jesse Mostipak, Di Cook, Kim Fitter and Charles Grey. Thank you all.
 
 # References
 
@@ -211,6 +257,8 @@ Eddelbuettel, D., Francois, R., (2011). "Rcpp: Seamless R and C++
   Integration", _Journal of Statistical Software_, Volume 40, Number 8, p. 1-18, <http://www.jstatsoft.org/v40/i08/>.
 
 Ellis, S.E., (2017): "Hey! You there! You are welcome here", _ROpenSci_, <https://ropensci.org/blog/2017/06/23/community/>, accessed 18/05/21.
+
+Haenfler, R. (2014): _Subcultures: The Basics_, Oxon, Routledge.
 
 Hodkinson, P., (2012): Beyond Spectacular Specifics in the Study of Youth (Sub)Cultures, _Journal of Youth Studies_, Volume 15, Issue 5. 
 
@@ -256,9 +304,9 @@ Robinson, D., (2017): "Trump's Android and iPhone tweets, one year later", _Vari
 
 ROpensci (2018): "Our Vision and Mission", _ROpenSci_, <https://ropensci.org/about/>, accessed 18/05/27.
 
-Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
+Sievert, C., Parmer, C., Hocking, T., Chamberlain, S., Ram, K., Carvellec, M., Despouy P. (2017): _plotly: Create Interactive Web Graphics via 'plotly.js'_, R package version 4.7.1, <https://CRAN.R-project.org/package=plotly>, accessed 18/06/10.
 
-Soph (2018): _Twitter status_, <https://twitter.com/defsophiaray/status/996151795629125633>, accessed 18/05/23.
+Silge, J., (2017): _Navigating the R Package Universe_, <https://juliasilge.com/blog/navigating-packages/>, acccessed 18/05/21.
 
 Thompson, C., Nemeth, S. (2018): _I Built Software to Kill People_, <https://twitter.com/stephaniecodes/status/992419444810010625>, accessed 18/05/23.
 
@@ -266,6 +314,8 @@ Unwin, A., Hofmann, H., Cook, D., (2013): Let graphics tell the story - datasets
 
 Urbanek, S., (2016): _rJava: Low-Level R to Java Interface_, R package
   version 0.9-8, <https://CRAN.R-project.org/package=rJava>.
+  
+Warren, T. (2018): "Microsoft’s GitHub acquisition celebrated by the Linux Foundation", _The Verge_ 2018/06/08, <https://www.theverge.com/2018/6/8/17441096/microsoft-github-acquisition-reaction-linux-foundation>, accessed 18/06/10.
 
 Wickham, H., (2009): _ggplot2: Elegant Graphics for Data Analysis_, Springer-Verlag New York.
 
