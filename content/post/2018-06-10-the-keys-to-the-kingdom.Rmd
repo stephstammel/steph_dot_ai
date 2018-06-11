@@ -11,11 +11,7 @@ tags:
   - learning
 ---
 
-I started a new job last week. On day 2, the boss said to me "What do you know about transport and GIS?", to which I gamely replied (with more honesty than career sense) "nothing!"
-
-So here I am working on transport and GIS. 
-
-She who brags about being a fast learner in interviews reaps what she sows.
+I started a new job last week- here I am working on transport and GIS! 
 
 As it turns out, both transport and GIS are _awesome_. But how do you get up to speed really, really quickly?
 
