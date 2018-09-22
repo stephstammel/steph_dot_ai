@@ -6,10 +6,25 @@
     <description>Recent content on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ggplot2 tutorial</title>
+      <link>/post/ggplot2-tutorial/</link>
+      <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ggplot2-tutorial/</guid>
+      <description>Should you bother with ggplot? Switching to data visualisation through code is a huge ask.
+Is this how you feel about code?
+How I used to feel about code.
+ This is a perfectly normal reaction.
+But..! Can you do this? You can do this.
+ Then you’re already writing code. Maybe you don’t think about yourself as a programmer … yet! 
+  Ggplot lets you maximise your creativity with data Let’s think about something really important to us: witch trials in the middle ages and reformation periods.</description>
+    </item>
     
     <item>
       <title>The keys to the kingdom</title>
@@ -130,8 +145,10 @@ I may not always be able to say yes, but if you’re a not for profit or researc
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/publications/publications/</guid>
-      <description>2017 Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
- 2016 An Introduction to Unlisted Investments, The Constant Investor, September 23.
+      <description>#2017
+Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
+#2016
+An Introduction to Unlisted Investments, The Constant Investor, September 23.
 Bonds and Bond Funds: A Long Running Bull Market, The Constant Investor September 23.
 Introducing Peer to Peer and Marketplace Lending, The Constant Investor, October 1.
 Investing in Unlisted Infrastructure, The Constant Investor, October 21.

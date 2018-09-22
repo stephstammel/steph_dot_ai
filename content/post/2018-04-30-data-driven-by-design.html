@@ -30,7 +30,9 @@ tags:
 <p>Using visualisation to find things is a very interrogatory process. What are you seeing? Why is it there? How did it come to be this way?</p>
 <p>If we look at the number of campaigns launched by day since Kickstarter itself launched, we can start to understand the trajectory of the website over time.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## Warning: package &#39;ggplot2&#39; was built under R version 3.4.4</code></pre>
 <pre><code>## Warning: package &#39;tibble&#39; was built under R version 3.4.3</code></pre>
+<pre><code>## Warning: package &#39;tidyr&#39; was built under R version 3.4.3</code></pre>
 <pre class="r"><code>kdata &lt;- read.csv(&quot;./data/ks-projects-201801.csv&quot;, sep = &quot;,&quot;) # read in the data
 kdata$launched &lt;- as.Date(kdata$launched) # set dates to a date type for ease of plotting
 kdata &lt;- filter(kdata, kdata$launched &gt;= &quot;2009-04-28&quot;) # There&#39;s some dirty data, keep only those observations *after* kickstarter was launched :)

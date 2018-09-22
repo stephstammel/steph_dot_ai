@@ -6,10 +6,25 @@
     <description>Recent content in Posts on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ggplot2 tutorial</title>
+      <link>/post/ggplot2-tutorial/</link>
+      <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ggplot2-tutorial/</guid>
+      <description>Should you bother with ggplot? Switching to data visualisation through code is a huge ask.
+Is this how you feel about code?
+How I used to feel about code.
+ This is a perfectly normal reaction.
+But..! Can you do this? You can do this.
+ Then you’re already writing code. Maybe you don’t think about yourself as a programmer … yet! 
+  Ggplot lets you maximise your creativity with data Let’s think about something really important to us: witch trials in the middle ages and reformation periods.</description>
+    </item>
     
     <item>
       <title>The keys to the kingdom</title>

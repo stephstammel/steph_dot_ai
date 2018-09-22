@@ -1,0 +1,378 @@
+---
+title: Ggplot2 tutorial
+author: Steph de Silva
+date: '2018-09-22'
+slug: ggplot2-tutorial
+categories: []
+tags: []
+---
+
+---
+title: "Ggplot2: the basics"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+require(tidyverse)
+require(plotly)
+
+
+knitr::opts_chunk$set(echo = FALSE,fig.height=10)
+
+```
+
+
+## Should you bother with ggplot?
+
+Switching to data visualisation through code is a huge ask.
+
+Is this how you feel about code?
+
+![How I used to feel about code.](../images/michael_fear.jpg)
+
+This is a _perfectly normal reaction_.
+
+### But..! Can you do this?
+
+![You can do this.](../images/excel.png)
+
+__Then you're already writing code. Maybe you don't think about yourself as a programmer ... yet! __
+
+## Ggplot lets you maximise your creativity with data
+
+Let's think about something really important to us: witch trials in the middle ages and reformation periods. This data is due to Russ and Leeson and [you can find out about the paper here](https://raw.githubusercontent.com/JakeRuss/witch-trials).
+
+Ggplot can help us tell a story in a few charts.
+
+This cannot possibly be a good news story:
+
+```{r echo = FALSE}
+url <- "https://raw.githubusercontent.com/JakeRuss/witch-trials/master/data/trials.csv"
+
+db <- read.csv(url)
+
+db$decade <- as.numeric(db$decade)
+db$country <- db$gadm.adm0
+db <- db[,-9]
+bydecade <- db[,c(2,4,5)] %>% 
+      group_by(decade) %>% 
+      summarise(deathsDecade = sum(deaths, na.rm = TRUE), 
+                triedDecade = sum(tried, na.rm = TRUE)) 
+
+ggplot(bydecade, 
+       aes(x = decade, y = deathsDecade))+ 
+  xlab("Decade")+
+  ylab("Deaths")+
+  geom_line() + 
+  theme_light()+
+  theme(legend.position="bottom")+
+  theme(
+    axis.text.x=element_text(angle=45,hjust=1, size = 10))+
+  ggtitle("Number of deaths over time")
+```
+
+But was all Europe the same?
+
+```{r echo = FALSE}
+ggplot(db)+
+  facet_wrap(~country)+
+  geom_jitter(aes(x = decade, y = deaths), colour = "steelblue4", alpha = 0.5)+ 
+  xlab("Decade")+
+  ylab("Deaths")+
+  theme_light()+
+  theme(legend.position="bottom")+
+  theme(
+    axis.text.x=element_text(angle=45,hjust=1, size = 10))+
+  ggtitle("Number of deaths over time")
+```
+
+So deaths were predominantly in a few countries, does that mean that witches weren't a concern elsewhere?
+
+```{r, echo = FALSE}
+ggplot(db)+
+  facet_wrap(~country)+
+  geom_jitter(aes(x = decade, y = tried), colour = "plum4", alpha = 0.5)+ 
+  xlab("Decade")+
+  ylab("Deaths")+
+  theme_light()+
+  theme(legend.position="bottom")+
+  theme(
+    axis.text.x=element_text(angle=45,hjust=1, size = 10))+
+  ggtitle("Number of trials over time")
+```
+
+OK witchcraft was an issue across Europe, but the deaths due to trials and the number of trials were geographically located for a reason.
+
+We got all of that out of three charts with ggplot.
+
+## Anatomy of a ggplot
+
+The hardest thing about a ggplot is .. all the stuff. Let's break one open and see what's under the hood. This data is from the 2015-16 Australian Federal political donations data. [Find out about it here.](http://www.abc.net.au/news/2017-02-09/political-donations-industry-dataset/8229192)
+
+I've cleaned up the data a bit, but let's leave that out for now.
+
+```{r, echo = FALSE}
+
+data<-read.csv("./data/donor-declarations-categorised-2016.csv")
+
+data$recipient.name<-as.factor(data$recipient.name)
+data$party.group<-as.factor(data$party.group)
+data$donor.state<-as.factor(data$donor.state)
+data$donor.category<-as.factor(data$donor.category)
+data$donor.postcode<-as.numeric(data$donor.postcode)
+
+statelist<- c("ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA")
+conservative.list<-c("Australian Christians", "Family First Party", "Family First Party - SA", "Democratic Labor Party (DLP) - Queensland Branch")
+progressive.list<-c("Australian Equality Party (Marriage)", "Socialist Alliance")
+greens.list<-c("Australian Greens", "Australian Greens, Tasmanian Branch", "Queensland Greens", "The Australian Greens - Victoria", "The Greens (WA) Inc", "The Greens NSW", "Australian Greens, Victorian Branch")
+labor.list<-c("Australian Labor Party (ACT Branch)", "Australian Labor Party (ALP)", "Australian Labor Party (N.S.W. Branch)", "Australian Labor Party (Northern Territory) Branch", "Australian Labor Party (South Australian Branch)", "Australian Labor Party (State of Queensland)", "Australian Labor Party (Tasmanian Branch)", "Australian Labor Party (Victorian Branch)", "Australian Labor Party (Western Australian Branch)")
+immigration.list<-c("Australian Liberty Alliance", "Citizens Electoral Council of Australia", "Sustainable Australia")
+narrow.list<-c("Australian Recreational Fishers Party", "Help End Marijuana Prohibition (HEMP) Party", "Australian Sex Party", "Shooters, Fishers and Farmers Party")
+LNP.list<-c("Country Liberals (Northern Territory)", "Liberal National Party of Queensland", "Liberal Party (W.A. Division) Inc", "Liberal Party of Australia", "Liberal Party of Australia - ACT Division", "Liberal Party of Australia - Tasmanian Division", "Liberal Party of Australia (Victorian Division)", "Liberal Party of Australia, NSW Division", "National Party of Australia", "National Party of Australia - N.S.W.", "National Party of Australia - Victoria", "National Party of Australia (WA) Inc", "Liberal Party of Australia (S.A. Division)")
+minor.list<-c("Glenn Lazarus Team", "Jacqui Lambie Network", "Liberal Democratic Party", "Nick Xenophon Team", "Palmer United Party", "VOTEFLUX.ORG | Upgrade Democracy!", "Katter's Australian Party")
+
+ data$recipient.group<-NA
+ for (i in 1:length(data$donor.state)){
+   if((data$donor.state[i]%in%statelist)==TRUE){data$donor.state[i]<-data$donor.state[i]}
+   if((data$recipient.name[i]%in%conservative.list)==TRUE){data$recipient.group[i]<-"Conservative"}
+   if((data$recipient.name[i]%in%progressive.list)==TRUE){data$recipient.group[i]<-"Progressive"}
+   if((data$recipient.name[i]%in%greens.list)==TRUE){data$recipient.group[i]<-"Greens"}
+   if((data$recipient.name[i]%in%labor.list)==TRUE){data$recipient.group[i]<-"Labor"}
+   if((data$recipient.name[i]%in%immigration.list)==TRUE){data$recipient.group[i]<-"Immigration Parties"}
+   if((data$recipient.name[i]%in%narrow.list)==TRUE){data$recipient.group[i]<-"Narrow Focus Parties"}
+   if((data$recipient.name[i]%in%LNP.list)==TRUE){data$recipient.group[i]<-"LNP"}
+   if((data$recipient.name[i]%in%minor.list)==TRUE){data$recipient.group[i]<-"Minor Parties"}
+   if(is.na(data$recipient.group[i])==TRUE){print(data$recipient.name[i])}
+ }
+
+
+
+ colour_vec<-c("#00239C" ,"#CE0056","#00B08B", "#89532F", "#BB29BB", "#75787B", "#000000", "#991E66", "#006F62" )
+ 
+data$donor.state<-factor(data$donor.state, levels=c("ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA", "NA"))
+data$recipient.group<-factor(data$recipient.group, levels=c("LNP", "Labor", "Greens", "Immigration Parties", "Minor Parties", "Narrow Focus Parties", "Conservative", "Progressive"))
+```
+
+Here we've got the donation data from 2015-2016 for Australian federal political parties. Yes, I'm loads of fun at dinner parties.
+
+```{r echo = TRUE}
+
+ggplot(data)+
+  labs(x="Recipient", y="Donor Category")+
+  geom_jitter(aes(recipient.group, donor.category, colour=recipient.group), alpha=0.4)+
+  theme(plot.margin = unit(c(1,1,1,1), "lines"))+
+  theme(legend.position="bottom")+
+  scale_colour_manual(name="", values=colour_vec) +
+  theme_light()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+So we have our plot, but how does it all fit together?
+
+![Exploded ggplot](./images/anatomy of a ggplot.png)
+
+## Let's build one of our own
+
+Ggplot is the R implementation of _The Layered Grammar of Graphics_. There are a few layered grammars in the data science world, and this was probably the first.
+
+That means that you build a base plot, then add the optional extras.
+Let's try one of our own.
+
+Back to the witches!
+
+In order to use ggplot, you need to load it onto your computer using `install.packages("ggplot2")` once only.
+
+Ever time you want to use it you load it into your _working environment_ with `library(ggplot2)`. You only need to do this once per session.
+
+`db` is the dataframe we have stored the witch trial data in. It's alot like a spreadsheet, really.
+
+### Layer One: make a ggplot _object_
+
+```{r buildPlot1, echo = TRUE}
+library(ggplot2)
+ggplot(db)
+```
+
+Nothing much happened. We have created a ggplot _object_ and we told ggplot where to find the data on it, but nothing else.
+
+We build up ggplot layers by adding `+` at the end of every line.
+
+### Layer Two: add a `geom_point`. 
+
+To do this, we need to tell ggplot what kind of point and that means calling the _aesthetics_ of the geom. 
+
+We don't need to use `library(ggplot2)` every time we want a ggplot, so we'll omit it from now on.
+
+```{r buildPlot2, echo=TRUE}
+ggplot(db)+
+  geom_point(aes(x = decade, y = tried))
+```
+
+Note how I declared that the x axis is the decades, and the y the number of people tried. This told `geom_point()` how it needed to work.
+
+... OK we've got something! 
+
+How can we make the points red? 
+
+Sometimes we can use colour to describe information on the plot. Let's put `colour = country` inside the `aes()` call. What happens?
+
+```{r buildPlot2a, echo=TRUE}
+ggplot(db)+
+  geom_point(aes(x = decade, y = tried, colour = country))
+```
+
+### Layer 3: Facetting
+
+One of the most useful things about ggplot is the ability to break out many charts at once to make quick comparisons. It's called _facetting_ the chart. Let's do that.
+
+```{r buildPlot3, echo=TRUE}
+ggplot(db)+
+  facet_wrap(~country)+
+  geom_point(aes(x = decade, y = tried, colour = country))
+```
+
+We can control how the facetting looks. Let's try changing the facet line to `facet_wrap(~country, ncol = 3)+` 
+
+```{r buildPlot3a, echo=TRUE}
+ggplot(db)+
+  facet_wrap(~country, ncol = 3)+
+  geom_point(aes(x = decade, y = tried, colour = country))
+```
+
+### Layer 4: Make it look good.
+
+I don't love the grey background. Let's try adding theme_light() at the end.
+
+```{r buildPlot4, echo=TRUE}
+ggplot(db)+
+  facet_wrap(~country, ncol = 3)+
+  geom_point(aes(x = decade, y = tried, colour = country), alpha = 0.4)+
+  theme_light()
+```
+
+_Opacity_ is another great way to see data when you have many observations. Let's try adding `alpha = 0.4` to the `geom_point()` call. It goes after the `aes()` part.
+
+### Layer 5: Tell people what they're looking at.
+
+Time for some titles. You can use `ggtitle("Insert my title here")` and layers `xlab("label x")` and `ylab("label y")` to add further layers to your plot.
+
+```{r buildPlot5, echo=TRUE}
+ggplot(db)+
+  facet_wrap(~country, ncol = 3)+
+  geom_point(aes(x = decade, y = tried, colour = country), alpha = 0.4)+
+  theme_light()+
+  ggtitle("Witch trials in the Middle Ages and Reformation Periods")+
+  xlab("Decade")+
+  ylab("Number of trials")
+```
+
+## Get beyond the bar chart
+
+The whole point of coding up your visualisations in ggplot is that you can get _really_ creative. [I got this data on Sydney temperatures from the Bureau of Metereology site.](http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=36&p_display_type=dataFile&p_startYear=&p_c=&p_stn_num=066062)
+
+Let's load it and clean it up a little.
+
+```{r echo = TRUE}
+# data from: http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_nccObsCode=36&p_display_type=dataFile&p_startYear=&p_c=&p_stn_num=066062 22/09/18
+temp <- read.csv("./data/IDCJAC0002_066062_Data1.csv")
+
+temp$date <- paste(temp$Year, temp$Month, "01", sep = "-")
+temp$date <- lubridate::ymd(temp$date)
+
+```
+
+```{r echo = TRUE}
+temp$Month <- factor(temp$Month, labels = c("January",
+                                               "Febuary",
+                                               "March",
+                                               "April",
+                                               "May",
+                                               "June",
+                                               "July",
+                                               "August",
+                                               "September",
+                                               "October",
+                                               "November",
+                                               "December"))
+```
+
+Take the daily maximum temperature in Observatory hill, Sydney: this is pretty plain, but it's easy to follow. A simple line chart showing temperature.
+
+
+```{r temp1, echo = TRUE}
+
+ggplot(temp)+
+  geom_line(aes(x = date, y = Mean.maximum.temperature...C.))
+```
+
+### Only look at what you want to
+
+Looks like we have something of a trend over time here. We could actually work a little R magic on this one and perhaps just look at January temperatures:
+
+
+```{r temp2, echo = TRUE}
+
+ggplot(filter(temp, Month == "January"))+
+  geom_line(aes(x = date, y = Mean.maximum.temperature...C.))+
+  theme_light()
+```
+
+Just a boring old line plot. 
+
+### It doesn't have to be boring in R
+
+
+
+```{r temp3, echo = TRUE}
+
+ggplot(temp)+
+  facet_wrap(~Month)+
+  geom_jitter(aes(x = date, y = Mean.maximum.temperature...C., colour = Month), alpha = 0.2)+
+  theme_light()+
+  coord_polar()+
+  ylab("Mean maximum temperature (celsius)")+
+  ggtitle("Mean maximum temperature in Sydney")
+```
+
+## Ggplot plays nicely with others
+
+Open source software lives and breathes on people with great ideas just going for it.
+
+Interactivity is one of those ideas. Take our Auspol donation data and let's take another look:
+
+```{r echo = TRUE}
+library(plotly)
+ggplot(data)+
+  labs(x="Recipient", y="Donor Category")+
+  geom_jitter(aes(recipient.group, donor.category, colour=recipient.group), alpha=0.4)+
+  theme(plot.margin = unit(c(1,1,1,1), "lines"))+
+  theme(legend.position="bottom")+
+  scale_colour_manual(name="", values=colour_vec) +
+  theme_light()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+ggplotly()
+```
+
+This is going to be _very_ useful, right? It only took two additional lines: `library(plotly)` at the beginning and `ggplotly()` at the end of the ggplot. Remember to `install.packages("plotly")` the first time you use the package.
+
+Let's try another:
+
+```{r, echo = FALSE, warning= FALSE, messages = FALSE}
+ggplot(db)+
+  facet_wrap(~country)+
+  geom_jitter(aes(x = decade, y = tried), colour = "plum4", alpha = 0.5)+ 
+  xlab("Decade")+
+  ylab("Deaths")+
+  theme_light()+
+  theme(legend.position="bottom")+
+  theme(
+    axis.text.x=element_text(angle=45,hjust=1, size = 10))+
+  ggtitle("Number of trials over time")
+ggplotly()
+```
+
+So.. ggplot is definitely doable! Fingers crossed you feel a bit more like this now.
+
+![More like this please!](../images/goodplace.mp4)
