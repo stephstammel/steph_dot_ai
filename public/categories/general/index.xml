@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on Steph de Silva</title>
-    <link>/categories/general/</link>
+    <link>https://stephdesilva.com/categories/general/</link>
     <description>Recent content in General on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephdesilva.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Driven: By Design</title>
-      <link>/post/data-driven-by-design/</link>
+      <link>https://stephdesilva.com/post/data-driven-by-design/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/data-driven-by-design/</guid>
+      <guid>https://stephdesilva.com/post/data-driven-by-design/</guid>
       <description>The data revolution is upon us! Or at least that’s what someone with a snappy grasp of copy-editing and a mandate for clicks would say.
 There’s a common misperception that’s out there in the data world that only some of us know how to be data driven. Only some of us have our data driving licenses and can get behind the wheel.
 This is manifestly false. Even if you don’t know R or Python or any other part of the common data science toolkit (yet), there are things you can do and start to think about today as you begin to embrace the idea of data-driven decision making.</description>
@@ -24,10 +24,10 @@ This is manifestly false. Even if you don’t know R or Python or any other part
     
     <item>
       <title>CV</title>
-      <link>/cv/cv/</link>
+      <link>https://stephdesilva.com/cv/cv/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/cv/cv/</guid>
+      <guid>https://stephdesilva.com/cv/cv/</guid>
       <description>Summary An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications and finance.
 A keen statistical programmer, I will be a keynote speaker at the useR! conference in Brisbane in July 2018.
  Education Master of Computer Science (Current)
@@ -36,19 +36,19 @@ I’m currently exploring forecasting in high dimensional data sets and explorin
     
     <item>
       <title>New site</title>
-      <link>/post/new-site/</link>
+      <link>https://stephdesilva.com/post/new-site/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/new-site/</guid>
+      <guid>https://stephdesilva.com/post/new-site/</guid>
       <description>There’s some big changes going on in my professional life, so it was time for a change. This is my new blog - my previous work is hosted over at Rex Analytics. Welcome!</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publications/publications/</link>
+      <link>https://stephdesilva.com/publications/publications/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publications/publications/</guid>
+      <guid>https://stephdesilva.com/publications/publications/</guid>
       <description>#2017
 Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
 #2016

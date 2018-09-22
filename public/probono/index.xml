@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probonos on Steph de Silva</title>
-    <link>/probono/</link>
+    <link>https://stephdesilva.com/probono/</link>
     <description>Recent content in Probonos on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/probono/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephdesilva.com/probono/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pro Bono Work</title>
-      <link>/probono/pro-bono-work/</link>
+      <link>https://stephdesilva.com/probono/pro-bono-work/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/probono/pro-bono-work/</guid>
+      <guid>https://stephdesilva.com/probono/pro-bono-work/</guid>
       <description>I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
 I may not always be able to say yes, but if you’re a not for profit or research group who need a hand, please don’t hesitate to ask.</description>
     </item>

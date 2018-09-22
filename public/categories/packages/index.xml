@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Packages on Steph de Silva</title>
-    <link>/categories/packages/</link>
+    <link>https://stephdesilva.com/categories/packages/</link>
     <description>Recent content in Packages on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/packages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephdesilva.com/categories/packages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Announcing consultthat</title>
-      <link>/post/announcing-consultthat/</link>
+      <link>https://stephdesilva.com/post/announcing-consultthat/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/announcing-consultthat/</guid>
+      <guid>https://stephdesilva.com/post/announcing-consultthat/</guid>
       <description>Automating a consulting project workflow There’s been a great deal of really useful work around data science workflows in the last couple of years and if you’ve followed Jenny Bryan’s work at all, you’ll know exactly what I mean.
 In consulting, the data science workflow is also critical, but it’s wrapped up with some extra management challenges. In addition to code and data, there’s a series of documents, people and timing to manage.</description>
     </item>
     
     <item>
       <title>PacketiseR</title>
-      <link>/post/packetiser/</link>
+      <link>https://stephdesilva.com/post/packetiser/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/packetiser/</guid>
+      <guid>https://stephdesilva.com/post/packetiser/</guid>
       <description>If you’re a rural data scientist, then sooner or later you’ve had to move a big file to the cloud or back. That’s a world of pain right there.
 If you know anything about how information is transmitted via the internet, you know that files are broken into packets, sent, then reassembled on the other side. If packets go missing, the computer requests resends until the file is fully assembled, or until the system times out.</description>
     </item>

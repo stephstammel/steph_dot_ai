@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Steph de Silva</title>
-    <link>/categories/</link>
+    <link>https://stephdesilva.com/categories/</link>
     <description>Recent content in Categories on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephdesilva.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cities</title>
-      <link>/categories/cities/</link>
+      <link>https://stephdesilva.com/categories/cities/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/cities/</guid>
+      <guid>https://stephdesilva.com/categories/cities/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Community</title>
-      <link>/categories/community/</link>
+      <link>https://stephdesilva.com/categories/community/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/community/</guid>
+      <guid>https://stephdesilva.com/categories/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General</title>
-      <link>/categories/general/</link>
+      <link>https://stephdesilva.com/categories/general/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/general/</guid>
+      <guid>https://stephdesilva.com/categories/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Packages</title>
-      <link>/categories/packages/</link>
+      <link>https://stephdesilva.com/categories/packages/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/packages/</guid>
+      <guid>https://stephdesilva.com/categories/packages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pro Bono</title>
-      <link>/categories/pro-bono/</link>
+      <link>https://stephdesilva.com/categories/pro-bono/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/pro-bono/</guid>
+      <guid>https://stephdesilva.com/categories/pro-bono/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://stephdesilva.com/categories/r/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>https://stephdesilva.com/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Development</title>
-      <link>/categories/software-development/</link>
+      <link>https://stephdesilva.com/categories/software-development/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/software-development/</guid>
+      <guid>https://stephdesilva.com/categories/software-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spatial</title>
-      <link>/categories/spatial/</link>
+      <link>https://stephdesilva.com/categories/spatial/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/spatial/</guid>
+      <guid>https://stephdesilva.com/categories/spatial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transport</title>
-      <link>/categories/transport/</link>
+      <link>https://stephdesilva.com/categories/transport/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/transport/</guid>
+      <guid>https://stephdesilva.com/categories/transport/</guid>
       <description></description>
     </item>
     

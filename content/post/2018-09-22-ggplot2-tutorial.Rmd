@@ -18,7 +18,7 @@ require(tidyverse)
 require(plotly)
 
 
-knitr::opts_chunk$set(echo = FALSE,fig.height=10)
+knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
@@ -171,7 +171,7 @@ ggplot(data)+
 
 So we have our plot, but how does it all fit together?
 
-![Exploded ggplot](./images/anatomy of a ggplot.png)
+![Exploded ggplot](../images/anatomy of a ggplot.png)
 
 ## Let's build one of our own
 
@@ -184,7 +184,7 @@ Back to the witches!
 
 In order to use ggplot, you need to load it onto your computer using `install.packages("ggplot2")` once only.
 
-Ever time you want to use it you load it into your _working environment_ with `library(ggplot2)`. You only need to do this once per session.
+Every time you want to use it you load it into your _working environment_ with `library(ggplot2)`. You only need to do this once per session.
 
 `db` is the dataframe we have stored the witch trial data in. It's alot like a spreadsheet, really.
 
@@ -199,7 +199,7 @@ Nothing much happened. We have created a ggplot _object_ and we told ggplot wher
 
 We build up ggplot layers by adding `+` at the end of every line.
 
-### Layer Two: add a `geom_point`. 
+### Layer Two: add `geom_point`. 
 
 To do this, we need to tell ggplot what kind of point and that means calling the _aesthetics_ of the geom. 
 
@@ -373,6 +373,4 @@ ggplot(db)+
 ggplotly()
 ```
 
-So.. ggplot is definitely doable! Fingers crossed you feel a bit more like this now.
-
-![More like this please!](../images/goodplace.mp4)
+So.. ggplot is definitely doable! Good luck!

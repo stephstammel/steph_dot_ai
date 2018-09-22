@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Steph de Silva</title>
-    <link>/categories/r/</link>
+    <link>https://stephdesilva.com/categories/r/</link>
     <description>Recent content in R on Steph de Silva</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stephdesilva.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Announcing consultthat</title>
-      <link>/post/announcing-consultthat/</link>
+      <link>https://stephdesilva.com/post/announcing-consultthat/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/announcing-consultthat/</guid>
+      <guid>https://stephdesilva.com/post/announcing-consultthat/</guid>
       <description>Automating a consulting project workflow There’s been a great deal of really useful work around data science workflows in the last couple of years and if you’ve followed Jenny Bryan’s work at all, you’ll know exactly what I mean.
 In consulting, the data science workflow is also critical, but it’s wrapped up with some extra management challenges. In addition to code and data, there’s a series of documents, people and timing to manage.</description>
     </item>
