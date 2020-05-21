@@ -27,7 +27,7 @@ paginate = 10
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
-		avatar = "avatar.png"
+	#	avatar = "avatar.png"
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "Steph Stammel, Ph.D."
 		# The icons will be shown if you enter your username
@@ -44,7 +44,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Steph Stammel"
-		content = "Steph Stammel is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics. You can read about what I'm doing for fun here."
+		content = "Steph Stammel is a Ph.D. data scientist. She currently works in management consulting, specialising in Analytics Transformation and Responsible AI. You can read about what I'm doing for fun here. Current fun includes arduino, R and the garden."
 
 
 	[params.portfolio]
@@ -90,8 +90,8 @@ paginate = 10
 			description = "Lorem ipsum dolor sit amet."
 
 	[params.recentposts]
-		hide  = false
-		title = "Recent blog posts"
+		hide  = true
+		title = "Recent:"
 
 	[params.contact]
 		hide  = false
@@ -118,7 +118,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "steph@rex-analytics.com"
+		email = "steph@steph.ai"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -147,13 +147,13 @@ paginate = 10
 	
 	
 [[menu.main]]
-	name = "Publications + Speaking"
+	name = "Publications"
 	url  = "publications/"
 	weight = 0
 	
 [[menu.main]]
 	name = "Open Source"
-	url  = "probono/"
+	url  = "opensource/"
 	weight = 0
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

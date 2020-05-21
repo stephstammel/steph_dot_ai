@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Excel on Steph de Silva</title>
-    <link>https://stephdesilva.com/tags/excel/</link>
-    <description>Recent content in Excel on Steph de Silva</description>
+    <title>Excel on steph.ai</title>
+    <link>/tags/excel/</link>
+    <description>Recent content in Excel on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stephdesilva.com/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/excel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Driven: By Design</title>
-      <link>https://stephdesilva.com/post/data-driven-by-design/</link>
+      <link>/post/data-driven-by-design/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/data-driven-by-design/</guid>
+      <guid>/post/data-driven-by-design/</guid>
       <description>The data revolution is upon us! Or at least that’s what someone with a snappy grasp of copy-editing and a mandate for clicks would say.
 There’s a common misperception that’s out there in the data world that only some of us know how to be data driven. Only some of us have our data driving licenses and can get behind the wheel.
 This is manifestly false. Even if you don’t know R or Python or any other part of the common data science toolkit (yet), there are things you can do and start to think about today as you begin to embrace the idea of data-driven decision making.</description>

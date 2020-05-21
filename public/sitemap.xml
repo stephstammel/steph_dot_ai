@@ -1,219 +1,190 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://stephdesilva.com/post/ggplot2-tutorial/</loc>
+    <loc>/opensource/2019-ropensci-ozunconf/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/opensource/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/opensource/bayes-frequentist/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ggplot2-tutorial/</loc>
     <lastmod>2018-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/post/the-keys-to-the-kingdom/</loc>
+    <loc>/post/</loc>
+    <lastmod>2018-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/post/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</loc>
+    <loc>/categories/cities/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/learning/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/spatial/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/the-keys-to-the-kingdom/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/transport/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/opensource/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/post/cpa-emerging-leaders-conference/</loc>
+    <loc>/tags/business/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/post/data-driven-by-design/</loc>
+    <loc>/categories/community/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/cpa-emerging-leaders-conference/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/get-started/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/talks/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/data-driven-by-design/</loc>
     <lastmod>2018-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/publications/speaking-engagements-2018/</loc>
+    <loc>/tags/excel/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/general/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/publications/</loc>
+    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publications/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/post/announcing-consultthat/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/cv/cv/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/post/new-site/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/post/packetiser/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/probono/pro-bono-work/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/publications/publications/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/publications/upcoming-engagements/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/business/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/cities/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/community/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/consulting/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/cv/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/excel/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/general/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/get-started/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/learning/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/packages/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/post/</loc>
-    <lastmod>2018-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/pro-bono/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/probono/</loc>
-    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/publications/</loc>
+    <loc>/publications/speaking-engagements-2018/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/tags/publications/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/categories/r/</loc>
+    <loc>/post/announcing-consultthat/</loc>
     <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/tags/random/</loc>
+    <loc>/tags/consulting/</loc>
     <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/categories/software-development/</loc>
+    <loc>/cv/cv/</loc>
     <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/categories/spatial/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/</loc>
-    <lastmod>2018-09-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/talks/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://stephdesilva.com/tags/things-that-matter/</loc>
+    <loc>/cv/</loc>
     <lastmod>2018-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://stephdesilva.com/categories/transport/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/post/new-site/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/packages/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/packetiser/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publications/publications/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/random/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/software-development/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publications/upcoming-engagements/</loc>
+    <lastmod>2018-04-26T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

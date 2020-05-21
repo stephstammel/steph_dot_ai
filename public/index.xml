@@ -1,37 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Steph de Silva</title>
-    <link>https://stephdesilva.com/</link>
-    <description>Recent content on Steph de Silva</description>
+    <title>steph.ai</title>
+    <link>/</link>
+    <description>Recent content on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stephdesilva.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>2019 ROpenSci OzUnconf</title>
+      <link>/opensource/2019-ropensci-ozunconf/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/opensource/2019-ropensci-ozunconf/</guid>
+      <description>So 2019 was &amp;hellip; big. And I didn&amp;rsquo;t touch the blog all year.
+But that didn&amp;rsquo;t mean there was no open source happening. I was the program chair of the ROpenSci OzUnconference.
+I did blog about what an amazing team we had and the extraordinary projects we put together. You can read about that on the rOpenSci blog in detail. And when I said it was a tough time for Australia back in December &amp;hellip; hoo boy did I have no clue.</description>
+    </item>
+    
+    <item>
+      <title>The Bayesian and the Frequentist</title>
+      <link>/opensource/bayes-frequentist/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/opensource/bayes-frequentist/</guid>
+      <description>Another of my beloved projects that got very little attention last year.
+Are new years&amp;rsquo; resolutions in late May allowed?
+The Bayesian and the Frequentist is the brainchild of John Ormerod, Associate Professor of Stats @ University of Sydney and myself.
+What happens when you put together a corporate data scientist and an academic statistician. We&amp;rsquo;re not really sure what to call it.
+But it&amp;rsquo;s definitely something I&amp;rsquo;m going to get back into this year.</description>
+    </item>
+    
+    <item>
       <title>Ggplot2 tutorial</title>
-      <link>https://stephdesilva.com/post/ggplot2-tutorial/</link>
+      <link>/post/ggplot2-tutorial/</link>
       <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/ggplot2-tutorial/</guid>
+      <guid>/post/ggplot2-tutorial/</guid>
       <description>Should you bother with ggplot? Switching to data visualisation through code is a huge ask.
 Is this how you feel about code?
 How I used to feel about code.
  This is a perfectly normal reaction.
 But..! Can you do this? You can do this.
- Then you’re already writing code. Maybe you don’t think about yourself as a programmer … yet! 
-  Ggplot lets you maximise your creativity with data Let’s think about something really important to us: witch trials in the middle ages and reformation periods.</description>
+ Then you’re already writing code. Maybe you don’t think about yourself as a programmer … yet!</description>
     </item>
     
     <item>
       <title>The keys to the kingdom</title>
-      <link>https://stephdesilva.com/post/the-keys-to-the-kingdom/</link>
+      <link>/post/the-keys-to-the-kingdom/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/the-keys-to-the-kingdom/</guid>
+      <guid>/post/the-keys-to-the-kingdom/</guid>
       <description>I started a new job last week- here I am working on transport and GIS!
 As it turns out, both transport and GIS are awesome. But how do you get up to speed really, really quickly?
 You ask for help.
@@ -41,20 +64,20 @@ Asking for help
     
     <item>
       <title>Beyond syntax, towards subculture: on the power and potentiality of deep open source communities</title>
-      <link>https://stephdesilva.com/post/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</link>
+      <link>/opensource/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</guid>
+      <guid>/opensource/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</guid>
       <description>Introduction R is a growing, vibrant programming language. Originally created by Ihaka and Gentleman in the 1990s, what was a niche experimental language is now in mainstream usage across many disciplines and domains (Ihaka, 1998).
 One thing that Ihaka and Gentleman may not have intended at the time was the fact that R is no longer just a programming language. Users of R are developing into a distinct programming subculture at the intersection of multiple domains.</description>
     </item>
     
     <item>
       <title>CPA Emerging Leaders Conference</title>
-      <link>https://stephdesilva.com/post/cpa-emerging-leaders-conference/</link>
+      <link>/post/cpa-emerging-leaders-conference/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/cpa-emerging-leaders-conference/</guid>
+      <guid>/post/cpa-emerging-leaders-conference/</guid>
       <description>I had the opportunity to talk at the CPA Emerging Leaders Conference today in Melbourne, then again next week in Sydney. It was a great crowd with a really interesting mix of perspectives.
 I was talking about Creating data driven value and insights, which was aimed at showing an already very data literate group of people (accountants!) how to get started with data driven thinking.
 My thoughts on getting started come down to five things:</description>
@@ -62,10 +85,10 @@ My thoughts on getting started come down to five things:</description>
     
     <item>
       <title>Data Driven: By Design</title>
-      <link>https://stephdesilva.com/post/data-driven-by-design/</link>
+      <link>/post/data-driven-by-design/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/data-driven-by-design/</guid>
+      <guid>/post/data-driven-by-design/</guid>
       <description>The data revolution is upon us! Or at least that’s what someone with a snappy grasp of copy-editing and a mandate for clicks would say.
 There’s a common misperception that’s out there in the data world that only some of us know how to be data driven. Only some of us have our data driving licenses and can get behind the wheel.
 This is manifestly false. Even if you don’t know R or Python or any other part of the common data science toolkit (yet), there are things you can do and start to think about today as you begin to embrace the idea of data-driven decision making.</description>
@@ -73,11 +96,11 @@ This is manifestly false. Even if you don’t know R or Python or any other part
     
     <item>
       <title>Speaking Engagements 2018</title>
-      <link>https://stephdesilva.com/publications/speaking-engagements-2018/</link>
+      <link>/publications/speaking-engagements-2018/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/publications/speaking-engagements-2018/</guid>
-      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+      <guid>/publications/speaking-engagements-2018/</guid>
+      <description> 2018 May Emerging Leaders Conference: Melbourne, CPA Australia
 Creating data driven value and insights
 Thursday 17 May.
 Emerging Leaders Conference: Sydney, CPA Australia
@@ -90,20 +113,20 @@ Beyond syntax, towards culture: the potentiality of deep open source communities
     
     <item>
       <title>Announcing consultthat</title>
-      <link>https://stephdesilva.com/post/announcing-consultthat/</link>
+      <link>/post/announcing-consultthat/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/announcing-consultthat/</guid>
+      <guid>/post/announcing-consultthat/</guid>
       <description>Automating a consulting project workflow There’s been a great deal of really useful work around data science workflows in the last couple of years and if you’ve followed Jenny Bryan’s work at all, you’ll know exactly what I mean.
 In consulting, the data science workflow is also critical, but it’s wrapped up with some extra management challenges. In addition to code and data, there’s a series of documents, people and timing to manage.</description>
     </item>
     
     <item>
       <title>CV</title>
-      <link>https://stephdesilva.com/cv/cv/</link>
+      <link>/cv/cv/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/cv/cv/</guid>
+      <guid>/cv/cv/</guid>
       <description>Summary An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications and finance.
 A keen statistical programmer, I will be a keynote speaker at the useR! conference in Brisbane in July 2018.
  Education Master of Computer Science (Current)
@@ -112,39 +135,29 @@ I’m currently exploring forecasting in high dimensional data sets and explorin
     
     <item>
       <title>New site</title>
-      <link>https://stephdesilva.com/post/new-site/</link>
+      <link>/post/new-site/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/new-site/</guid>
+      <guid>/post/new-site/</guid>
       <description>There’s some big changes going on in my professional life, so it was time for a change. This is my new blog - my previous work is hosted over at Rex Analytics. Welcome!</description>
     </item>
     
     <item>
       <title>PacketiseR</title>
-      <link>https://stephdesilva.com/post/packetiser/</link>
+      <link>/post/packetiser/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/packetiser/</guid>
+      <guid>/post/packetiser/</guid>
       <description>If you’re a rural data scientist, then sooner or later you’ve had to move a big file to the cloud or back. That’s a world of pain right there.
 If you know anything about how information is transmitted via the internet, you know that files are broken into packets, sent, then reassembled on the other side. If packets go missing, the computer requests resends until the file is fully assembled, or until the system times out.</description>
     </item>
     
     <item>
-      <title>Pro Bono Work</title>
-      <link>https://stephdesilva.com/probono/pro-bono-work/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/probono/pro-bono-work/</guid>
-      <description>I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
-I may not always be able to say yes, but if you’re a not for profit or research group who need a hand, please don’t hesitate to ask.</description>
-    </item>
-    
-    <item>
       <title>Publications</title>
-      <link>https://stephdesilva.com/publications/publications/</link>
+      <link>/publications/publications/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/publications/publications/</guid>
+      <guid>/publications/publications/</guid>
       <description>#2017
 Digital Productivity: Key Issues from the Literature, joint work with Paul Paterson and Tony Wiskich, February 2017.
 #2016
@@ -157,11 +170,11 @@ Introduction to REITs, The Constant Investor, October 28.</description>
     
     <item>
       <title>Upcoming Engagements</title>
-      <link>https://stephdesilva.com/publications/upcoming-engagements/</link>
+      <link>/publications/upcoming-engagements/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/publications/upcoming-engagements/</guid>
-      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+      <guid>/publications/upcoming-engagements/</guid>
+      <description> 2018 May Emerging Leaders Conference: Melbourne, CPA Australia
 Creating data driven value and insights
 Thursday 17 May.
 Emerging Leaders Conference: Sydney, CPA Australia

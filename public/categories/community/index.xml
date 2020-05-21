@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community on Steph de Silva</title>
-    <link>https://stephdesilva.com/categories/community/</link>
-    <description>Recent content in Community on Steph de Silva</description>
+    <title>community on steph.ai</title>
+    <link>/categories/community/</link>
+    <description>Recent content in community on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stephdesilva.com/categories/community/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/community/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Beyond syntax, towards subculture: on the power and potentiality of deep open source communities</title>
-      <link>https://stephdesilva.com/post/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</link>
+      <link>/opensource/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</guid>
+      <guid>/opensource/beyond-syntax-towards-subculture-on-the-power-and-potentiality-of-deep-open-source-communities/</guid>
       <description>Introduction R is a growing, vibrant programming language. Originally created by Ihaka and Gentleman in the 1990s, what was a niche experimental language is now in mainstream usage across many disciplines and domains (Ihaka, 1998).
 One thing that Ihaka and Gentleman may not have intended at the time was the fact that R is no longer just a programming language. Users of R are developing into a distinct programming subculture at the intersection of multiple domains.</description>
     </item>
     
     <item>
       <title>CPA Emerging Leaders Conference</title>
-      <link>https://stephdesilva.com/post/cpa-emerging-leaders-conference/</link>
+      <link>/post/cpa-emerging-leaders-conference/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/post/cpa-emerging-leaders-conference/</guid>
+      <guid>/post/cpa-emerging-leaders-conference/</guid>
       <description>I had the opportunity to talk at the CPA Emerging Leaders Conference today in Melbourne, then again next week in Sydney. It was a great crowd with a really interesting mix of perspectives.
 I was talking about Creating data driven value and insights, which was aimed at showing an already very data literate group of people (accountants!) how to get started with data driven thinking.
 My thoughts on getting started come down to five things:</description>
@@ -34,11 +34,11 @@ My thoughts on getting started come down to five things:</description>
     
     <item>
       <title>Speaking Engagements 2018</title>
-      <link>https://stephdesilva.com/publications/speaking-engagements-2018/</link>
+      <link>/publications/speaking-engagements-2018/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/publications/speaking-engagements-2018/</guid>
-      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+      <guid>/publications/speaking-engagements-2018/</guid>
+      <description> 2018 May Emerging Leaders Conference: Melbourne, CPA Australia
 Creating data driven value and insights
 Thursday 17 May.
 Emerging Leaders Conference: Sydney, CPA Australia
@@ -50,22 +50,12 @@ Beyond syntax, towards culture: the potentiality of deep open source communities
     </item>
     
     <item>
-      <title>Pro Bono Work</title>
-      <link>https://stephdesilva.com/probono/pro-bono-work/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/probono/pro-bono-work/</guid>
-      <description>I often take on pro bono work for organisations that need help developing a data strategy or delivering a data science project. The kinds of things I do for not for profits include advice on research design, analysis, modelling, or training data analysts.
-I may not always be able to say yes, but if you’re a not for profit or research group who need a hand, please don’t hesitate to ask.</description>
-    </item>
-    
-    <item>
       <title>Upcoming Engagements</title>
-      <link>https://stephdesilva.com/publications/upcoming-engagements/</link>
+      <link>/publications/upcoming-engagements/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/publications/upcoming-engagements/</guid>
-      <description>2018 May Emerging Leaders Conference: Melbourne, CPA Australia
+      <guid>/publications/upcoming-engagements/</guid>
+      <description> 2018 May Emerging Leaders Conference: Melbourne, CPA Australia
 Creating data driven value and insights
 Thursday 17 May.
 Emerging Leaders Conference: Sydney, CPA Australia

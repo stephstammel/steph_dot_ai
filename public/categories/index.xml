@@ -1,93 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Steph de Silva</title>
-    <link>https://stephdesilva.com/categories/</link>
-    <description>Recent content in Categories on Steph de Silva</description>
+    <title>Categories on steph.ai</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stephdesilva.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Cities</title>
-      <link>https://stephdesilva.com/categories/cities/</link>
+      <title>cities</title>
+      <link>/categories/cities/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/cities/</guid>
+      <guid>/categories/cities/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Community</title>
-      <link>https://stephdesilva.com/categories/community/</link>
+      <title>spatial</title>
+      <link>/categories/spatial/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/spatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transport</title>
+      <link>/categories/transport/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community</title>
+      <link>/categories/community/</link>
       <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/community/</guid>
+      <guid>/categories/community/</guid>
       <description></description>
     </item>
     
     <item>
       <title>General</title>
-      <link>https://stephdesilva.com/categories/general/</link>
+      <link>/categories/general/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/general/</guid>
+      <guid>/categories/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Packages</title>
-      <link>https://stephdesilva.com/categories/packages/</link>
+      <link>/categories/packages/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/packages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pro Bono</title>
-      <link>https://stephdesilva.com/categories/pro-bono/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/categories/pro-bono/</guid>
+      <guid>/categories/packages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://stephdesilva.com/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Software Development</title>
-      <link>https://stephdesilva.com/categories/software-development/</link>
+      <title>Software development</title>
+      <link>/categories/software-development/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/categories/software-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Spatial</title>
-      <link>https://stephdesilva.com/categories/spatial/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/categories/spatial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transport</title>
-      <link>https://stephdesilva.com/categories/transport/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/categories/transport/</guid>
+      <guid>/categories/software-development/</guid>
       <description></description>
     </item>
     

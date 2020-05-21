@@ -1,94 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Steph de Silva</title>
-    <link>https://stephdesilva.com/tags/</link>
-    <description>Recent content in Tags on Steph de Silva</description>
+    <title>Tags on steph.ai</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://stephdesilva.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Business</title>
-      <link>https://stephdesilva.com/tags/business/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      <title>learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/business/</guid>
+      <guid>/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Consulting</title>
-      <link>https://stephdesilva.com/tags/consulting/</link>
-      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      <title>business</title>
+      <link>/tags/business/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/consulting/</guid>
+      <guid>/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>get started</title>
+      <link>/tags/get-started/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/get-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talks</title>
+      <link>/tags/talks/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Excel</title>
-      <link>https://stephdesilva.com/tags/excel/</link>
+      <link>/tags/excel/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/excel/</guid>
+      <guid>/tags/excel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Get Started</title>
-      <link>https://stephdesilva.com/tags/get-started/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/tags/get-started/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://stephdesilva.com/tags/learning/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://stephdesilva.com/tags/publications/</link>
+      <title>publications</title>
+      <link>/tags/publications/</link>
       <pubDate>Mon, 30 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/publications/</guid>
+      <guid>/tags/publications/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Random</title>
-      <link>https://stephdesilva.com/tags/random/</link>
+      <title>Consulting</title>
+      <link>/tags/consulting/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/random/</guid>
+      <guid>/tags/consulting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Talks</title>
-      <link>https://stephdesilva.com/tags/talks/</link>
-      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://stephdesilva.com/tags/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Things That Matter</title>
-      <link>https://stephdesilva.com/tags/things-that-matter/</link>
+      <title>random</title>
+      <link>/tags/random/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://stephdesilva.com/tags/things-that-matter/</guid>
+      <guid>/tags/random/</guid>
       <description></description>
     </item>
     
