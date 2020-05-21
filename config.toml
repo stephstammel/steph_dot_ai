@@ -1,6 +1,6 @@
-baseurl = "https://stephdesilva.com/"
+baseurl = "https://steph.ai/"
 languageCode = "en-us"
-title = "Steph de Silva"
+title = "steph.ai"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -11,8 +11,8 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Steph de Silva"
-	description = "Data Science and Analytics"
+	name = "Steph Stammel"
+	description = "AI, Data Science and Analytics"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -29,22 +29,22 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.png"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "Steph de Silva, Ph.D."
+		bio = "Steph Stammel, Ph.D."
 		# The icons will be shown if you enter your username
-		twitter = "@stephdesilva"
-		github = "stephdesilva"
-		linkedin = "steph-de-silva-93b18444"
+		twitter = "@stephstammel"
+		github = "stephstammel"
+		linkedin = "steph-stammel-phd-93b18444"
 
 		copyright = [
-			"&copy; Steph de SIlva",
+			"&copy; Steph Stammel",
 			"Design: [HTML5 UP](//html5up.net)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Steph de Silva, Ph.D."
-		content = "Steph de Silva is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics. You can read about what I'm doing for fun here."
+		title = "Steph Stammel"
+		content = "Steph Stammel is a Ph.D. data scientist. She currently works in management consulting. Previously, she spent four years with the World Bank before going on to found her own boutique data scicence consultancy, Rex Analytics. You can read about what I'm doing for fun here."
 
 
 	[params.portfolio]
@@ -152,7 +152,7 @@ paginate = 10
 	weight = 0
 	
 [[menu.main]]
-	name = "Pro Bono"
+	name = "Open Source"
 	url  = "probono/"
 	weight = 0
 
