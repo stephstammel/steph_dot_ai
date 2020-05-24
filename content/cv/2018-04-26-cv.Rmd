@@ -1,7 +1,7 @@
 ---
 title: CV
 author: Steph de Silva
-date: '2018-04-26'
+date: '2020-05-24'
 slug: cv
 categories:
   - General
@@ -11,15 +11,11 @@ tags:
 
 # Summary
 
-An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications and finance.
+An experienced data scientist with a diverse background and a strong technical skill set, I have experience working both internationally and domestically in industries such as development, telecommunications, government and finance.
 
-A keen statistical programmer, I will be a keynote speaker at the useR! conference in Brisbane in July 2018. 
+Currently working in management consulting, I'm enjoying exploring data engineering, theoretical statistics and arduino at the moment. 
 
 # Education
-
-__Master of Computer Science (Current)__
-
-I’m currently exploring forecasting in high dimensional data sets and exploring whether agent-based (AI) approaches can provide a robust method of managing massive numbers of time series with a view to submitting a masters’ thesis on the topic.
 
 __Doctor of Philosophy 2004-2008__
 
@@ -29,7 +25,13 @@ __Bachelor of Arts/Commerce 1998-2003__
 
 Honours in Econometrics (first class – game theory). Additional majors in Economics, Latin and Ancient History.
 
-#Work Experience
+# Work Experience
+
+__Data Scientist / Manager __
+
+_PwC Analytics Intelligence  /  2018 - Now_
+
+I work in analytics transformation/strategy and Responsible AI - with a good helping of innovative text analytics, workplace culture and forecasting. I build things for other people to use.
 
 __Data Science Consultant and Strategist__
 
@@ -41,13 +43,13 @@ __Econometrician__
 
 _Department of Communications and the Arts /  July - December 2016_
 
-As a part of this short term contract I contributed to two projects: the regional telecommunications database and was a co-author on the Chief Economist’s major work on the impacts of digitization on productivity.
+I contributed to two projects: the regional telecommunications database and was a co-author on the Chief Economist’s major work on the impacts of digitization on productivity.
 
 __Unit Coordinator/eLearning Advisor__
 
 _Swinburne Online  /  2015 – 2017_
 
-I taught for Swinburne’s MBA and MPA programs in finance and economics, as well undergraduate units such as statistics, marketing and business innovation. I take a team of students of varying abilities through a challenging semester of technical work, building on their skills and confidence. 
+I taught for Swinburne’s MBA and MPA programs in finance and economics, as well undergraduate units such as statistics, marketing and business innovation.
 
 __Econometrician__
 
@@ -66,24 +68,32 @@ I taught and researched advanced data science concepts such as time series model
 
 My preferred languages right now: R, Python, Java.
 
+I have experience with cloud computing, particularly in the AWS ecosystem.
+
 Languages/platforms I’ve worked in previously or have experience with: SQL, Fortran, Gauss, Stata, SPSS, HTML/CSS, Javascript.
 
-# Pro Bono/Community Work 
+# Open source 
+
+[Program chair, ROpenSci 2019 Ozunconf](https://www.steph.ai/opensource/2019-ropensci-ozunconf/)
+
+[Lead keynote speaker, useR!2018](https://www.youtube.com/watch?v=27FxbDtCFoc)
 
 Cofounder: R-Ladies Remote
 
-Organiser: R-Ladies Sydney
+Cofounder: R-Ladies Sydney
 
-I ran a Code Club from 2017- mid 2018 for a small rural school in Northern NSW. To put this into perspective for you, it was like running a dev team of 20 hyperactive squirrels. Other exciting parts included the time a kid bought a whole jar of spiders to class. Once, a kid bought in a baby rat they found. 
+# Publications
 
-It was the country, what can I tell you? The internet is dreadful, but the wildlife and the people are superb.
+[You can find my publications list here.](https://www.steph.ai/publications/publications/) I write/research alot less in management consulting...  but I'll get back to it one of these days.
 
-#Language Skills
+
+# Language Skills
 
 I have a degree in Classical Latin. There are two things about this that are relevant to data science/consulting:
 
 (1) I'm great with communication and language
 (2) One day the Vatican will require some kind of analytics _and it will be my moment._
+
 
 
 

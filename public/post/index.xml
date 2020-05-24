@@ -6,10 +6,28 @@
     <description>Recent content in Posts on steph.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Size and power - not as simple as we&#39;d like it to be</title>
+      <link>/post/size-and-power-not-as-simple-as-we-d-like-it-to-be/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/size-and-power-not-as-simple-as-we-d-like-it-to-be/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Witch hunters: discovering the missing</title>
+      <link>/post/witch-hunters-discovering-the-missing/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/witch-hunters-discovering-the-missing/</guid>
+      <description>knitr::opts_chunk$set(echo = TRUE) knitr::opts_chunk$set(fig.width=16, fig.height = 12) Witch hunting in Europe: a discovery of missingness Data analysis isn&amp;rsquo;t particularly technical, but in order to do it well - you need a full toolkit and understand how to use it. One thing we don&amp;rsquo;t teach very expliticly is understanding missing data or the toolkit available to do so. That&amp;rsquo;s what this post is about - it&amp;rsquo;s not technical, it&amp;rsquo;s not &amp;lsquo;fancy&amp;rsquo;, it&amp;rsquo;s the down-in-the-weeds basics that applied work needs to be done well.</description>
+    </item>
     
     <item>
       <title>Ggplot2 tutorial</title>

@@ -1,18 +1,21 @@
 ---
 title: Publications
 author: Steph de Silva
-date: '2018-04-26'
+date: '2020-05-24'
 slug: publications
 categories:
   - General
 tags: [publications]
 ---
+# 2019
 
-#2017
+[Robust and secure AI: A primer for the c-suite](https://www.digitalpulse.pwc.com.au/robust-secure-artificial-intelligence-c-suite/) with M. Kuperholz and C. Lee
+
+# 2017
 
 [Digital Productivity: Key Issues from the Literature](https://www.communications.gov.au/files/digitalproductivity-keyissuesfromtheliteraturepdf), joint work with Paul Paterson and Tony Wiskich, February 2017.
 
-#2016
+# 2016
 
 [An Introduction to Unlisted Investments](https://theconstantinvestor.com/unlisted-gems/), The Constant Investor, September 23.
 
@@ -34,7 +37,7 @@ Regional Telecommunications Database, coauthored with K. Haigh. Internal report,
 
 [Interest Rates Rising: Unlisted Gems](https://theconstantinvestor.com/interest-rates-rising-unlisted-gems/), The Constant Investor, December 22.
 
-#2015
+# 2015
 
 Tongan Early Grade Reading Assessment: Baseline Survey Report, World Bank Report.
 
@@ -42,7 +45,7 @@ Tongan Early Grade Reading Assessment: Baseline Survey Report, World Bank Report
 
 Evaluating the Enhanced Bushfire Management Program: A Study by Rex Analytics, internal report commissioned by the National Parks and Wildlife Service.
 
-#2014
+# 2014
 
 Western Highlands Province Early Grade Reading Assessment (EGRA) Survey, 2013 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
 
@@ -54,15 +57,15 @@ National Capital District (NCD) Early Grade Reading Assessment (EGRA) Survey, 20
 
 Madang Early Grade Reading Assessment (EGRA) Survey, 2011 Diagnostic Results Report, World Bank Report, coauthored with M. Machuca-Sierra.
 
-#2009
+# 2009
 
 “Panel Unit Root Tests in the presence of Cross-sectional Dependence: Finite Sample performance and an Application”, with A.R. Tremayne and K.Hadri, The Econometrics Journal, 12, 340-366.
 
-#2008
+# 2008
 
 On the Specificity and Performance of Panel Unit Root Tests, Ph.D. thesis. Supervisor: A. R. Tremayne.
 
-#2007
+# 2007
 
 A Panel Stationarity Test for Series with breaks in Either Level or Trend, a working paper presented at the Econometrics Society of Australasia Meeting, July 2007.
 
