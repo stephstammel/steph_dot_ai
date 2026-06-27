@@ -1,23 +1,20 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Pick a Quarto CLI version. Update to the desired released version.
 VERSION="1.4.557"
-ARCH="linux-amd64"
-TMPDIR="${TMPDIR:-/tmp}"
+TMPDIR="/tmp"
+ARCHIVE="quarto-${VERSION}-linux-amd64.tar.gz"
+URL="https://github.com/quarto-dev/quarto-cli/releases/download/v${VERSION}/${ARCHIVE}"
 
-URL="https://github.com/quarto-dev/quarto-cli/releases/download/v${VERSION}/quarto-${VERSION}-${ARCH}.tar.gz"
-echo "Downloading Quarto ${VERSION} from ${URL}"
-curl -fsSL "$URL" -o "$TMPDIR/quarto.tar.gz"
+curl -L -o "${TMPDIR}/${ARCHIVE}" "${URL}"
+tar -xzf "${TMPDIR}/${ARCHIVE}" -C "${TMPDIR}"
 
-# ensure destination exists
-mkdir -p "$HOME/.local"
+# find the extracted directory (handles suffix like "-linux-amd64")
+EXTRACTED_DIR=$(find "${TMPDIR}" -maxdepth 1 -type d -name "quarto-${VERSION}*" | head -n 1)
+if [ -z "${EXTRACTED_DIR}" ]; then
+  echo "Error: extracted Quarto directory not found in ${TMPDIR}"
+  exit 1
+fi
 
-# copy all files into ~/.local (preserves permissions)
-cp -a "$TMPDIR/quarto-$VERSION/." "$HOME/.local/"
-
-# ensure bin is on PATH for the current shell so the next command finds 'quarto'
-export PATH="$HOME/.local/bin:$PATH"
-
-# optionally remove tmp
-rm -rf "$TMPDIR/quarto-$VERSION"
+# copy contents (adjust destination as needed)
+cp -r "${EXTRACTED_DIR}/." /usr/local/
