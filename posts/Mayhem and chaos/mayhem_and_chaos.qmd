@@ -3,4 +3,7 @@ title: Mayhem and chaos
 date: 2026-06-27
 categories: 
 ---
-Start writing...
+
+Ever tried working on a project where Tool #1 has an AI saying one thing and Tool #2 has another saying something different? You go back and forth, back and forth.
+
+It's like Mum and Dad are fighting. You don't know what it's about, but it's very upsetting.
