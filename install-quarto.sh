@@ -1,20 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-VERSION="1.4.557"
-TMPDIR="/tmp"
-ARCHIVE="quarto-${VERSION}-linux-amd64.tar.gz"
-URL="https://github.com/quarto-dev/quarto-cli/releases/download/v${VERSION}/${ARCHIVE}"
+# Quarto version to install
+QUARTO_VERSION="1.9.38"
 
-curl -L -o "${TMPDIR}/${ARCHIVE}" "${URL}"
-tar -xzf "${TMPDIR}/${ARCHIVE}" -C "${TMPDIR}"
+URL="https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.tar.gz"
 
-# find the extracted directory (handles suffix like "-linux-amd64")
-EXTRACTED_DIR=$(find "${TMPDIR}" -maxdepth 1 -type d -name "quarto-${VERSION}*" | head -n 1)
-if [ -z "${EXTRACTED_DIR}" ]; then
-  echo "Error: extracted Quarto directory not found in ${TMPDIR}"
-  exit 1
-fi
+TMPDIR="$(mktemp -d)"
+curl -L "${URL}" -o "${TMPDIR}/quarto.tgz"
 
-# copy contents (adjust destination as needed)
-cp -r "${EXTRACTED_DIR}/." /usr/local/
+# Install into a user-writable location
+DEST="$HOME/.local/quarto"
+mkdir -p "$DEST"
+tar -xzf "${TMPDIR}/quarto.tgz" -C "$DEST" --strip-components=1
+
+# Make Quarto available in the current shell and for subsequent Netlify steps
+export PATH="$DEST/bin:$PATH"
+echo "export PATH=\"$DEST/bin:\$PATH\"" >> "$BASH_ENV"
+
+# Verify the installation
+quarto --version
+quarto check install
