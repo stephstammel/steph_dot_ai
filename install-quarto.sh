@@ -10,12 +10,14 @@ URL="https://github.com/quarto-dev/quarto-cli/releases/download/v${VERSION}/quar
 echo "Downloading Quarto ${VERSION} from ${URL}"
 curl -fsSL "$URL" -o "$TMPDIR/quarto.tar.gz"
 
-# Extract into $HOME/.local so binaries are available without sudo
+# ensure destination exists
 mkdir -p "$HOME/.local"
-tar -xzf "$TMPDIR/quarto.tar.gz" -C "$TMPDIR"
-mv "$TMPDIR"/quarto-${VERSION}/* "$HOME/.local/"
 
-# Ensure local bin is on PATH for the rest of the build
+# copy all files into ~/.local (preserves permissions)
+cp -a "$TMPDIR/quarto-$VERSION/." "$HOME/.local/"
+
+# ensure bin is on PATH for the current shell so the next command finds 'quarto'
 export PATH="$HOME/.local/bin:$PATH"
-echo "Quarto installed at $HOME/.local. Version:"
-quarto --version
+
+# optionally remove tmp
+rm -rf "$TMPDIR/quarto-$VERSION"
