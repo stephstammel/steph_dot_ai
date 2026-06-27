@@ -1,0 +1,20 @@
+project:
+  type: website
+output-dir: _site
+
+website:
+  title: "By the numbers"
+  navbar:
+    left:
+      - text: About
+        href: about.qmd
+      - text: Blog
+        href: blog.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full

@@ -1,0 +1,11 @@
+---
+title: "Posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, author]
+  page-size: 10
+---
+
+

@@ -1,0 +1,5 @@
+/* Make the navbar title feel like a proper site title */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}

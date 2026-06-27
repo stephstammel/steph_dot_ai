@@ -1,0 +1,6 @@
+---
+title: New Post
+date: today
+categories: [R]
+---
+Start writing...
