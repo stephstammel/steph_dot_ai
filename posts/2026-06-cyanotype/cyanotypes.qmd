@@ -5,7 +5,7 @@ categories:
 ---
 Cyanotype is an old form of processing photographs. Blueprints were originally cyanotypes.
 
-Here's a couple recent photo.
+Here's a couple from recently.
 
 This is my cat. You wouldn't know it, but she is an undisputed killer. The reasons for all those 'keep your cat indoors' warnings are ... my cat.
 ![Cat in a window](./cat-in-window.jpeg)
