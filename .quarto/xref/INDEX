@@ -13,5 +13,8 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "d8b1e1a7"
+  },
+  "posts/2026-06-cyanotype/cyanotypes.qmd": {
+    "cyanotypes.html": "a250e5fa"
   }
 }
